@@ -1,0 +1,10 @@
+&test_params
+    !!! Test density profile to use !!!
+    !   1 --> SLy4, Z=40, N=40000, Rbox=80fm
+    !   2 --> SLy4, Pb208; maximum radius = 25fm
+    !   3 --> SLy4, Pb208; maximum radius = 25fm; including gamma/=1
+    !   4 --> SLy4, Pb208; maximum radius = 25fm; fitted for correct particle numbers
+    !   5 --> SLy4, Sn###; maximum radius = 60fm; fitted for correct particle numbers
+    !   6 --> SkM*, Pb208; maximum radius = 12fm; including gamma/=1; fitted for correct particle numbers
+    sample_profile = 6
+ /

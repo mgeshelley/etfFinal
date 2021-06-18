@@ -1,0 +1,267 @@
+\hypertarget{namespacepairing}{}\section{pairing Module Reference}
+\label{namespacepairing}\index{pairing@{pairing}}
+
+
+Module to hold routines for carrying out Strutinsky correction.  
+
+
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \mbox{\hyperlink{namespacepairing_ac34989a934af1e6a63131c619426c5aa}{calc\+\_\+e\+\_\+pair}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the pairing energy for the WS cell, using the method specified in \char`\"{}input.\+in\char`\"{}. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespacepairing_abad69eb8cb33077add1b9da84bff7c55}{calc\+\_\+gap}} (r, rhon, rhop, fq, mu)
+\begin{DoxyCompactList}\small\item\em Function to calculate the pairing gap in infinite neutron matter, for specified density and effective mass. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacepairing_a693cac2cfa7fcb7ad19984fefe20495c}{bcs\+\_\+protons}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to perform B\+CS for protons. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespacepairing_a37440fb2ff0d8a3495d051f3f14c9107}{calc\+\_\+bcs\+\_\+num\+\_\+p}} (mu\+\_\+p)
+\begin{DoxyCompactList}\small\item\em Function to solve gap equation at given chemical potential \char`\"{}mu\+\_\+p\char`\"{}, returning the (B\+CS) number of protons. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespacepairing_aebb21947c7228a3fb9a092edfa226662}{interazchamelanalyt}} (rhon, rhop, hbm, itz)
+\begin{DoxyCompactList}\small\item\em Function to calculate the interaction strength for the effective contact pairing force. Modified by M. Shelley. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespacepairing_ab022f3dcf7994e9f95315b3b2007a9ee}{llambda}} (x)
+\begin{DoxyCompactList}\small\item\em Function to calculate the pairing cutoff for the effective contact pairing force. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespacepairing_aaa0b619b1e454229caef01a56d0a61fd}{delta\+\_\+parametric}} (kf, YY, itz, xk0)
+\begin{DoxyCompactList}\small\item\em Function to calculate the pairing gap using the analytical B\+Sk expression. Modified by M. Shelley. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Module to hold routines for carrying out Strutinsky correction. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+
+\subsection{Function/\+Subroutine Documentation}
+\mbox{\Hypertarget{namespacepairing_a693cac2cfa7fcb7ad19984fefe20495c}\label{namespacepairing_a693cac2cfa7fcb7ad19984fefe20495c}} 
+\index{pairing@{pairing}!bcs\+\_\+protons@{bcs\+\_\+protons}}
+\index{bcs\+\_\+protons@{bcs\+\_\+protons}!pairing@{pairing}}
+\subsubsection{\texorpdfstring{bcs\+\_\+protons()}{bcs\_protons()}}
+{\footnotesize\ttfamily subroutine pairing\+::bcs\+\_\+protons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to perform B\+CS for protons. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacepairing_a693cac2cfa7fcb7ad19984fefe20495c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacepairing_a693cac2cfa7fcb7ad19984fefe20495c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacepairing_a37440fb2ff0d8a3495d051f3f14c9107}\label{namespacepairing_a37440fb2ff0d8a3495d051f3f14c9107}} 
+\index{pairing@{pairing}!calc\+\_\+bcs\+\_\+num\+\_\+p@{calc\+\_\+bcs\+\_\+num\+\_\+p}}
+\index{calc\+\_\+bcs\+\_\+num\+\_\+p@{calc\+\_\+bcs\+\_\+num\+\_\+p}!pairing@{pairing}}
+\subsubsection{\texorpdfstring{calc\+\_\+bcs\+\_\+num\+\_\+p()}{calc\_bcs\_num\_p()}}
+{\footnotesize\ttfamily real(kind=dp) function pairing\+::calc\+\_\+bcs\+\_\+num\+\_\+p (\begin{DoxyParamCaption}\item[{real(kind=dp), intent(in)}]{mu\+\_\+p }\end{DoxyParamCaption})}
+
+
+
+Function to solve gap equation at given chemical potential \char`\"{}mu\+\_\+p\char`\"{}, returning the (B\+CS) number of protons. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley, A. Pastore 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em mu\+\_\+p} & Proton chemical potential \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacepairing_a37440fb2ff0d8a3495d051f3f14c9107_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacepairing_a37440fb2ff0d8a3495d051f3f14c9107_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacepairing_ac34989a934af1e6a63131c619426c5aa}\label{namespacepairing_ac34989a934af1e6a63131c619426c5aa}} 
+\index{pairing@{pairing}!calc\+\_\+e\+\_\+pair@{calc\+\_\+e\+\_\+pair}}
+\index{calc\+\_\+e\+\_\+pair@{calc\+\_\+e\+\_\+pair}!pairing@{pairing}}
+\subsubsection{\texorpdfstring{calc\+\_\+e\+\_\+pair()}{calc\_e\_pair()}}
+{\footnotesize\ttfamily subroutine pairing\+::calc\+\_\+e\+\_\+pair (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the pairing energy for the WS cell, using the method specified in \char`\"{}input.\+in\char`\"{}. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacepairing_ac34989a934af1e6a63131c619426c5aa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacepairing_ac34989a934af1e6a63131c619426c5aa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacepairing_abad69eb8cb33077add1b9da84bff7c55}\label{namespacepairing_abad69eb8cb33077add1b9da84bff7c55}} 
+\index{pairing@{pairing}!calc\+\_\+gap@{calc\+\_\+gap}}
+\index{calc\+\_\+gap@{calc\+\_\+gap}!pairing@{pairing}}
+\subsubsection{\texorpdfstring{calc\+\_\+gap()}{calc\_gap()}}
+{\footnotesize\ttfamily real(kind=dp) function pairing\+::calc\+\_\+gap (\begin{DoxyParamCaption}\item[{real(kind=dp), intent(in)}]{r,  }\item[{real(kind=dp), intent(in)}]{rhon,  }\item[{real(kind=dp), intent(in)}]{rhop,  }\item[{real(kind=dp), intent(in)}]{fq,  }\item[{real(kind=dp), intent(in)}]{mu }\end{DoxyParamCaption})}
+
+
+
+Function to calculate the pairing gap in infinite neutron matter, for specified density and effective mass. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em r} & Radius \\
+\hline
+\mbox{\tt in}  & {\em rhon} & Neutron density \\
+\hline
+\mbox{\tt in}  & {\em rhop} & Proton density \\
+\hline
+\mbox{\tt in}  & {\em fq} & Effective mass \\
+\hline
+\mbox{\tt in}  & {\em mu} & Effective chemical potential \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacepairing_abad69eb8cb33077add1b9da84bff7c55_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacepairing_abad69eb8cb33077add1b9da84bff7c55_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacepairing_aaa0b619b1e454229caef01a56d0a61fd}\label{namespacepairing_aaa0b619b1e454229caef01a56d0a61fd}} 
+\index{pairing@{pairing}!delta\+\_\+parametric@{delta\+\_\+parametric}}
+\index{delta\+\_\+parametric@{delta\+\_\+parametric}!pairing@{pairing}}
+\subsubsection{\texorpdfstring{delta\+\_\+parametric()}{delta\_parametric()}}
+{\footnotesize\ttfamily real(kind=dp) function pairing\+::delta\+\_\+parametric (\begin{DoxyParamCaption}\item[{real(kind=dp), intent(in)}]{kf,  }\item[{real(kind=dp), intent(in)}]{YY,  }\item[{integer, intent(in)}]{itz,  }\item[{real(kind=dp), intent(in)}]{xk0 }\end{DoxyParamCaption})}
+
+
+
+Function to calculate the pairing gap using the analytical B\+Sk expression. Modified by M. Shelley. 
+
+\begin{DoxyAuthor}{Author}
+A. Pastore, M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em kf} & Fermi momentum \\
+\hline
+\mbox{\tt in}  & {\em YY} & Neutron-\/proton composition \\
+\hline
+\mbox{\tt in}  & {\em itz} & Isospin \\
+\hline
+\mbox{\tt in}  & {\em xk0} & \char`\"{}\+Average\char`\"{} fermi momentum \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacepairing_aaa0b619b1e454229caef01a56d0a61fd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacepairing_aebb21947c7228a3fb9a092edfa226662}\label{namespacepairing_aebb21947c7228a3fb9a092edfa226662}} 
+\index{pairing@{pairing}!interazchamelanalyt@{interazchamelanalyt}}
+\index{interazchamelanalyt@{interazchamelanalyt}!pairing@{pairing}}
+\subsubsection{\texorpdfstring{interazchamelanalyt()}{interazchamelanalyt()}}
+{\footnotesize\ttfamily real(kind=dp) function pairing\+::interazchamelanalyt (\begin{DoxyParamCaption}\item[{real(kind=dp), intent(in)}]{rhon,  }\item[{real(kind=dp), intent(in)}]{rhop,  }\item[{real(kind=dp), intent(in)}]{hbm,  }\item[{integer, intent(in)}]{itz }\end{DoxyParamCaption})}
+
+
+
+Function to calculate the interaction strength for the effective contact pairing force. Modified by M. Shelley. 
+
+\begin{DoxyAuthor}{Author}
+A. Pastore, M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhon} & Neutron density \\
+\hline
+\mbox{\tt in}  & {\em rhop} & Proton density \\
+\hline
+\mbox{\tt in}  & {\em hbm} & $\frac{\hbar^2}{2m^*}$ \\
+\hline
+\mbox{\tt in}  & {\em itz} & Isospin \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacepairing_aebb21947c7228a3fb9a092edfa226662_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacepairing_aebb21947c7228a3fb9a092edfa226662_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacepairing_ab022f3dcf7994e9f95315b3b2007a9ee}\label{namespacepairing_ab022f3dcf7994e9f95315b3b2007a9ee}} 
+\index{pairing@{pairing}!llambda@{llambda}}
+\index{llambda@{llambda}!pairing@{pairing}}
+\subsubsection{\texorpdfstring{llambda()}{llambda()}}
+{\footnotesize\ttfamily real(kind=dp) function pairing\+::llambda (\begin{DoxyParamCaption}\item[{real(kind=dp), intent(in)}]{x }\end{DoxyParamCaption})}
+
+
+
+Function to calculate the pairing cutoff for the effective contact pairing force. 
+
+\begin{DoxyAuthor}{Author}
+A. Pastore 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em x} & (D\+D\+CI cutoff) / (Fermi energy) \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacepairing_ab022f3dcf7994e9f95315b3b2007a9ee_icgraph}
+\end{center}
+\end{figure}

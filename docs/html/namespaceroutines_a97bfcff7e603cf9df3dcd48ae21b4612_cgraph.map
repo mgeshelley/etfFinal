@@ -1,0 +1,8 @@
+<map id="routines::eval_tau_etf" name="routines::eval_tau_etf">
+<area shape="rect" id="node2" href="$namespaceroutines.html#a421a5d2cca448f46b0dfb9bcdeec1111" title="Function to calculate the zeroth&#45;order contribution to the kinetic energy density for neutrons or pro..." alt="" coords="210,5,350,32"/>
+<area shape="rect" id="node3" href="$namespaceroutines.html#aaa80f6938f2b9c661821fa8956f8deef" title="Function to calculate the local second&#45;order contribution to the kinetic energy density for neutrons ..." alt="" coords="205,56,355,83"/>
+<area shape="rect" id="node4" href="$namespaceroutines.html#a72bf2988651a9f3251dfb338ad1a7eca" title="Subroutine to calculate the non&#45;local second&#45;order contribution to the kinetic energy density for neu..." alt="" coords="202,107,358,133"/>
+<area shape="rect" id="node5" href="$namespaceroutines.html#a9c7e02754e0ae8816b1bfeab92df6bc8" title="Subroutine to calculate the fourth&#45;order contributions to the kinetic energy density (without spin&#45;or..." alt="" coords="217,158,343,199"/>
+<area shape="rect" id="node6" href="$namespaceroutines.html#a8825f02bb2ac98507fff5024d9b54c8f" title="Subroutine to calculate the fourth&#45;order contributions to the kinetic energy density (spin&#45;orbit cont..." alt="" coords="200,224,360,251"/>
+<area shape="rect" id="node7" href="$namespaceroutines.html#a5737b4327dcaa959a9ee519e4fca42e8" title="Function to integrate a density or field over the whole W&#45;S cell, using Simpson&#39;s rule (+ Simpson&#39;s 3..." alt="" coords="209,275,351,301"/>
+</map>

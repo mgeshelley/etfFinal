@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['calc_5fbcs_5fnum_5fp',['calc_bcs_num_p',['../namespacepairing.html#a37440fb2ff0d8a3495d051f3f14c9107',1,'pairing']]],
+  ['calc_5fchem_5fpots',['calc_chem_pots',['../group__INPUT__PARS.html#ga6e579a9756d3f1c4d2ddc58a161b1f1a',1,'parameters']]],
+  ['calc_5fdiv_5fj_5f2_5fq',['calc_div_j_2_q',['../namespaceroutines.html#a136b7a1f0387466390decb98ce91c152',1,'routines']]],
+  ['calc_5fdiv_5fj_5f4_5fq',['calc_div_j_4_q',['../namespaceroutines.html#a7f66729f05be35eda4266dbf47eda026',1,'routines']]],
+  ['calc_5fe_5ff_5fq',['calc_e_f_q',['../namespaceroutines.html#a8f2a013c7bb06da429f995e288515248',1,'routines']]],
+  ['calc_5fe_5fpair',['calc_e_pair',['../namespacepairing.html#ac34989a934af1e6a63131c619426c5aa',1,'pairing']]],
+  ['calc_5fe_5fsc',['calc_e_sc',['../namespacestrutinsky.html#a7a348b225e6556c53687ee28ee31b316',1,'strutinsky']]],
+  ['calc_5fe_5fsc_5fpair',['calc_e_sc_pair',['../namespacestrutinsky.html#a2cc0d4130d68c345ffe3ffa73706e796',1,'strutinsky']]],
+  ['calc_5ff_5fq',['calc_f_q',['../namespaceroutines.html#a701f911aa939448c5bee0589d57369ca',1,'routines']]],
+  ['calc_5fgap',['calc_gap',['../namespacepairing.html#abad69eb8cb33077add1b9da84bff7c55',1,'pairing']]],
+  ['calc_5fj_5f2_5fq',['calc_j_2_q',['../namespaceroutines.html#af03f37f9deca52ef9a56287f50b982a1',1,'routines']]],
+  ['calc_5fj_5f4_5fq',['calc_j_4_q',['../namespaceroutines.html#a014fed5fe5fbc19302e7cbc651ba59bd',1,'routines']]],
+  ['calc_5fparticle_5fnumber',['calc_particle_number',['../namespaceroutines.html#a0b8346e8e5457d6befb48b0ac56f4fdf',1,'routines']]],
+  ['calc_5frho_5fq',['calc_rho_q',['../namespaceroutines.html#a407a248748ce7c0e2e9e5dce03cc9415',1,'routines']]],
+  ['calc_5ftau_5f2_5fl',['calc_tau_2_l',['../namespaceroutines.html#aaa80f6938f2b9c661821fa8956f8deef',1,'routines']]],
+  ['calc_5ftau_5f2_5fnl',['calc_tau_2_nl',['../namespaceroutines.html#a72bf2988651a9f3251dfb338ad1a7eca',1,'routines']]],
+  ['calc_5ftau_5f4_5fno_5fspin',['calc_tau_4_no_spin',['../namespaceroutines.html#a9c7e02754e0ae8816b1bfeab92df6bc8',1,'routines']]],
+  ['calc_5ftau_5f4_5fso',['calc_tau_4_so',['../namespaceroutines.html#a8825f02bb2ac98507fff5024d9b54c8f',1,'routines']]],
+  ['calc_5ftau_5ftf',['calc_tau_tf',['../namespaceroutines.html#a421a5d2cca448f46b0dfb9bcdeec1111',1,'routines']]],
+  ['calc_5fu_5fq',['calc_u_q',['../namespaceroutines.html#a2a44c591985c939162dabdeab4a4ced8',1,'routines']]],
+  ['calc_5fw_5fq',['calc_w_q',['../namespaceroutines.html#a8c520afea1e9ca6698a0792fbac37e7a',1,'routines']]],
+  ['charge',['charge',['../namespaceroutines.html#afb83677ec76758dadc35de4b01bac45c',1,'routines']]],
+  ['coulomb_5fon',['coulomb_on',['../group__INPUT__PARS.html#gadebedfbc56e0abdbb5f8152a34ec9654',1,'parameters']]]
+];

@@ -1,0 +1,170 @@
+\hypertarget{namespacestrutinsky}{}\section{strutinsky Module Reference}
+\label{namespacestrutinsky}\index{strutinsky@{strutinsky}}
+
+
+Module to hold routines for carrying out Strutinsky correction.  
+
+
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \mbox{\hyperlink{namespacestrutinsky_a6eeba7570095328226f37df3e89b7a18}{sp\+\_\+states\+\_\+setup}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to allocate + initialise variables needed in \textquotesingle{}boundary\textquotesingle{} routine, and allocate arrays needed for B\+CS. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacestrutinsky_a0a07c6adfd14cbf345bf96b70d3f5d82}{sp\+\_\+states\+\_\+deallocate}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to deallocate arrays needed in \textquotesingle{}boundary\textquotesingle{} routine, and deallocate arrays needed for B\+CS. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacestrutinsky_a106e8ec285383b5042e8436a2376147a}{state\+\_\+sort}} (sp\+\_\+J, sp\+\_\+L, sp\+\_\+E, sp\+\_\+wfns)
+\begin{DoxyCompactList}\small\item\em Subroutine to sort single particle states by their energies. Use bubble sort. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacestrutinsky_a7a348b225e6556c53687ee28ee31b316}{calc\+\_\+e\+\_\+sc}} (q)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the Strutinsky shell correction energy for isospin $q$. First, sum over occupied states of s.\+p. energies. Second, integrate over W-\/S cell of smoothed E\+TF densities and fields. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacestrutinsky_a2cc0d4130d68c345ffe3ffa73706e796}{calc\+\_\+e\+\_\+sc\+\_\+pair}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the Strutinsky shell correction energy for protons, using B\+CS occupation probabilities. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Module to hold routines for carrying out Strutinsky correction. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+
+\subsection{Function/\+Subroutine Documentation}
+\mbox{\Hypertarget{namespacestrutinsky_a7a348b225e6556c53687ee28ee31b316}\label{namespacestrutinsky_a7a348b225e6556c53687ee28ee31b316}} 
+\index{strutinsky@{strutinsky}!calc\+\_\+e\+\_\+sc@{calc\+\_\+e\+\_\+sc}}
+\index{calc\+\_\+e\+\_\+sc@{calc\+\_\+e\+\_\+sc}!strutinsky@{strutinsky}}
+\subsubsection{\texorpdfstring{calc\+\_\+e\+\_\+sc()}{calc\_e\_sc()}}
+{\footnotesize\ttfamily subroutine strutinsky\+::calc\+\_\+e\+\_\+sc (\begin{DoxyParamCaption}\item[{integer, intent(in)}]{q }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the Strutinsky shell correction energy for isospin $q$. First, sum over occupied states of s.\+p. energies. Second, integrate over W-\/S cell of smoothed E\+TF densities and fields. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em q} & Isospin\\
+\hline
+\mbox{\tt in}  & {\em q} & Isospin \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacestrutinsky_a7a348b225e6556c53687ee28ee31b316_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacestrutinsky_a7a348b225e6556c53687ee28ee31b316_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacestrutinsky_a2cc0d4130d68c345ffe3ffa73706e796}\label{namespacestrutinsky_a2cc0d4130d68c345ffe3ffa73706e796}} 
+\index{strutinsky@{strutinsky}!calc\+\_\+e\+\_\+sc\+\_\+pair@{calc\+\_\+e\+\_\+sc\+\_\+pair}}
+\index{calc\+\_\+e\+\_\+sc\+\_\+pair@{calc\+\_\+e\+\_\+sc\+\_\+pair}!strutinsky@{strutinsky}}
+\subsubsection{\texorpdfstring{calc\+\_\+e\+\_\+sc\+\_\+pair()}{calc\_e\_sc\_pair()}}
+{\footnotesize\ttfamily subroutine strutinsky\+::calc\+\_\+e\+\_\+sc\+\_\+pair (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the Strutinsky shell correction energy for protons, using B\+CS occupation probabilities. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=317pt]{namespacestrutinsky_a2cc0d4130d68c345ffe3ffa73706e796_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacestrutinsky_a2cc0d4130d68c345ffe3ffa73706e796_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacestrutinsky_a0a07c6adfd14cbf345bf96b70d3f5d82}\label{namespacestrutinsky_a0a07c6adfd14cbf345bf96b70d3f5d82}} 
+\index{strutinsky@{strutinsky}!sp\+\_\+states\+\_\+deallocate@{sp\+\_\+states\+\_\+deallocate}}
+\index{sp\+\_\+states\+\_\+deallocate@{sp\+\_\+states\+\_\+deallocate}!strutinsky@{strutinsky}}
+\subsubsection{\texorpdfstring{sp\+\_\+states\+\_\+deallocate()}{sp\_states\_deallocate()}}
+{\footnotesize\ttfamily subroutine strutinsky\+::sp\+\_\+states\+\_\+deallocate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to deallocate arrays needed in \textquotesingle{}boundary\textquotesingle{} routine, and deallocate arrays needed for B\+CS. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacestrutinsky_a0a07c6adfd14cbf345bf96b70d3f5d82_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacestrutinsky_a6eeba7570095328226f37df3e89b7a18}\label{namespacestrutinsky_a6eeba7570095328226f37df3e89b7a18}} 
+\index{strutinsky@{strutinsky}!sp\+\_\+states\+\_\+setup@{sp\+\_\+states\+\_\+setup}}
+\index{sp\+\_\+states\+\_\+setup@{sp\+\_\+states\+\_\+setup}!strutinsky@{strutinsky}}
+\subsubsection{\texorpdfstring{sp\+\_\+states\+\_\+setup()}{sp\_states\_setup()}}
+{\footnotesize\ttfamily subroutine strutinsky\+::sp\+\_\+states\+\_\+setup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to allocate + initialise variables needed in \textquotesingle{}boundary\textquotesingle{} routine, and allocate arrays needed for B\+CS. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacestrutinsky_a6eeba7570095328226f37df3e89b7a18_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacestrutinsky_a106e8ec285383b5042e8436a2376147a}\label{namespacestrutinsky_a106e8ec285383b5042e8436a2376147a}} 
+\index{strutinsky@{strutinsky}!state\+\_\+sort@{state\+\_\+sort}}
+\index{state\+\_\+sort@{state\+\_\+sort}!strutinsky@{strutinsky}}
+\subsubsection{\texorpdfstring{state\+\_\+sort()}{state\_sort()}}
+{\footnotesize\ttfamily subroutine strutinsky\+::state\+\_\+sort (\begin{DoxyParamCaption}\item[{integer, dimension(\+:), intent(inout)}]{sp\+\_\+J,  }\item[{integer, dimension(\+:), intent(inout)}]{sp\+\_\+L,  }\item[{real(kind=dp), dimension(\+:), intent(inout)}]{sp\+\_\+E,  }\item[{real(kind=dp), dimension(\+:,\+:), intent(inout)}]{sp\+\_\+wfns }\end{DoxyParamCaption})}
+
+
+
+Subroutine to sort single particle states by their energies. Use bubble sort. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in,out}  & {\em sp\+\_\+J} & Array for (2)J\textquotesingle{}s of single particle states \\
+\hline
+\mbox{\tt in,out}  & {\em sp\+\_\+L} & Array for L\textquotesingle{}s of single particle states \\
+\hline
+\mbox{\tt in,out}  & {\em sp\+\_\+E} & Array for energies of single particle states \\
+\hline
+\mbox{\tt in,out}  & {\em sp\+\_\+wfns} & Array for wavefunctions of single particle states \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacestrutinsky_a106e8ec285383b5042e8436a2376147a_icgraph}
+\end{center}
+\end{figure}

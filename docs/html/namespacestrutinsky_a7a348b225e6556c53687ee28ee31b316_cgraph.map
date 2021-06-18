@@ -1,0 +1,6 @@
+<map id="strutinsky::calc_e_sc" name="strutinsky::calc_e_sc">
+<area shape="rect" id="node2" href="$namespacerspace.html#af32fb6df1b49e330db5a70e2b05faa5b" title="rspace::boundary" alt="" coords="211,5,334,32"/>
+<area shape="rect" id="node4" href="$namespacestrutinsky.html#a106e8ec285383b5042e8436a2376147a" title="Subroutine to sort single particle states by their energies. Use bubble sort. " alt="" coords="200,56,345,83"/>
+<area shape="rect" id="node5" href="$namespaceroutines.html#a5737b4327dcaa959a9ee519e4fca42e8" title="Function to integrate a density or field over the whole W&#45;S cell, using Simpson&#39;s rule (+ Simpson&#39;s 3..." alt="" coords="201,107,344,133"/>
+<area shape="rect" id="node3" href="$namespacerspace.html#a95f8e6b75776b923eb4ab9cc71a3be33" title="rspace::numerov" alt="" coords="393,5,512,32"/>
+</map>

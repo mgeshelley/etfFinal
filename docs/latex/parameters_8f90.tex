@@ -1,0 +1,451 @@
+\hypertarget{parameters_8f90}{}\section{srcs/parameters.f90 File Reference}
+\label{parameters_8f90}\index{srcs/parameters.\+f90@{srcs/parameters.\+f90}}
+\subsection*{Modules}
+\begin{DoxyCompactItemize}
+\item 
+module \mbox{\hyperlink{namespaceparameters}{parameters}}
+\begin{DoxyCompactList}\small\item\em Module to hold global parameters and variables. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \mbox{\hyperlink{namespaceparameters_a55242f635842d12dbb53d66ae9248b93}{parameters\+::force\+\_\+initialise}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to initialise Skyrme force parameters with values for a given force specified in \textquotesingle{}input.\+dat\textquotesingle{}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+integer, parameter \mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{parameters\+::dp}} = selected\+\_\+real\+\_\+kind(15, 300)
+\begin{DoxyCompactList}\small\item\em Precision. \end{DoxyCompactList}\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__CONSTANTS_ga399aac088b57a76a8a5a3784448ba3cf}{parameters\+::pi}} = 3.\+1415926535897932\+\_\+dp
+\begin{DoxyCompactList}\small\item\em $\pi$ \end{DoxyCompactList}\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__CONSTANTS_gad4b06975615fad2c991376a975fd08f1}{parameters\+::hbar2\+\_\+2m}} = 20.\+73553\+\_\+dp
+\begin{DoxyCompactList}\small\item\em $\frac{\hbar^2}{2m}$ for S\+Ly forces \end{DoxyCompactList}\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__CONSTANTS_ga0796781a51dc993c4b563f7ac404c641}{parameters\+::rho0}} = 0.\+16\+\_\+dp
+\begin{DoxyCompactList}\small\item\em $\rho_0$, nuclear saturation density $[fm^{-3}]$ \end{DoxyCompactList}\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__CONSTANTS_gaafa6a6262bc00c89fb3d403241497d22}{parameters\+::e2}} = 1.\+439978408596513\+\_\+dp
+\begin{DoxyCompactList}\small\item\em $e^2$, electric charge squared $[MeV\cdot fm]$ \end{DoxyCompactList}\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__CONSTANTS_ga8b91e60e1e7c4b066cc282415c740bc9}{parameters\+::mec2}} = 0.\+51099895\+\_\+dp
+\begin{DoxyCompactList}\small\item\em Electron rest mass $[MeV/c^2]$. \end{DoxyCompactList}\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__CONSTANTS_ga3cd51d33e13930045ff98294b5044e2c}{parameters\+::mnc2}} = 939.\+56542052\+\_\+dp
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__CONSTANTS_ga2e354d662a28a3a09a9819c54f818dab}{parameters\+::mpc2}} = 938.\+27208816\+\_\+dp
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__CONSTANTS_gafb47622609b676d956b2c58f4b909064}{parameters\+::hbarc}} = 197.\+3269804\+\_\+dp
+\begin{DoxyCompactList}\small\item\em $\hbar*c$ \end{DoxyCompactList}\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__HBAR2__2M_gaa00326a999bcae07e22d89387404ac19}{parameters\+::mamuc2}} = 931.\+49386\+\_\+dp
+\begin{DoxyCompactList}\small\item\em Atomic mass unit $u$. \end{DoxyCompactList}\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__HBAR2__2M_gaad7518fe64b61c89a5fdca4244b22af1}{parameters\+::xmh}} = 7.\+28896940\+\_\+dp
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__HBAR2__2M_ga1ee1de4838adf9dd601aa5c6d518709c}{parameters\+::rydb}} = 13.\+6056981e-\/6\+\_\+dp
+\begin{DoxyCompactList}\small\item\em Rydberg constant. \end{DoxyCompactList}\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__HBAR2__2M_gaca637757baec6d59dc2b73dcf21b6b3d}{parameters\+::xmp}} = xmh -\/ mec2 + rydb
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__HBAR2__2M_ga54928a3b468a11418226e44d5f2337ce}{parameters\+::xmn}} = 8.\+07132281\+\_\+dp
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga22877764fb6363b2fa930793c57a03da}{parameters\+::fr12}} = 1.\+\_\+dp/2
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_gaffec0a7933c65703944576ebea0c1cd1}{parameters\+::fr14}} = 1.\+\_\+dp/4
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga59c72e10a23b892113d106b25c1f60d7}{parameters\+::fr18}} = 1.\+\_\+dp/8
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga49bc50cd5025d08ac8f93efb9d2f2c57}{parameters\+::fr1\+\_\+16}} = 1.\+\_\+dp/16
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga9d703cf8cb03df7ac75c98494659c894}{parameters\+::fr1\+\_\+32}} = 1.\+\_\+dp/32
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga7012f1eaa8d54fce4923459913c9ea89}{parameters\+::fr13}} = 1.\+\_\+dp/3
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga67d2b3b04777af92b519826b97ce69a4}{parameters\+::fr16}} = 1.\+\_\+dp/6
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_gaa8dad9cec662853b1633da29ad89f6aa}{parameters\+::fr1\+\_\+12}} = 1.\+\_\+dp/12
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga6f3d13faca548dd3fb16645525651743}{parameters\+::fr1\+\_\+24}} = 1.\+\_\+dp/24
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_gaa55c45ce58d2200ffa6ff168d00e94d7}{parameters\+::fr1\+\_\+36}} = 1.\+\_\+dp/36
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_gaf550152b4a78556eab5e45a3505a690e}{parameters\+::fr23}} = 2.\+\_\+dp/3
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_gaae4b443a271ca66ffd82ed02a3062073}{parameters\+::fr29}} = 2.\+\_\+dp/9
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_gadb06185f00fedb4688eb75250f7365de}{parameters\+::fr32}} = 3.\+\_\+dp/2
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga8f9972a5fa3d36c2893e702ab70c7fff}{parameters\+::fr34}} = 3.\+\_\+dp/4
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga51fd0944911031e89f45e11247545886}{parameters\+::fr35}} = 3.\+\_\+dp/5
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga7fcdf682bf3d4c7901343542bcee3976}{parameters\+::fr38}} = 3.\+\_\+dp/8
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_gadb8dc3cfa1864abcbb3226845f3d1953}{parameters\+::fr3\+\_\+10}} = 3.\+\_\+dp/10
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga1705bf89adaf6e54bdf027386ecdc5a9}{parameters\+::fr43}} = 4.\+\_\+dp/3
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga348f3739fc94f9786aeb6045a5c9c76b}{parameters\+::fr53}} = 5.\+\_\+dp/3
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga4b5dee914c69f248bc576e0ef5a48cad}{parameters\+::fr54}} = 5.\+\_\+dp/4
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga74e22f362165a8830c6acb135f54921a}{parameters\+::fr83}} = 8.\+\_\+dp/3
+\item 
+real(kind=dp), parameter \mbox{\hyperlink{group__FRACTIONS_ga5a9e77cd58019aeeb71cd5be86faf68f}{parameters\+::fr260\+\_\+3}} = 260.\+\_\+dp/3
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__PARS_gabbfefb4415d1278f79fd07d05105335a}{parameters\+::w0}}
+\begin{DoxyCompactList}\small\item\em Spin-\/orbit strength $W_0$. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__PARS_gadbebfa135603ae9f34b4a98ac62ce8d8}{parameters\+::t0}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__PARS_ga86c5690b49e0b02be9cae32459f6cc37}{parameters\+::x0}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__PARS_ga2104f8e3f4c55a866272683975f6acd0}{parameters\+::t1}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__PARS_ga17d86815551fd59fbeaba6cc8e54438b}{parameters\+::x1}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__PARS_ga28e545481d284c866487bfb61e918159}{parameters\+::t2}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__PARS_ga505cd8d8fea1c311291e29cfb0516c91}{parameters\+::x2}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__PARS_ga41ad159facccbc41a3a4bf58942da03d}{parameters\+::t3}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__PARS_ga361bcdef664c7f70557bcc2f42b2abce}{parameters\+::x3}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__PARS_ga3726a27918a1e2929cdac9ffd451ec14}{parameters\+::sigma}}
+\item 
+real(kind=dp), dimension(0\+:1) \mbox{\hyperlink{group__SKYRME__PARS_ga8eaaa7306780e89ea9299163596ebc7f}{parameters\+::hbar2\+\_\+2m\+\_\+q}}
+\begin{DoxyCompactList}\small\item\em $\frac{\hbar^2}{2m}$ with isospin dependence, as required by B\+Sk forces \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__SKYRME__PARS_ga8d1441b6c74260a2058e73213ae60941}{parameters\+::j2\+\_\+terms}}
+\begin{DoxyCompactList}\small\item\em Whether functional uses $\textbf{J}^2$ terms. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__COEFFS_ga370f8790e2b550acb651df944341c38a}{parameters\+::b1}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__COEFFS_gafeab3f7d25c9403fc9278f88e131e394}{parameters\+::b2}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__COEFFS_ga9b2ac7e2a2fd38fad3f2d4aa9eb74827}{parameters\+::b3}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__COEFFS_gaa0e98c8120ce5a6ee2c59e99e54b1564}{parameters\+::b4}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__COEFFS_ga86d34226c6b6f89e732f7acb9d6fc53d}{parameters\+::b5}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__COEFFS_ga375601587cabd94f376823158f6b3573}{parameters\+::b6}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__COEFFS_ga93c2fa7fcb7fac6304867a02d6fb21c3}{parameters\+::b7}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__COEFFS_ga9b6e33a75b631e3ba0f050460ffd5895}{parameters\+::b8}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__COEFFS_ga78905f183069e7fb9d101ae402ddd299}{parameters\+::b9}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__COEFFS_ga8810e38b014109a9b8eab1862dcc48d4}{parameters\+::b10}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__COEFFS_ga1590f4a1a23ab65ab7aebe0422add4d3}{parameters\+::b11}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__COEFFS_gad5af273df649cc4a1f0efdbb3a21078c}{parameters\+::b12}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__SKYRME__COEFFS_ga0cfa3a610d32b67d583a86f8b6e19c47}{parameters\+::b13}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__BSK__EXTRA__PARS_ga8490c300b1682aacdb076ab6349e11b0}{parameters\+::alpha}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__BSK__EXTRA__PARS_ga7c930f664bb545cbbdf20ca315bd20d8}{parameters\+::beta}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__BSK__EXTRA__PARS_ga1baca96d21c6817998a6c1bfadb8645b}{parameters\+::gamma}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__BSK__EXTRA__PARS_ga8e9070bc00ffb35cb30d29a2cdb4cb7d}{parameters\+::t4}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__BSK__EXTRA__PARS_ga48ff3471242a75ae841f4090057d5dda}{parameters\+::x4}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__BSK__EXTRA__PARS_gacca0e8bacd6526d5199e62df3e41b416}{parameters\+::t5}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__BSK__EXTRA__PARS_gac03740f2430e82863d9084708f78d297}{parameters\+::x5}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__BSK__EXTRA__PARS_ga6fd9de4a6f08fe29d2edb25db8ff5b9a}{parameters\+::fn\+\_\+pos}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__BSK__EXTRA__PARS_ga00dd6368c3084b28b39f9ca851465592}{parameters\+::fn\+\_\+neg}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__BSK__EXTRA__PARS_ga5e544dc32f83cdba34677a29c028ef40}{parameters\+::fp\+\_\+pos}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__BSK__EXTRA__PARS_ga6ed17804a32c9e04ddd4c244258b8610}{parameters\+::fp\+\_\+neg}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__BSK__EXTRA__PARS_ga383b5412e8499ce22ba113c539966123}{parameters\+::epsilon\+\_\+lambda}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__MESH_gab0ff28e85164200c8d56a8097bb2fe54}{parameters\+::r}}
+\begin{DoxyCompactList}\small\item\em Mesh for r. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__DENSITIES_ga75b48fc89c0f01176fd8c58ced2979a8}{parameters\+::rho\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__DENSITIES_ga8a7e7d5715287b287f2153291460783b}{parameters\+::del\+\_\+rho\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__DENSITIES_ga9ccabc81160e04e43330cf8f61472f0e}{parameters\+::del2\+\_\+rho\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__DENSITIES_gacd0134e8939522696ec62e629c100fd9}{parameters\+::rho\+\_\+t}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__DENSITIES_ga4d25fcfcb307d476b79d22bc2abe545b}{parameters\+::del\+\_\+rho\+\_\+t}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__DENSITIES_ga419642d914eb5865bb3537f5a4df7d34}{parameters\+::del2\+\_\+rho\+\_\+t}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__EFF__MASSES_ga5d14e09efe44edd96be9317868828e75}{parameters\+::f\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__EFF__MASSES_gadd7fc7f6fdfb5f9f6303c42bfb0eb81c}{parameters\+::del\+\_\+f\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__EFF__MASSES_ga0bdacded69f98c713231b1eeaa1a2d05}{parameters\+::del2\+\_\+f\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga59950b9367b0a0afc462c00ef2eee424}{parameters\+::w\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga20b386857a74ab08ec424aa7d6524f8b}{parameters\+::div\+\_\+w\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_gae3217b84aeb9cb26575532fa2c7990cf}{parameters\+::u\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga387eae15dcba990096da0b0a974f9858}{parameters\+::j\+\_\+2\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_gad0e3f674777d52020dcc69ec065a4710}{parameters\+::j\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_gaa93ef4a0286129df654277cffb40933b}{parameters\+::del\+\_\+j\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga42f7b6eda54c2f6b7dbfbc5a0d3a1bf4}{parameters\+::div\+\_\+j\+\_\+2\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga8181dfebaf3cbf23118c8322b1eed86d}{parameters\+::div\+\_\+j\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_gab6c3712299b2394aa1cdc011d9373ab8}{parameters\+::tau\+\_\+tf\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga045973682837700d382d75a8f6de7d9c}{parameters\+::tau\+\_\+2\+\_\+l\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga64b5af532da52ba869f0fba447812146}{parameters\+::tau\+\_\+2\+\_\+nl\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga8fa22b66605b27eaece8dbd54577ebc8}{parameters\+::tau\+\_\+etf\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga403b0aed00d1b8df4af16d47bc09977f}{parameters\+::j\+\_\+t}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga1c75e349365b3d0cd01f2f1ed6fc3a06}{parameters\+::del\+\_\+j\+\_\+t}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_gaae73460a531438ad3711b017dc727066}{parameters\+::div\+\_\+j\+\_\+t}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga38f8f27b19a3324faae16c6831f551db}{parameters\+::tau\+\_\+etf\+\_\+t}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_gadb82cb07fdaadb4c3d4fc703ec7d0f32}{parameters\+::e\+\_\+density\+\_\+field}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga899215cff7de8d505ca9437a2c7a9e5d}{parameters\+::e\+\_\+density\+\_\+sky}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga7503ebd6515d35346e8989c0ace67040}{parameters\+::v\+\_\+c\+\_\+di}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga9fa9512dcae76285fafca5bf94f6d548}{parameters\+::v\+\_\+c\+\_\+ex}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga87dbb79a5a923879327d170ac2dd0554}{parameters\+::e\+\_\+density\+\_\+c\+\_\+di}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_gae0cdcff4839ee5f5e753521c6110a58c}{parameters\+::e\+\_\+density\+\_\+c\+\_\+ex}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga2ace64338ba159caa9b44094efffa81d}{parameters\+::v\+\_\+c\+\_\+pe}}
+\item 
+real(kind=dp), dimension(\+:,\+:,\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_gae767b94dc83914662f299fc87eeaf623}{parameters\+::tau\+\_\+2\+\_\+cont\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__OTHER__DENSITIES_ga06ab0886762c00b75dd1adf55f9e61a0}{parameters\+::rho\+\_\+ch}}
+\begin{DoxyCompactList}\small\item\em Charge density. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_a0234a871e1ff1d0be38099df82c5e698}{parameters\+::d2\+\_\+rho\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_a1621c80d10f0cca4fec0e20ffbdda0f5}{parameters\+::d3\+\_\+rho\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_a59deaa51eaa68f574d57f364fff6c77a}{parameters\+::d4\+\_\+rho\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_a4e57ed84b90c4ca5998a9cdaa8ccb2da}{parameters\+::d2\+\_\+f\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_ada2cda17d0e9bccb3581a5b22a05f876}{parameters\+::d3\+\_\+f\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_af226839e94cc06ff5d33f92af38a014c}{parameters\+::d4\+\_\+f\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_a537af93b5aaa713688d624f145ebde80}{parameters\+::a\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_aaeb8117f8c15d7a7414e15929e12b0a8}{parameters\+::d1\+\_\+a\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_ab2833e12dbfca51501df8955b00dd7d0}{parameters\+::d2\+\_\+a\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_a1449283e577e2769bd8bb5d57dbf1876}{parameters\+::d3\+\_\+a\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_a68e56fd9914d22072aed5a180c5a17b2}{parameters\+::d4\+\_\+a\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_a6722d1e0c27f2796d4e43405bd9c9d81}{parameters\+::tau\+\_\+4\+\_\+no\+\_\+spin\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_a6f95c2f318204d32f47cefa370021fe4}{parameters\+::tau\+\_\+4\+\_\+so\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_a41689cc1fc405b2fd02236c39ee5528c}{parameters\+::j\+\_\+4\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_ab8757a22096c3d5f05f0bf953b59dff4}{parameters\+::div\+\_\+j\+\_\+4\+\_\+q}}
+\item 
+real(kind=dp), dimension(\+:,\+:,\+:), allocatable \mbox{\hyperlink{namespaceparameters_a1dd9d0c60fab7b85157b61471151ed92}{parameters\+::tau\+\_\+4\+\_\+cont\+\_\+q}}
+\item 
+real(kind=dp), dimension(0\+:1) \mbox{\hyperlink{group__WS__PROPERTIES_gace169ff7d198e04f282498a2b0ee2bc1}{parameters\+::n\+\_\+q}}
+\begin{DoxyCompactList}\small\item\em Number of neutrons and protons. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_ga4ea79549c467085cd4c8b95a09ac205e}{parameters\+::n\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Total number of particles. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_gaba6452c229b473b375ee695573482098}{parameters\+::e\+\_\+field}}
+\begin{DoxyCompactList}\small\item\em Field energy. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_ga5683bdc3d77765f0e39d27c0a8c07e12}{parameters\+::e\+\_\+skyrme}}
+\begin{DoxyCompactList}\small\item\em Skyrme energy. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(0\+:1) \mbox{\hyperlink{group__WS__PROPERTIES_ga488ae2b962fd84ebc096feb2d9b86bdb}{parameters\+::e\+\_\+kinetic\+\_\+q}}
+\begin{DoxyCompactList}\small\item\em Kinetic energy for neutron and protons. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_ga6a028c7097c7f19416111f67d7751e0a}{parameters\+::e\+\_\+kinetic\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Total kinetic energy. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_ga1be7ac7adf47738e0cf4ada759e3b038}{parameters\+::e\+\_\+so}}
+\begin{DoxyCompactList}\small\item\em Spin-\/orbit energy. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_gad3cbae007568a7ca3045ba174fda13e0}{parameters\+::e\+\_\+coulomb\+\_\+di}}
+\begin{DoxyCompactList}\small\item\em Direct Coulomb energy. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_ga089d9dd6556d4555570eed570f9f71f3}{parameters\+::e\+\_\+coulomb\+\_\+ex}}
+\begin{DoxyCompactList}\small\item\em Exhange Coulomb energy. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_gaa693f79a53c67f65948484a0d2704154}{parameters\+::e\+\_\+coulomb}}
+\begin{DoxyCompactList}\small\item\em Total Coulomb energy. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_ga041ce78d1803675af0825ead4e0a512e}{parameters\+::e\+\_\+total}}
+\begin{DoxyCompactList}\small\item\em Total energy. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(0\+:1) \mbox{\hyperlink{group__WS__PROPERTIES_ga640fd108640984ca51ba2f7cc29f2a8f}{parameters\+::mu\+\_\+q}}
+\begin{DoxyCompactList}\small\item\em Neutron and proton chemical potential. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_gacc0c124d82adcdfb692fb32f9e736bca}{parameters\+::mu\+\_\+e}}
+\begin{DoxyCompactList}\small\item\em Electron chemical potential. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_ga3025178429abf0548bda508408facd69}{parameters\+::mu\+\_\+c}}
+\begin{DoxyCompactList}\small\item\em Coulomb interaction contribution to electron chemical potential. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_ga44464a0deab6ab30fe9c2301379ceb71}{parameters\+::delta\+\_\+mu}}
+\begin{DoxyCompactList}\small\item\em Overall chemical potential (beta-\/equilibrium condition) \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_ga769d654b2408c30dca03771d09945c2a}{parameters\+::pressure\+\_\+nucl}}
+\begin{DoxyCompactList}\small\item\em Nuclear pressure. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_ga72c16e4c25186b788d7d47eb8c87c3a4}{parameters\+::pressure\+\_\+e}}
+\begin{DoxyCompactList}\small\item\em Electron pressure. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_gab531cc7fbabd91f11cc2be7385cb5854}{parameters\+::pressure\+\_\+ex}}
+\begin{DoxyCompactList}\small\item\em Coulomb exchange pressure. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__WS__PROPERTIES_gaf485019c788a68c4915fca156d59baa1}{parameters\+::pressure\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Total pressure. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_ga2b7774a07afe51f9f1e547e3104833e4}{parameters\+::run\+\_\+mode}}
+\begin{DoxyCompactList}\small\item\em Mode to run code in (normal, test) \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_ga552f372a0ff4dff467424c48bedd6b49}{parameters\+::verbose}}
+\begin{DoxyCompactList}\small\item\em Whether to print all extra messages about run. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__INPUT__PARS_gaa5f574e72af23ebd482368e0a7232ea1}{parameters\+::dr}}
+\begin{DoxyCompactList}\small\item\em Mesh spacing of r $(fm)$. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_ga4f6d2343db9c28bfad5b376839f279d7}{parameters\+::profile\+\_\+r\+\_\+max}}
+\begin{DoxyCompactList}\small\item\em Whether to take \char`\"{}r\+\_\+max\char`\"{} from \char`\"{}r\+\_\+ws\char`\"{}. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__INPUT__PARS_ga9372571e59a93c139d629423a9104d69}{parameters\+::r\+\_\+max}}
+\begin{DoxyCompactList}\small\item\em Max value of r $(fm)$. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_ga65180c8e25c7c66a7ef57b72282eaecf}{parameters\+::specify\+\_\+n}}
+\begin{DoxyCompactList}\small\item\em Whether to specify \char`\"{}n\char`\"{} instead of \char`\"{}dr\char`\"{}. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_ga2e69dbce49f3e83688fe80de2ce83724}{parameters\+::n}}
+\begin{DoxyCompactList}\small\item\em Number of mesh points. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_ga4f15a67f3875d8c184795f8d71ac08aa}{parameters\+::force}}
+\begin{DoxyCompactList}\small\item\em Force to use. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_ga47ccf97217bda004b76720993db73258}{parameters\+::etf\+\_\+order}}
+\begin{DoxyCompactList}\small\item\em Order at which to calculate kinetic energy densities. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_gadebedfbc56e0abdbb5f8152a34ec9654}{parameters\+::coulomb\+\_\+on}}
+\begin{DoxyCompactList}\small\item\em Use Coulomb interaction or not. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_gac0158c8c810d8b150e942815ae3a4478}{parameters\+::electrons\+\_\+on}}
+\begin{DoxyCompactList}\small\item\em Add electrons. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_gaa0c2ce3053c1f294c8fe21270389511f}{parameters\+::nmaxstate}}
+\begin{DoxyCompactList}\small\item\em Number of states that can be stored. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_gaee5c7e64e0f524d969ac1848094fdbac}{parameters\+::lmax}}
+\begin{DoxyCompactList}\small\item\em Maximum angular momentum of states to find. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_ga6e579a9756d3f1c4d2ddc58a161b1f1a}{parameters\+::calc\+\_\+chem\+\_\+pots}}
+\begin{DoxyCompactList}\small\item\em Calculate chemical potentials. \end{DoxyCompactList}\item 
+logical, dimension(0\+:1) \mbox{\hyperlink{group__INPUT__PARS_gaad3b88a661482173813a2f76cba73b11}{parameters\+::strutinsky\+\_\+on}}
+\begin{DoxyCompactList}\small\item\em Use Strutinsky Integral (SI) correction for neutrons and protons. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__INPUT__PARS_ga0dd8e62aa4b777681ce98d7c88cafdf8}{parameters\+::strut\+\_\+r\+\_\+max}}
+\begin{DoxyCompactList}\small\item\em Max value of r to use for box for single particle states $(fm)$. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_gacfc9efb68b340c8246340105af8678e0}{parameters\+::emax0\+\_\+mod}}
+\begin{DoxyCompactList}\small\item\em Whether to modify \char`\"{}emax0\char`\"{} to always = 0. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_gad6072a097df429aca7d4c3daf808ceda}{parameters\+::neutron\+\_\+pairing}}
+\begin{DoxyCompactList}\small\item\em Type of pairing calculation to perform for neutrons. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_ga7478728bc2b5fc83dee2f2c21724420c}{parameters\+::proton\+\_\+bcs}}
+\begin{DoxyCompactList}\small\item\em Whether to do B\+CS for protons. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__INPUT__PARS_gaddd04025cfa9a151f25211259364f404}{parameters\+::pair\+\_\+qp\+\_\+cut}}
+\begin{DoxyCompactList}\small\item\em Cut-\/off for quasiparticle energy for solving gap equation. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_ga20f7226ffbb05232c930c81d83afee32}{parameters\+::smooth\+\_\+qp\+\_\+cut}}
+\begin{DoxyCompactList}\small\item\em Whether to use smooth cut-\/off on quasiparticle energy. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__INPUT__PARS_ga0d7d7715270e262c6f4e02633947b548}{parameters\+::pair\+\_\+k\+\_\+max}}
+\begin{DoxyCompactList}\small\item\em Maximum momentum for integral in gap equation. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__INPUT__PARS_gaecd0609846081f6a90f49cc0f162c9cd}{parameters\+::pair\+\_\+v0}}
+\begin{DoxyCompactList}\small\item\em Interaction strength parameter. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__INPUT__PARS_gacd8c346f8b069e0dca502d57557b21e7}{parameters\+::pair\+\_\+eta}}
+\begin{DoxyCompactList}\small\item\em Interaction parameter eta. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__INPUT__PARS_gaa3116e010e1f1435881ad489d7ea5dad}{parameters\+::pair\+\_\+alpha}}
+\begin{DoxyCompactList}\small\item\em Interaction parameter alpha. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__INPUT__PARS_ga9b9d6d0cf64fa6e7f9dd00f5b15848bd}{parameters\+::pair\+\_\+tol}}
+\begin{DoxyCompactList}\small\item\em Gap equation self-\/consistency tolerance. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__INPUT__PARS_ga6fdafa171f65aa7236a9c76ebaab4d08}{parameters\+::pair\+\_\+mix}}
+\begin{DoxyCompactList}\small\item\em Mix of previous iteration in gap equation self-\/consistency loop. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__INPUT__PARS_ga1c083bc7a4e3979327020ec3e1509220}{parameters\+::pair\+\_\+dk}}
+\begin{DoxyCompactList}\small\item\em Step size in integral in gap equation. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__INPUT__PARS_ga9fe26afec63d3ebfb7900ccc330779d0}{parameters\+::pair\+\_\+del\+\_\+init}}
+\begin{DoxyCompactList}\small\item\em Initial guess for pairing gap. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_gafef003bd348d08faadb13f56378b8e4c}{parameters\+::pair\+\_\+max\+\_\+iters}}
+\begin{DoxyCompactList}\small\item\em Maximum iterations for gap equation self-\/consistency loop. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__INPUT__PARS_gad39a7f1795d33065b388d6966d51e190}{parameters\+::pair\+\_\+num\+\_\+tol}}
+\begin{DoxyCompactList}\small\item\em B\+CS number equation self-\/consistency tolerance. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(5) \mbox{\hyperlink{group__EXT__PROFILES_ga212100ee82dc6c5f66b280c3d3c59587}{parameters\+::n\+\_\+profile}}
+\item 
+real(kind=dp), dimension(5) \mbox{\hyperlink{group__EXT__PROFILES_gac33314b2e7b3b80461c26fff4b4f6a71}{parameters\+::p\+\_\+profile}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__EXT__PROFILES_ga9fdeb5df8ae40efefdff5ae559099b6e}{parameters\+::num\+\_\+n}}
+\item 
+integer \mbox{\hyperlink{group__EXT__PROFILES_ga25fb3b9dce82aa8bfe7e1f8e99d66edf}{parameters\+::num\+\_\+p}}
+\item 
+real(kind=dp) \mbox{\hyperlink{group__EXT__PROFILES_gadf4b1a873d7f2b95b72c0503f71462c4}{parameters\+::r\+\_\+ws}}
+\item 
+character(18), dimension(10) \mbox{\hyperlink{group__FORMATS_ga75e55b6ae9f977f08dcde5798efa2520}{parameters\+::n\+\_\+floats}} = (/\textquotesingle{}( 1(es24.\+16e3,1x))\textquotesingle{},\textquotesingle{}( 2(es24.\+16e3,1x))\textquotesingle{},\textquotesingle{}( 3(es24.\+16e3,1x))\textquotesingle{}, \textquotesingle{}( 4(es24.\+16e3,1x))\textquotesingle{},\textquotesingle{}( 5(es24.\+16e3,1x))\textquotesingle{},\textquotesingle{}( 6(es24.\+16e3,1x))\textquotesingle{},\textquotesingle{}( 7(es24.\+16e3,1x))\textquotesingle{}, \textquotesingle{}( 8(es24.\+16e3,1x))\textquotesingle{},\textquotesingle{}( 9(es24.\+16e3,1x))\textquotesingle{},\textquotesingle{}(10(es24.\+16e3,1x))\textquotesingle{}/)
+\item 
+character(27) \mbox{\hyperlink{group__FORMATS_ga1d71f88907da2dbb383e489d23cf1346}{parameters\+::info\+\_\+format}} = \textquotesingle{}(a27,1x,a1,1x,es24.\+16e3)\textquotesingle{}
+\item 
+character(8) \mbox{\hyperlink{group__STRINGS_gaf1698471c98154361a7783b3bd76fc9b}{parameters\+::force\+\_\+string}}
+\item 
+character(80), parameter \mbox{\hyperlink{group__STRINGS_ga757aedae1ca22891e6971eee77226285}{parameters\+::line\+\_\+break}} = \textquotesingle{}\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\textquotesingle{}
+\begin{DoxyCompactList}\small\item\em Separating output. \end{DoxyCompactList}\item 
+character(62), parameter \mbox{\hyperlink{group__STRINGS_ga4074473b9d6e05d0b912b06d42301755}{parameters\+::table\+\_\+string}} = \textquotesingle{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\textquotesingle{}
+\item 
+character(1), dimension(0\+:1), parameter \mbox{\hyperlink{group__STRINGS_gaa642f410416bdb397b62d3844df96d6c}{parameters\+::iso\+\_\+string}} = (/\textquotesingle{}n\textquotesingle{},\textquotesingle{}p\textquotesingle{}/)
+\begin{DoxyCompactList}\small\item\em Isospin labels. \end{DoxyCompactList}\item 
+character(4), parameter \mbox{\hyperlink{group__STRINGS_ga0f73a365fff78bef9c51e7b776ab6184}{parameters\+::space4}} = \textquotesingle{} \textquotesingle{}
+\begin{DoxyCompactList}\small\item\em Whitespace of length 4. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__STRUTINSKY_gac439f84f31aadb3d8940c87b8031f3c5}{parameters\+::strut\+\_\+n}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__STRUTINSKY_ga5b0cdd0835c3f087c5da53f73ad08bf3}{parameters\+::dhmen}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__STRUTINSKY_ga51f921a516a9571cb7f002e059909a30}{parameters\+::d2hmen}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__STRUTINSKY_ga4faafec43e7b862ce36b7c191f7a5b72}{parameters\+::hb2m}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__STRUTINSKY_gab6a00a0a328c2e57dbb345301d691e78}{parameters\+::vpot}}
+\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__STRUTINSKY_gaf3ea0455435866d9d7095b02b9e40436}{parameters\+::vso}}
+\item 
+real(kind=dp), dimension(0\+:1) \mbox{\hyperlink{group__STRUTINSKY_gad6c6de2d2e65ad858f92af1a84c8b24b}{parameters\+::ecut}}
+\begin{DoxyCompactList}\small\item\em Cutoff energies for neutrons and protons. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(\+:,\+:), allocatable \mbox{\hyperlink{group__STRUTINSKY_gace20a26f9d6d1c052703baf791c04716}{parameters\+::ps}}
+\begin{DoxyCompactList}\small\item\em Storage for single particle wavefunctions. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__STRUTINSKY_gae6e7b96f6ed3aba1ba90ec3567d8e83d}{parameters\+::nnst}}
+\begin{DoxyCompactList}\small\item\em Number of states found within cutoff energy. \end{DoxyCompactList}\item 
+integer, dimension(\+:), allocatable \mbox{\hyperlink{group__STRUTINSKY_ga73b3d3e4bef13fcc24049d5e9fe16bb2}{parameters\+::jjp}}
+\begin{DoxyCompactList}\small\item\em Storage for J of states found. \end{DoxyCompactList}\item 
+integer, dimension(\+:), allocatable \mbox{\hyperlink{group__STRUTINSKY_gaff7c4f2e2ade60a6581e2335dca2eda3}{parameters\+::lp}}
+\begin{DoxyCompactList}\small\item\em Storage for L of states found. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__STRUTINSKY_gaa02842b39c139c8fe6da09650a18113a}{parameters\+::ep}}
+\begin{DoxyCompactList}\small\item\em Storage for energy of states found. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(0\+:1) \mbox{\hyperlink{group__STRUTINSKY_ga8f402c8fe224c0fa1965b57701b6e597}{parameters\+::e\+\_\+sc\+\_\+q}}
+\begin{DoxyCompactList}\small\item\em Storage for shell correction energies. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__STRUTINSKY_ga48fd0dbdf687c86420599443535e70c8}{parameters\+::e\+\_\+sc\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Storage for total shell correction energy. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__PAIRING_ga2017e6d9cb3446579e4231db5ee50d0c}{parameters\+::pair\+\_\+gap\+\_\+n}}
+\begin{DoxyCompactList}\small\item\em Neutron pairing gap. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__PAIRING_ga1a7cf61c64e34d8c4ff1348bea510826}{parameters\+::delta\+\_\+n}}
+\begin{DoxyCompactList}\small\item\em Neutron pairing field. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__PAIRING_ga80c6085ca6be5adceadc0f7167218231}{parameters\+::pair\+\_\+gap\+\_\+p}}
+\begin{DoxyCompactList}\small\item\em Proton pairing gap. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__PAIRING_gadffdf74625256112759c5d17e8cfeafc}{parameters\+::delta\+\_\+p}}
+\begin{DoxyCompactList}\small\item\em Proton pairing field. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__PAIRING_ga346a8d96825c42b0dcb9763ed8770a68}{parameters\+::rho\+\_\+p\+\_\+bcs}}
+\begin{DoxyCompactList}\small\item\em Proton density (from wavefunctions) \end{DoxyCompactList}\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__PAIRING_ga5ad9bf187e94e8effb3d4bbcc2f2495f}{parameters\+::rho\+\_\+anom\+\_\+p\+\_\+bcs}}
+\begin{DoxyCompactList}\small\item\em Anomalous density. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__PAIRING_ga94c22855af03bc8be5e687f4c8a80ee1}{parameters\+::strength\+\_\+bcs}}
+\begin{DoxyCompactList}\small\item\em Interaction strength for protons. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__PAIRING_ga653f936e90e0606e8b49069e9d2c03d4}{parameters\+::occ\+\_\+v}}
+\begin{DoxyCompactList}\small\item\em Particle occupation probabilities. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__PAIRING_ga705a97e5d2ac10a6facfe20757a6bbd4}{parameters\+::occ\+\_\+u}}
+\begin{DoxyCompactList}\small\item\em Hole occupation probabilities. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(\+:), allocatable \mbox{\hyperlink{group__PAIRING_ga19d67e5b89ebd51642f7ef33a88d5cb2}{parameters\+::e\+\_\+qp\+\_\+p}}
+\begin{DoxyCompactList}\small\item\em Quasiparticle energies. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__PAIRING_gaedb771510f7d66badb70bbe3e2ad28c2}{parameters\+::num\+\_\+p\+\_\+bcs}}
+\begin{DoxyCompactList}\small\item\em Number of protons calculated from occupations. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__PAIRING_gae25457a2576ddbfa6a0c4bda3f4f7f58}{parameters\+::e\+\_\+pair\+\_\+bcs}}
+\begin{DoxyCompactList}\small\item\em B\+CS pairing energy. \end{DoxyCompactList}\item 
+real(kind=dp), dimension(0\+:1) \mbox{\hyperlink{group__PAIRING_ga9bc3597a7161607a24ef358150c703b1}{parameters\+::e\+\_\+pair\+\_\+q}}
+\begin{DoxyCompactList}\small\item\em Storage for pairing condensation energies. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__PAIRING_ga7791448dd4d929ad8528cfb98b9f984b}{parameters\+::e\+\_\+pair\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Storage for total pairing condensation energy. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__ELECTRONS_ga395bd413249aeecf9cdbad4ff0740d03}{parameters\+::rho\+\_\+e}}
+\begin{DoxyCompactList}\small\item\em Electron density. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__ELECTRONS_ga3fd2374e88574f66a4a05db80b0c045b}{parameters\+::e\+\_\+kinetic\+\_\+e}}
+\begin{DoxyCompactList}\small\item\em Total electron kinetic energy. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__ELECTRONS_gae8693f5e86170e1a2d3e4a4f7dc81c37}{parameters\+::e\+\_\+coulomb\+\_\+e}}
+\begin{DoxyCompactList}\small\item\em Total electron-\/electron potential energy from Coulomb interaction. \end{DoxyCompactList}\item 
+real(kind=dp) \mbox{\hyperlink{group__ELECTRONS_ga62c8de947854059418c7f8c8e5cd9458}{parameters\+::e\+\_\+coulomb\+\_\+pe}}
+\begin{DoxyCompactList}\small\item\em Total proton-\/electron potential energy from Coulomb interaction. \end{DoxyCompactList}\end{DoxyCompactItemize}

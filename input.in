@@ -1,0 +1,110 @@
+&params
+    !!! Run mode !!!
+    !   1 --> minimise: only output total energy and particle numbers
+    !   2 --> run all tests, and Bartel & Bencheikh benchmark
+    !   3 --> calculate WS cell densities, fields, energies from external
+    !         profile parameters in "profile.in"
+    !   4 --> calculate pressure for old inner crust runs, reading in from
+    !         "mins_pars.dat"
+    run_mode = 2,
+    
+    !!! Print all extra messages about run !!!
+    verbose = .false.,
+    
+    !!! Mesh !!!
+    !   Spacing [fm]
+    dr = 0.1,
+    !   Get WS cell radius from profile instead of from here
+    profile_r_max = .true.,
+    !   Maximum value [fm]
+    r_max = 60.0,
+    !   Specify "n" instead of "dr"
+    specify_n = .false.,
+    !   Number of mesh points
+    n = 500,
+    
+    !!! Skyrme force !!!
+    !   1 --> SLy4                      20--> SLy5
+    !   2 --> SLy7                      21--> KDE
+    !   3 --> SkM*                      22--> KDE0v1
+    !   4 --> SkM*, with W0 = 130.0     23--> NRAPR
+    !   5 --> BSk14                     24--> ska25s20
+    !   6 --> BSk17                     25--> ska45s20
+    !   7 --> BSk19                     26--> SKRA
+    !   8 --> BSk20                     27--> NRAPRii
+    !   9 --> BSk21                     28--> BSk13
+    !   10--> BSk22
+    !   11--> BSk24
+    !   12--> LNS
+    !   13--> FPLyon
+    !   14--> SQMC650
+    !   15--> SQMC700
+    !   16--> SII
+    !   17--> SIV
+    !   18--> SKa
+    !   19--> SKz-1
+    force = 4,
+    
+    !!! Kinetic densities !!!
+    !   0 --> TF, 0th order (default)
+    !   2 --> ETF, up to 2nd order
+    !   4 --> ETF, up to 4th order
+    etf_order = 4,
+    
+    !!! Coulomb !!!
+    coulomb_on = .true.,
+    
+    !!! Electrons !!!
+    electrons_on = .true.,
+    
+    !!! Single particle states !!!
+    ! Maximum number of states that can be stored
+    Nmaxstate = 500,
+    ! Maximum orbital angular momentum
+    Lmax = 9,
+    
+    !!! Calculate all chemical potentials !!!
+    calc_chem_pots = .false.,
+    
+    !!! Strutinsky Integral (SI) correction !!!
+    !   On for neutrons and protons
+    strutinsky_on = .false. .true.,
+    !   Box size to feed to "boundary" subroutine [fm^{-1}]
+    strut_r_max = 20.0,
+    !   Modify "emax0" in "boundary" subroutine to be always = 0
+    !       Important for good Strutinsky correction for WS cells
+    emax0_mod = .true.,
+    
+    !!! Neutron pairing !!!
+    !   0 --> no pairing for neutrons
+    !   1 --> LDA, value for neutron gas is used for entire WS cell
+    !   2 --> LDA, value calculated at each point in WS cell
+    neutron_pairing = 0,
+    
+    !!! Proton pairing !!!
+    proton_bcs = .false.,
+    
+    !!! Pairing options !!!
+    !   Quasiparticle energy cut-off for solving gap equation [MeV]
+    pair_qp_cut = 60.0,
+    !   Use smooth cut-off on quasiparticle energy
+    smooth_qp_cut = .true.,
+    !   Maximum momentum for integral in gap equation [fm^{-1}]
+    pair_k_max = 3.0,
+    !   Interaction parameters: v_0 [MeV fm^{-3}], \eta, \alpha
+    pair_v0 = -430.0,
+    pair_eta = 0.7,
+    pair_alpha = 0.45,
+    !   Gap equation self-consistency tolerance [MeV]
+    pair_tol = 1.0e-6,
+    !   Mix of previous iteration in gap equation self-consistency loop
+    pair_mix = 0.05,
+    !   Step size in integral in gap equation [fm^{-1}]
+    pair_dk = 1.0e-3,
+    !   Initial guess for pairing gap [MeV]
+    pair_del_init = 1.0,
+    !   Maximum iterations for self-consistency loop
+    pair_max_iters = 1000,
+    !   BCS number equation self-consistency tolerance
+    pair_num_tol = 1.0e-12
+ /

@@ -1,0 +1,6 @@
+<map id="routines::calc_tau_4_no_spin" name="routines::calc_tau_4_no_spin">
+<area shape="rect" id="node2" href="$namespaceroutines.html#a97bfcff7e603cf9df3dcd48ae21b4612" title="Subroutine to calculate the kinetic energy density &#160;with the (extended) Thomas&#45;Fermi approximation at..." alt="" coords="179,13,325,39"/>
+<area shape="rect" id="node3" href="$etf_8f90.html#a77a926a33d4e2b4d7c47fa641fc32e57" title="Program to calculate the equation of state in the inner crust with the extended Thomas&#45;Fermi (ETF) ap..." alt="" coords="851,13,889,39"/>
+<area shape="rect" id="node4" href="$namespaceroutines.html#a93de76f3b26ead66893f46dc4892dbcb" title="Subroutine to evaluate the various densities, fields, derivatives, energies, and particle numbers in ..." alt="" coords="373,38,560,65"/>
+<area shape="rect" id="node5" href="$etf_8f90.html#a48fed0623ded12967501f647461fb1cb" title="Subroutine to evaluate all WS quantities using supplied profile parameters, and calculate total energ..." alt="" coords="608,38,803,65"/>
+</map>

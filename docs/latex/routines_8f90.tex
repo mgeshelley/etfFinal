@@ -1,0 +1,95 @@
+\hypertarget{routines_8f90}{}\section{srcs/routines.f90 File Reference}
+\label{routines_8f90}\index{srcs/routines.\+f90@{srcs/routines.\+f90}}
+\subsection*{Modules}
+\begin{DoxyCompactItemize}
+\item 
+module \mbox{\hyperlink{namespaceroutines}{routines}}
+\begin{DoxyCompactList}\small\item\em Module to hold main routines\+: densities, energies. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+integer function \mbox{\hyperlink{namespaceroutines_a8146fb4359e556bad19f882b8aabfc4b}{routines\+::str2int}} (string)
+\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a0d41e4cd4e61ac1463c75055bf784e8b}{routines\+::allocate\+\_\+arrays}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to allocate arrays for all densities and effective masses, and for their derivatives. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a5caa9b33bdf3c960b6bb3bfa96771181}{routines\+::initialise\+\_\+uniform\+\_\+mesh}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate number of mesh points for a uniform grid, allocate array for r, and then populate r with the mesh points. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a27ad9ac802069004010c9759fecced92}{routines\+::deallocate\+\_\+mesh}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to deallocate array for r. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_ae7bc716d30ef4d9ecece5daa22324b77}{routines\+::deallocate\+\_\+arrays}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to deallocate arrays for all densities and effective masses, and for their derivatives. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespaceroutines_a407a248748ce7c0e2e9e5dce03cc9415}{routines\+::calc\+\_\+rho\+\_\+q}} (rhoqgas, rhoqliq, rq, aq, gammaq, r)
+\begin{DoxyCompactList}\small\item\em Function to calculate the neutron or proton density at a given radius r, using supplied input parameters. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a701f911aa939448c5bee0589d57369ca}{routines\+::calc\+\_\+f\+\_\+q}} (rhot, rhoq, q, fq)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the effective mass ratio $f_q=\frac{m}{m^*_q}$ for neutrons or protons, for standard Skyrme or for B\+Sk forces. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a8c520afea1e9ca6698a0792fbac37e7a}{routines\+::calc\+\_\+w\+\_\+q}} (delrho, delrhoq, Wq)
+\begin{DoxyCompactList}\small\item\em Function to calculate the spin-\/orbit field $\textbf{W}_q$ for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a421a5d2cca448f46b0dfb9bcdeec1111}{routines\+::calc\+\_\+tau\+\_\+tf}} (rhoq, tau\+TF)
+\begin{DoxyCompactList}\small\item\em Function to calculate the zeroth-\/order contribution to the kinetic energy density for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_aaa80f6938f2b9c661821fa8956f8deef}{routines\+::calc\+\_\+tau\+\_\+2\+\_\+l}} (rhoq, delrhoq, del2rhoq, tau2\+Lq, t2contq)
+\begin{DoxyCompactList}\small\item\em Function to calculate the local second-\/order contribution to the kinetic energy density for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a72bf2988651a9f3251dfb338ad1a7eca}{routines\+::calc\+\_\+tau\+\_\+2\+\_\+nl}} (rhoq, delrhoq, fq, delfq, del2fq, Wq, q, tau2\+N\+Lq, t2contq)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the non-\/local second-\/order contribution to the kinetic energy density for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a9c7e02754e0ae8816b1bfeab92df6bc8}{routines\+::calc\+\_\+tau\+\_\+4\+\_\+no\+\_\+spin}} (rhoq, d1rhoq, d2rhoq, d3rhoq, d4rhoq, fq, d1fq, d2fq, d3fq, d4fq, tau4nospinq, t4contq)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the fourth-\/order contributions to the kinetic energy density (without spin-\/orbit contributions) $\textbf{tau}_q$ for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a8825f02bb2ac98507fff5024d9b54c8f}{routines\+::calc\+\_\+tau\+\_\+4\+\_\+so}} (rhoq, d1rhoq, fq, d1fq, d2fq, d1\+Aq, d2\+Aq, d3\+Aq, q, tau\+\_\+4\+\_\+so\+\_\+q, t4contq)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the fourth-\/order contributions to the kinetic energy density (spin-\/orbit contributions) $\textbf{tau}_q$ for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_af03f37f9deca52ef9a56287f50b982a1}{routines\+::calc\+\_\+j\+\_\+2\+\_\+q}} (rhoq, Wq, fq, q, J2q)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the second-\/order contributions to the spin current density $\textbf{J}_q$ for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a014fed5fe5fbc19302e7cbc651ba59bd}{routines\+::calc\+\_\+j\+\_\+4\+\_\+q}} (rhoq, d1rhoq, fq, d1fq, d2fq, d1\+Aq, d2\+Aq, d3\+Aq, q, J4q)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the fourth-\/order contributions to the spin current density $\textbf{J}_q$ for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a136b7a1f0387466390decb98ce91c152}{routines\+::calc\+\_\+div\+\_\+j\+\_\+2\+\_\+q}} (rhoq, d1rhoq, fq, d1fq, d1\+Aq, d2\+Aq, q, div\+J2q)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the second-\/order contributions to the divergence of the current density $\textbf{J}_q$ for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a7f66729f05be35eda4266dbf47eda026}{routines\+::calc\+\_\+div\+\_\+j\+\_\+4\+\_\+q}} (rhoq, d1rhoq, d2rhoq, fq, d1fq, d2fq, d3fq, d1\+Aq, d2\+Aq, d3\+Aq, d4\+Aq, q, div\+J4q)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the fourth-\/order contributions to the divergence of the current density $\textbf{J}_q$ for neutrons or protons. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespaceroutines_a2a44c591985c939162dabdeab4a4ced8}{routines\+::calc\+\_\+u\+\_\+q}} (rhot, rhon, rhop, delrhot, delrhon, delrhop, del2rhot, del2rhon, del2rhop, taut, taun, taup, div\+Jt, div\+Jq, q)
+\begin{DoxyCompactList}\small\item\em Function to calculate the central potential $U_q$ for neutrons or protons, for standard Skyrme or for B\+Sk forces with extra terms. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_aa995449a9eb9c404dbd756bdbea180a2}{routines\+::eval\+\_\+fields}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to evaluate matter density derivatives, and all fields\+: effective masses (and derivatives), spin-\/orbit fields, spin current densities (and derivatives) \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a97bfcff7e603cf9df3dcd48ae21b4612}{routines\+::eval\+\_\+tau\+\_\+etf}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the kinetic energy density $\tau_{ETF}$ with the (extended) Thomas-\/\+Fermi approximation at order specified by \char`\"{}etf\+\_\+order\char`\"{}. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_afb83677ec76758dadc35de4b01bac45c}{routines\+::charge}} (rho, Neutr, Nprot, Ngrid1, del1, rhoch)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the charge density from the matter densities. Modified by M. Shelley. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a74ed186c93b400a14428192e1cb7a0b2}{routines\+::eval\+\_\+coulomb}} (prot\+\_\+dens, calc\+\_\+exchange)
+\begin{DoxyCompactList}\small\item\em Subroutine to evaluate the Coulomb potentials and energy densities, using either the proton or charge density. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a0b55cc503c7168299be63556e2602bd0}{routines\+::eval\+\_\+electrons}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to evaluate the proton-\/electron potential which contributes to $U_q$, all energy contributions, and the pressure, coming from a homogeneous electron gas. Also calculates the electron chemical potential. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a6ee5e5cd7ce81b013d18b19f5f9a4092}{routines\+::eval\+\_\+u\+\_\+q}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to evaluate the central fields $U_q$. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_ae210968d134fbcc79297971cc4fefb82}{routines\+::eval\+\_\+skyrme\+\_\+energy\+\_\+density}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to evaluate the Skyrme energy density, after first separately evaluating the field energy density. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a383e2bf5a1fa37fbf95dd5f6ddbcc6be}{routines\+::pressure}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the nuclear contribution to the pressure, and then the total pressure. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a0b8346e8e5457d6befb48b0ac56f4fdf}{routines\+::calc\+\_\+particle\+\_\+number}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the number of particles in the Wigner-\/\+Seitz cell. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a93de76f3b26ead66893f46dc4892dbcb}{routines\+::eval\+\_\+ws\+\_\+quantities}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to evaluate the various densities, fields, derivatives, energies, and particle numbers in the WS cell with densities $rho_q$. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespaceroutines_a8f2a013c7bb06da429f995e288515248}{routines\+::calc\+\_\+e\+\_\+f\+\_\+q}} (rhoq, fq, q)
+\begin{DoxyCompactList}\small\item\em Subroutine to evaluate the Fermi energy at a given density and effective mass, for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a92e52c281532c938dfa10d85404a367a}{routines\+::d1}} (n, h, f, df)
+\begin{DoxyCompactList}\small\item\em This subroutine computes the first derivative of function evaluated on the meshpoints 1,...,npt. The input is the function f with extrapolated values in -\/1, 0. Modified by M. Shelley. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_aafc8447e9af12216ae995f63c1606f1a}{routines\+::d2}} (n, h, f, d2f)
+\begin{DoxyCompactList}\small\item\em This subroutine computes the second derivative of function evaluated on the meshpoints 1,...,npt. The input is the function f with extrapolated values in -\/1, 0. Modified by M. Shelley. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a635a2461a6c20207dd3b268842381ce3}{routines\+::lap\+\_\+sphe\+\_\+symm}} (f, df\+\_\+dr, d2f\+\_\+dr2)
+\begin{DoxyCompactList}\small\item\em Subroutine to carry out Laplacian in spherical symmetry. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_ac563b00969cb307d71ebc02aaef0a3b4}{routines\+::d3}} (f, d3f\+\_\+dr3)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate third derivative of function f evaluated on evenly-\/spaced meshpoints from 1 to n. Works with extrapolated values in -\/2,-\/1,0. Uses 7-\/point stencil. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a6d38e9b19f2e939feb7840d2575fbb56}{routines\+::d4}} (f, d4f\+\_\+dr4)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate fourth derivative of function f evaluated on evenly-\/spaced meshpoints from 1 to n. Works with extrapolated values in -\/2,-\/1,0. Uses 7-\/point stencil. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_af143340288720f8019e944ec7110a84e}{routines\+::extrapolate\+\_\+back\+\_\+3}} (grid)
+\begin{DoxyCompactList}\small\item\em Subroutine to extrapolate back 3 points on the r mesh, to faciliate the calculation of first and second derivatives using a 5-\/point stencil. Values in grid start at 4, extrapolated values are put in elements 3,2,1. Coefficients come from solving 4th-\/order polynomial, assuming that f\textquotesingle{}(0) = 0, and f(-\/h) = f(h). \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespaceroutines_a5737b4327dcaa959a9ee519e4fca42e8}{routines\+::ws\+\_\+integral}} (quantity, n\+\_\+max)
+\begin{DoxyCompactList}\small\item\em Function to integrate a density or field over the whole W-\/S cell, using Simpson\textquotesingle{}s rule (+ Simpson\textquotesingle{}s 3/8 rule if odd number of points) \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a81e61269fb96b5478fd7140a1f185ec1}{routines\+::write\+\_\+densities}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to write neutron and proton densities to files. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a4a59953c814b7fa48f2c4bf31d1763a2}{routines\+::write\+\_\+fields}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to write neutron and proton fields to files. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_ad51ac6c5da6056a5346d7b15b3fbe7b4}{routines\+::write\+\_\+sp\+\_\+states\+\_\+p}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to write proton single particle energies to file, and extra details if B\+CS has been performed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+integer \mbox{\hyperlink{namespaceroutines_a4433ed4e6fbf0c81f38d8df1749be025}{routines\+::file\+\_\+unit\+\_\+0}}
+\item 
+integer \mbox{\hyperlink{namespaceroutines_a806b34a65a0678e540be124100a0f908}{routines\+::file\+\_\+unit\+\_\+1}}
+\begin{DoxyCompactList}\small\item\em Unit numbers for opening files. \end{DoxyCompactList}\end{DoxyCompactItemize}

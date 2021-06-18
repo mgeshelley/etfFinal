@@ -1,0 +1,383 @@
+\hypertarget{group__INPUT__PARS}{}\section{Input parameters}
+\label{group__INPUT__PARS}\index{Input parameters@{Input parameters}}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_ga2b7774a07afe51f9f1e547e3104833e4}{parameters\+::run\+\_\+mode}}
+\begin{DoxyCompactList}\small\item\em Mode to run code in (normal, test) \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_ga552f372a0ff4dff467424c48bedd6b49}{parameters\+::verbose}}
+\begin{DoxyCompactList}\small\item\em Whether to print all extra messages about run. \end{DoxyCompactList}\item 
+real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) \mbox{\hyperlink{group__INPUT__PARS_gaa5f574e72af23ebd482368e0a7232ea1}{parameters\+::dr}}
+\begin{DoxyCompactList}\small\item\em Mesh spacing of r $(fm)$. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_ga4f6d2343db9c28bfad5b376839f279d7}{parameters\+::profile\+\_\+r\+\_\+max}}
+\begin{DoxyCompactList}\small\item\em Whether to take \char`\"{}r\+\_\+max\char`\"{} from \char`\"{}r\+\_\+ws\char`\"{}. \end{DoxyCompactList}\item 
+real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) \mbox{\hyperlink{group__INPUT__PARS_ga9372571e59a93c139d629423a9104d69}{parameters\+::r\+\_\+max}}
+\begin{DoxyCompactList}\small\item\em Max value of r $(fm)$. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_ga65180c8e25c7c66a7ef57b72282eaecf}{parameters\+::specify\+\_\+n}}
+\begin{DoxyCompactList}\small\item\em Whether to specify \char`\"{}n\char`\"{} instead of \char`\"{}dr\char`\"{}. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_ga2e69dbce49f3e83688fe80de2ce83724}{parameters\+::n}}
+\begin{DoxyCompactList}\small\item\em Number of mesh points. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_ga4f15a67f3875d8c184795f8d71ac08aa}{parameters\+::force}}
+\begin{DoxyCompactList}\small\item\em Force to use. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_ga47ccf97217bda004b76720993db73258}{parameters\+::etf\+\_\+order}}
+\begin{DoxyCompactList}\small\item\em Order at which to calculate kinetic energy densities. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_gadebedfbc56e0abdbb5f8152a34ec9654}{parameters\+::coulomb\+\_\+on}}
+\begin{DoxyCompactList}\small\item\em Use Coulomb interaction or not. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_gac0158c8c810d8b150e942815ae3a4478}{parameters\+::electrons\+\_\+on}}
+\begin{DoxyCompactList}\small\item\em Add electrons. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_gaa0c2ce3053c1f294c8fe21270389511f}{parameters\+::nmaxstate}}
+\begin{DoxyCompactList}\small\item\em Number of states that can be stored. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_gaee5c7e64e0f524d969ac1848094fdbac}{parameters\+::lmax}}
+\begin{DoxyCompactList}\small\item\em Maximum angular momentum of states to find. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_ga6e579a9756d3f1c4d2ddc58a161b1f1a}{parameters\+::calc\+\_\+chem\+\_\+pots}}
+\begin{DoxyCompactList}\small\item\em Calculate chemical potentials. \end{DoxyCompactList}\item 
+logical, dimension(0\+:1) \mbox{\hyperlink{group__INPUT__PARS_gaad3b88a661482173813a2f76cba73b11}{parameters\+::strutinsky\+\_\+on}}
+\begin{DoxyCompactList}\small\item\em Use Strutinsky Integral (SI) correction for neutrons and protons. \end{DoxyCompactList}\item 
+real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) \mbox{\hyperlink{group__INPUT__PARS_ga0dd8e62aa4b777681ce98d7c88cafdf8}{parameters\+::strut\+\_\+r\+\_\+max}}
+\begin{DoxyCompactList}\small\item\em Max value of r to use for box for single particle states $(fm)$. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_gacfc9efb68b340c8246340105af8678e0}{parameters\+::emax0\+\_\+mod}}
+\begin{DoxyCompactList}\small\item\em Whether to modify \char`\"{}emax0\char`\"{} to always = 0. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_gad6072a097df429aca7d4c3daf808ceda}{parameters\+::neutron\+\_\+pairing}}
+\begin{DoxyCompactList}\small\item\em Type of pairing calculation to perform for neutrons. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_ga7478728bc2b5fc83dee2f2c21724420c}{parameters\+::proton\+\_\+bcs}}
+\begin{DoxyCompactList}\small\item\em Whether to do B\+CS for protons. \end{DoxyCompactList}\item 
+real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) \mbox{\hyperlink{group__INPUT__PARS_gaddd04025cfa9a151f25211259364f404}{parameters\+::pair\+\_\+qp\+\_\+cut}}
+\begin{DoxyCompactList}\small\item\em Cut-\/off for quasiparticle energy for solving gap equation. \end{DoxyCompactList}\item 
+logical \mbox{\hyperlink{group__INPUT__PARS_ga20f7226ffbb05232c930c81d83afee32}{parameters\+::smooth\+\_\+qp\+\_\+cut}}
+\begin{DoxyCompactList}\small\item\em Whether to use smooth cut-\/off on quasiparticle energy. \end{DoxyCompactList}\item 
+real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) \mbox{\hyperlink{group__INPUT__PARS_ga0d7d7715270e262c6f4e02633947b548}{parameters\+::pair\+\_\+k\+\_\+max}}
+\begin{DoxyCompactList}\small\item\em Maximum momentum for integral in gap equation. \end{DoxyCompactList}\item 
+real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) \mbox{\hyperlink{group__INPUT__PARS_gaecd0609846081f6a90f49cc0f162c9cd}{parameters\+::pair\+\_\+v0}}
+\begin{DoxyCompactList}\small\item\em Interaction strength parameter. \end{DoxyCompactList}\item 
+real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) \mbox{\hyperlink{group__INPUT__PARS_gacd8c346f8b069e0dca502d57557b21e7}{parameters\+::pair\+\_\+eta}}
+\begin{DoxyCompactList}\small\item\em Interaction parameter eta. \end{DoxyCompactList}\item 
+real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) \mbox{\hyperlink{group__INPUT__PARS_gaa3116e010e1f1435881ad489d7ea5dad}{parameters\+::pair\+\_\+alpha}}
+\begin{DoxyCompactList}\small\item\em Interaction parameter alpha. \end{DoxyCompactList}\item 
+real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) \mbox{\hyperlink{group__INPUT__PARS_ga9b9d6d0cf64fa6e7f9dd00f5b15848bd}{parameters\+::pair\+\_\+tol}}
+\begin{DoxyCompactList}\small\item\em Gap equation self-\/consistency tolerance. \end{DoxyCompactList}\item 
+real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) \mbox{\hyperlink{group__INPUT__PARS_ga6fdafa171f65aa7236a9c76ebaab4d08}{parameters\+::pair\+\_\+mix}}
+\begin{DoxyCompactList}\small\item\em Mix of previous iteration in gap equation self-\/consistency loop. \end{DoxyCompactList}\item 
+real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) \mbox{\hyperlink{group__INPUT__PARS_ga1c083bc7a4e3979327020ec3e1509220}{parameters\+::pair\+\_\+dk}}
+\begin{DoxyCompactList}\small\item\em Step size in integral in gap equation. \end{DoxyCompactList}\item 
+real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) \mbox{\hyperlink{group__INPUT__PARS_ga9fe26afec63d3ebfb7900ccc330779d0}{parameters\+::pair\+\_\+del\+\_\+init}}
+\begin{DoxyCompactList}\small\item\em Initial guess for pairing gap. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{group__INPUT__PARS_gafef003bd348d08faadb13f56378b8e4c}{parameters\+::pair\+\_\+max\+\_\+iters}}
+\begin{DoxyCompactList}\small\item\em Maximum iterations for gap equation self-\/consistency loop. \end{DoxyCompactList}\item 
+real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) \mbox{\hyperlink{group__INPUT__PARS_gad39a7f1795d33065b388d6966d51e190}{parameters\+::pair\+\_\+num\+\_\+tol}}
+\begin{DoxyCompactList}\small\item\em B\+CS number equation self-\/consistency tolerance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{group__INPUT__PARS_ga6e579a9756d3f1c4d2ddc58a161b1f1a}\label{group__INPUT__PARS_ga6e579a9756d3f1c4d2ddc58a161b1f1a}} 
+\index{Input parameters@{Input parameters}!calc\+\_\+chem\+\_\+pots@{calc\+\_\+chem\+\_\+pots}}
+\index{calc\+\_\+chem\+\_\+pots@{calc\+\_\+chem\+\_\+pots}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{calc\+\_\+chem\+\_\+pots}{calc\_chem\_pots}}
+{\footnotesize\ttfamily logical parameters\+::calc\+\_\+chem\+\_\+pots}
+
+
+
+Calculate chemical potentials. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_gadebedfbc56e0abdbb5f8152a34ec9654}\label{group__INPUT__PARS_gadebedfbc56e0abdbb5f8152a34ec9654}} 
+\index{Input parameters@{Input parameters}!coulomb\+\_\+on@{coulomb\+\_\+on}}
+\index{coulomb\+\_\+on@{coulomb\+\_\+on}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{coulomb\+\_\+on}{coulomb\_on}}
+{\footnotesize\ttfamily logical parameters\+::coulomb\+\_\+on}
+
+
+
+Use Coulomb interaction or not. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_gaa5f574e72af23ebd482368e0a7232ea1}\label{group__INPUT__PARS_gaa5f574e72af23ebd482368e0a7232ea1}} 
+\index{Input parameters@{Input parameters}!dr@{dr}}
+\index{dr@{dr}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{dr}{dr}}
+{\footnotesize\ttfamily real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) parameters\+::dr}
+
+
+
+Mesh spacing of r $(fm)$. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_gac0158c8c810d8b150e942815ae3a4478}\label{group__INPUT__PARS_gac0158c8c810d8b150e942815ae3a4478}} 
+\index{Input parameters@{Input parameters}!electrons\+\_\+on@{electrons\+\_\+on}}
+\index{electrons\+\_\+on@{electrons\+\_\+on}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{electrons\+\_\+on}{electrons\_on}}
+{\footnotesize\ttfamily logical parameters\+::electrons\+\_\+on}
+
+
+
+Add electrons. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_gacfc9efb68b340c8246340105af8678e0}\label{group__INPUT__PARS_gacfc9efb68b340c8246340105af8678e0}} 
+\index{Input parameters@{Input parameters}!emax0\+\_\+mod@{emax0\+\_\+mod}}
+\index{emax0\+\_\+mod@{emax0\+\_\+mod}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{emax0\+\_\+mod}{emax0\_mod}}
+{\footnotesize\ttfamily logical parameters\+::emax0\+\_\+mod}
+
+
+
+Whether to modify \char`\"{}emax0\char`\"{} to always = 0. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga47ccf97217bda004b76720993db73258}\label{group__INPUT__PARS_ga47ccf97217bda004b76720993db73258}} 
+\index{Input parameters@{Input parameters}!etf\+\_\+order@{etf\+\_\+order}}
+\index{etf\+\_\+order@{etf\+\_\+order}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{etf\+\_\+order}{etf\_order}}
+{\footnotesize\ttfamily integer parameters\+::etf\+\_\+order}
+
+
+
+Order at which to calculate kinetic energy densities. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga4f15a67f3875d8c184795f8d71ac08aa}\label{group__INPUT__PARS_ga4f15a67f3875d8c184795f8d71ac08aa}} 
+\index{Input parameters@{Input parameters}!force@{force}}
+\index{force@{force}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{force}{force}}
+{\footnotesize\ttfamily integer parameters\+::force}
+
+
+
+Force to use. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_gaee5c7e64e0f524d969ac1848094fdbac}\label{group__INPUT__PARS_gaee5c7e64e0f524d969ac1848094fdbac}} 
+\index{Input parameters@{Input parameters}!lmax@{lmax}}
+\index{lmax@{lmax}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{lmax}{lmax}}
+{\footnotesize\ttfamily integer parameters\+::lmax}
+
+
+
+Maximum angular momentum of states to find. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga2e69dbce49f3e83688fe80de2ce83724}\label{group__INPUT__PARS_ga2e69dbce49f3e83688fe80de2ce83724}} 
+\index{Input parameters@{Input parameters}!n@{n}}
+\index{n@{n}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{n}{n}}
+{\footnotesize\ttfamily integer parameters\+::n}
+
+
+
+Number of mesh points. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_gad6072a097df429aca7d4c3daf808ceda}\label{group__INPUT__PARS_gad6072a097df429aca7d4c3daf808ceda}} 
+\index{Input parameters@{Input parameters}!neutron\+\_\+pairing@{neutron\+\_\+pairing}}
+\index{neutron\+\_\+pairing@{neutron\+\_\+pairing}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{neutron\+\_\+pairing}{neutron\_pairing}}
+{\footnotesize\ttfamily integer parameters\+::neutron\+\_\+pairing}
+
+
+
+Type of pairing calculation to perform for neutrons. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_gaa0c2ce3053c1f294c8fe21270389511f}\label{group__INPUT__PARS_gaa0c2ce3053c1f294c8fe21270389511f}} 
+\index{Input parameters@{Input parameters}!nmaxstate@{nmaxstate}}
+\index{nmaxstate@{nmaxstate}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{nmaxstate}{nmaxstate}}
+{\footnotesize\ttfamily integer parameters\+::nmaxstate}
+
+
+
+Number of states that can be stored. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_gaa3116e010e1f1435881ad489d7ea5dad}\label{group__INPUT__PARS_gaa3116e010e1f1435881ad489d7ea5dad}} 
+\index{Input parameters@{Input parameters}!pair\+\_\+alpha@{pair\+\_\+alpha}}
+\index{pair\+\_\+alpha@{pair\+\_\+alpha}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{pair\+\_\+alpha}{pair\_alpha}}
+{\footnotesize\ttfamily real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) parameters\+::pair\+\_\+alpha}
+
+
+
+Interaction parameter alpha. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga9fe26afec63d3ebfb7900ccc330779d0}\label{group__INPUT__PARS_ga9fe26afec63d3ebfb7900ccc330779d0}} 
+\index{Input parameters@{Input parameters}!pair\+\_\+del\+\_\+init@{pair\+\_\+del\+\_\+init}}
+\index{pair\+\_\+del\+\_\+init@{pair\+\_\+del\+\_\+init}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{pair\+\_\+del\+\_\+init}{pair\_del\_init}}
+{\footnotesize\ttfamily real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) parameters\+::pair\+\_\+del\+\_\+init}
+
+
+
+Initial guess for pairing gap. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga1c083bc7a4e3979327020ec3e1509220}\label{group__INPUT__PARS_ga1c083bc7a4e3979327020ec3e1509220}} 
+\index{Input parameters@{Input parameters}!pair\+\_\+dk@{pair\+\_\+dk}}
+\index{pair\+\_\+dk@{pair\+\_\+dk}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{pair\+\_\+dk}{pair\_dk}}
+{\footnotesize\ttfamily real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) parameters\+::pair\+\_\+dk}
+
+
+
+Step size in integral in gap equation. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_gacd8c346f8b069e0dca502d57557b21e7}\label{group__INPUT__PARS_gacd8c346f8b069e0dca502d57557b21e7}} 
+\index{Input parameters@{Input parameters}!pair\+\_\+eta@{pair\+\_\+eta}}
+\index{pair\+\_\+eta@{pair\+\_\+eta}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{pair\+\_\+eta}{pair\_eta}}
+{\footnotesize\ttfamily real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) parameters\+::pair\+\_\+eta}
+
+
+
+Interaction parameter eta. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga0d7d7715270e262c6f4e02633947b548}\label{group__INPUT__PARS_ga0d7d7715270e262c6f4e02633947b548}} 
+\index{Input parameters@{Input parameters}!pair\+\_\+k\+\_\+max@{pair\+\_\+k\+\_\+max}}
+\index{pair\+\_\+k\+\_\+max@{pair\+\_\+k\+\_\+max}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{pair\+\_\+k\+\_\+max}{pair\_k\_max}}
+{\footnotesize\ttfamily real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) parameters\+::pair\+\_\+k\+\_\+max}
+
+
+
+Maximum momentum for integral in gap equation. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_gafef003bd348d08faadb13f56378b8e4c}\label{group__INPUT__PARS_gafef003bd348d08faadb13f56378b8e4c}} 
+\index{Input parameters@{Input parameters}!pair\+\_\+max\+\_\+iters@{pair\+\_\+max\+\_\+iters}}
+\index{pair\+\_\+max\+\_\+iters@{pair\+\_\+max\+\_\+iters}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{pair\+\_\+max\+\_\+iters}{pair\_max\_iters}}
+{\footnotesize\ttfamily integer parameters\+::pair\+\_\+max\+\_\+iters}
+
+
+
+Maximum iterations for gap equation self-\/consistency loop. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga6fdafa171f65aa7236a9c76ebaab4d08}\label{group__INPUT__PARS_ga6fdafa171f65aa7236a9c76ebaab4d08}} 
+\index{Input parameters@{Input parameters}!pair\+\_\+mix@{pair\+\_\+mix}}
+\index{pair\+\_\+mix@{pair\+\_\+mix}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{pair\+\_\+mix}{pair\_mix}}
+{\footnotesize\ttfamily real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) parameters\+::pair\+\_\+mix}
+
+
+
+Mix of previous iteration in gap equation self-\/consistency loop. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_gad39a7f1795d33065b388d6966d51e190}\label{group__INPUT__PARS_gad39a7f1795d33065b388d6966d51e190}} 
+\index{Input parameters@{Input parameters}!pair\+\_\+num\+\_\+tol@{pair\+\_\+num\+\_\+tol}}
+\index{pair\+\_\+num\+\_\+tol@{pair\+\_\+num\+\_\+tol}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{pair\+\_\+num\+\_\+tol}{pair\_num\_tol}}
+{\footnotesize\ttfamily real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) parameters\+::pair\+\_\+num\+\_\+tol}
+
+
+
+B\+CS number equation self-\/consistency tolerance. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_gaddd04025cfa9a151f25211259364f404}\label{group__INPUT__PARS_gaddd04025cfa9a151f25211259364f404}} 
+\index{Input parameters@{Input parameters}!pair\+\_\+qp\+\_\+cut@{pair\+\_\+qp\+\_\+cut}}
+\index{pair\+\_\+qp\+\_\+cut@{pair\+\_\+qp\+\_\+cut}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{pair\+\_\+qp\+\_\+cut}{pair\_qp\_cut}}
+{\footnotesize\ttfamily real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) parameters\+::pair\+\_\+qp\+\_\+cut}
+
+
+
+Cut-\/off for quasiparticle energy for solving gap equation. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga9b9d6d0cf64fa6e7f9dd00f5b15848bd}\label{group__INPUT__PARS_ga9b9d6d0cf64fa6e7f9dd00f5b15848bd}} 
+\index{Input parameters@{Input parameters}!pair\+\_\+tol@{pair\+\_\+tol}}
+\index{pair\+\_\+tol@{pair\+\_\+tol}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{pair\+\_\+tol}{pair\_tol}}
+{\footnotesize\ttfamily real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) parameters\+::pair\+\_\+tol}
+
+
+
+Gap equation self-\/consistency tolerance. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_gaecd0609846081f6a90f49cc0f162c9cd}\label{group__INPUT__PARS_gaecd0609846081f6a90f49cc0f162c9cd}} 
+\index{Input parameters@{Input parameters}!pair\+\_\+v0@{pair\+\_\+v0}}
+\index{pair\+\_\+v0@{pair\+\_\+v0}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{pair\+\_\+v0}{pair\_v0}}
+{\footnotesize\ttfamily real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) parameters\+::pair\+\_\+v0}
+
+
+
+Interaction strength parameter. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga4f6d2343db9c28bfad5b376839f279d7}\label{group__INPUT__PARS_ga4f6d2343db9c28bfad5b376839f279d7}} 
+\index{Input parameters@{Input parameters}!profile\+\_\+r\+\_\+max@{profile\+\_\+r\+\_\+max}}
+\index{profile\+\_\+r\+\_\+max@{profile\+\_\+r\+\_\+max}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{profile\+\_\+r\+\_\+max}{profile\_r\_max}}
+{\footnotesize\ttfamily logical parameters\+::profile\+\_\+r\+\_\+max}
+
+
+
+Whether to take \char`\"{}r\+\_\+max\char`\"{} from \char`\"{}r\+\_\+ws\char`\"{}. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga7478728bc2b5fc83dee2f2c21724420c}\label{group__INPUT__PARS_ga7478728bc2b5fc83dee2f2c21724420c}} 
+\index{Input parameters@{Input parameters}!proton\+\_\+bcs@{proton\+\_\+bcs}}
+\index{proton\+\_\+bcs@{proton\+\_\+bcs}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{proton\+\_\+bcs}{proton\_bcs}}
+{\footnotesize\ttfamily logical parameters\+::proton\+\_\+bcs}
+
+
+
+Whether to do B\+CS for protons. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga9372571e59a93c139d629423a9104d69}\label{group__INPUT__PARS_ga9372571e59a93c139d629423a9104d69}} 
+\index{Input parameters@{Input parameters}!r\+\_\+max@{r\+\_\+max}}
+\index{r\+\_\+max@{r\+\_\+max}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{r\+\_\+max}{r\_max}}
+{\footnotesize\ttfamily real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) parameters\+::r\+\_\+max}
+
+
+
+Max value of r $(fm)$. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga2b7774a07afe51f9f1e547e3104833e4}\label{group__INPUT__PARS_ga2b7774a07afe51f9f1e547e3104833e4}} 
+\index{Input parameters@{Input parameters}!run\+\_\+mode@{run\+\_\+mode}}
+\index{run\+\_\+mode@{run\+\_\+mode}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{run\+\_\+mode}{run\_mode}}
+{\footnotesize\ttfamily integer parameters\+::run\+\_\+mode}
+
+
+
+Mode to run code in (normal, test) 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga20f7226ffbb05232c930c81d83afee32}\label{group__INPUT__PARS_ga20f7226ffbb05232c930c81d83afee32}} 
+\index{Input parameters@{Input parameters}!smooth\+\_\+qp\+\_\+cut@{smooth\+\_\+qp\+\_\+cut}}
+\index{smooth\+\_\+qp\+\_\+cut@{smooth\+\_\+qp\+\_\+cut}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{smooth\+\_\+qp\+\_\+cut}{smooth\_qp\_cut}}
+{\footnotesize\ttfamily logical parameters\+::smooth\+\_\+qp\+\_\+cut}
+
+
+
+Whether to use smooth cut-\/off on quasiparticle energy. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga65180c8e25c7c66a7ef57b72282eaecf}\label{group__INPUT__PARS_ga65180c8e25c7c66a7ef57b72282eaecf}} 
+\index{Input parameters@{Input parameters}!specify\+\_\+n@{specify\+\_\+n}}
+\index{specify\+\_\+n@{specify\+\_\+n}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{specify\+\_\+n}{specify\_n}}
+{\footnotesize\ttfamily logical parameters\+::specify\+\_\+n}
+
+
+
+Whether to specify \char`\"{}n\char`\"{} instead of \char`\"{}dr\char`\"{}. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga0dd8e62aa4b777681ce98d7c88cafdf8}\label{group__INPUT__PARS_ga0dd8e62aa4b777681ce98d7c88cafdf8}} 
+\index{Input parameters@{Input parameters}!strut\+\_\+r\+\_\+max@{strut\+\_\+r\+\_\+max}}
+\index{strut\+\_\+r\+\_\+max@{strut\+\_\+r\+\_\+max}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{strut\+\_\+r\+\_\+max}{strut\_r\_max}}
+{\footnotesize\ttfamily real(kind=\mbox{\hyperlink{namespaceparameters_a52f8c6351fd79345d8811e065bcbbb37}{dp}}) parameters\+::strut\+\_\+r\+\_\+max}
+
+
+
+Max value of r to use for box for single particle states $(fm)$. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_gaad3b88a661482173813a2f76cba73b11}\label{group__INPUT__PARS_gaad3b88a661482173813a2f76cba73b11}} 
+\index{Input parameters@{Input parameters}!strutinsky\+\_\+on@{strutinsky\+\_\+on}}
+\index{strutinsky\+\_\+on@{strutinsky\+\_\+on}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{strutinsky\+\_\+on}{strutinsky\_on}}
+{\footnotesize\ttfamily logical, dimension(0\+:1) parameters\+::strutinsky\+\_\+on}
+
+
+
+Use Strutinsky Integral (SI) correction for neutrons and protons. 
+
+\mbox{\Hypertarget{group__INPUT__PARS_ga552f372a0ff4dff467424c48bedd6b49}\label{group__INPUT__PARS_ga552f372a0ff4dff467424c48bedd6b49}} 
+\index{Input parameters@{Input parameters}!verbose@{verbose}}
+\index{verbose@{verbose}!Input parameters@{Input parameters}}
+\subsubsection{\texorpdfstring{verbose}{verbose}}
+{\footnotesize\ttfamily logical parameters\+::verbose}
+
+
+
+Whether to print all extra messages about run. 
+

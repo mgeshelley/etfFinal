@@ -1,0 +1,5 @@
+<map id="pairing::calc_bcs_num_p" name="pairing::calc_bcs_num_p">
+<area shape="rect" id="node2" href="$namespacepairing.html#a693cac2cfa7fcb7ad19984fefe20495c" title="Subroutine to perform BCS for protons. " alt="" coords="220,5,359,32"/>
+<area shape="rect" id="node3" href="$etf_8f90.html#a48fed0623ded12967501f647461fb1cb" title="Subroutine to evaluate all WS quantities using supplied profile parameters, and calculate total energ..." alt="" coords="407,5,601,32"/>
+<area shape="rect" id="node4" href="$etf_8f90.html#a77a926a33d4e2b4d7c47fa641fc32e57" title="Program to calculate the equation of state in the inner crust with the extended Thomas&#45;Fermi (ETF) ap..." alt="" coords="649,5,688,32"/>
+</map>

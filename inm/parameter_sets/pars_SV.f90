@@ -1,0 +1,12 @@
+force_string = 'SV'
+t0 = -1248.29_dp
+t1 = 970.56_dp
+t2 = 107.22_dp
+t3 = 0.0_dp
+x0 = -0.17_dp
+x1 = 0.0_dp
+x2 = 0.0_dp
+x3 = 1.0_dp
+sigma = 1.0_dp
+W0 = 150.0_dp
+hbar2_2m_q(:) = 20.73553_dp

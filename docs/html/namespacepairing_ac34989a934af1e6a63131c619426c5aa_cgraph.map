@@ -1,0 +1,9 @@
+<map id="pairing::calc_e_pair" name="pairing::calc_e_pair">
+<area shape="rect" id="node2" href="$namespaceroutines.html#a8f2a013c7bb06da429f995e288515248" title="Subroutine to evaluate the Fermi energy at a given density and effective mass, for neutrons or proton..." alt="" coords="190,5,329,32"/>
+<area shape="rect" id="node3" href="$namespacepairing.html#abad69eb8cb33077add1b9da84bff7c55" title="Function to calculate the pairing gap in infinite neutron matter, for specified density and effective..." alt="" coords="199,56,319,83"/>
+<area shape="rect" id="node8" href="$namespaceroutines.html#a5737b4327dcaa959a9ee519e4fca42e8" title="Function to integrate a density or field over the whole W&#45;S cell, using Simpson&#39;s rule (+ Simpson&#39;s 3..." alt="" coords="188,107,331,133"/>
+<area shape="rect" id="node4" href="$namespaceroutines.html#a8146fb4359e556bad19f882b8aabfc4b" title="routines::str2int" alt="" coords="415,5,527,32"/>
+<area shape="rect" id="node5" href="$namespacepairing.html#aebb21947c7228a3fb9a092edfa226662" title="Function to calculate the interaction strength for the effective contact pairing force. Modified by M. Shelley. " alt="" coords="379,56,563,83"/>
+<area shape="rect" id="node7" href="$namespacepairing.html#ab022f3dcf7994e9f95315b3b2007a9ee" title="Function to calculate the pairing cutoff for the effective contact pairing force. ..." alt="" coords="636,107,749,133"/>
+<area shape="rect" id="node6" href="$namespacepairing.html#aaa0b619b1e454229caef01a56d0a61fd" title="Function to calculate the pairing gap using the analytical BSk expression. Modified by M..." alt="" coords="611,56,775,83"/>
+</map>

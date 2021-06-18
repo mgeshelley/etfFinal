@@ -1,0 +1,425 @@
+\hypertarget{namespacetest}{}\section{test Module Reference}
+\label{namespacetest}\index{test@{test}}
+
+
+Module to hold test routines.  
+
+
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \mbox{\hyperlink{namespacetest_a2d72f655d80bac0b01030b9cbda3518f}{read\+\_\+test\+\_\+params}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to read from \char`\"{}test\+\_\+input.\+in\char`\"{} parameters used for test routines. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_ac81b1d59a968470b8ef8a165101df52c}{test\+\_\+densities}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the density profiles using sample parameters. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_a50469f436f9c4caa447dafc48e311558}{test\+\_\+density\+\_\+derivs}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test some derivatives of the total and individual densities. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_ac49b81619b874cdd8276af19d24675cc}{test\+\_\+eff\+\_\+mass}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test effective masses $fm^{-3}$. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_a377babe07d6ab6f0791233afee079582}{test\+\_\+kinetic\+\_\+densities}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test kinetic energy densities. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_a3e49a3b6fd835efb13dd446bfb6e8b1f}{test\+\_\+spin\+\_\+current\+\_\+densities}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to write spin current densities and spin-\/orbit fields to file. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_a12069a39539c68f8d22f7eb4219d2e2b}{orders\+\_\+kinetic\+\_\+densities}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to write order-\/by-\/order comparison of kinetic densities to file. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_a5693dbb30b96995df35fa720f0ab1436}{test\+\_\+central\+\_\+potentials}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to write spin central potentials to file. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_ae6399ba2e0d2b484e6b467b2cee74a1b}{write\+\_\+ws\+\_\+cell\+\_\+array\+\_\+quantity}} (quantity)
+\begin{DoxyCompactList}\small\item\em Utility subroutine that can be called anywhere at any time, for writing a quantity (evaluated over WS cell) to file. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_af860540d68e055817e3f618b7a04298a}{test\+\_\+calc\+\_\+particle\+\_\+number}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test calculation of neutron and proton particle numbers. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_ae4857dad0359d5f90718d5593398f8b3}{test\+\_\+calc\+\_\+coulomb\+\_\+energy}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test calculation of Coulomb energy. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_aa2a14f70fb7372abc970b6271f19417f}{test\+\_\+calc\+\_\+skyrme\+\_\+energy}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test calculation of Skyrme energy. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_abeb5e336395994821e96838b809e4140}{test\+\_\+sp\+\_\+energies}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test calculation of single particle energies. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_afde013e321ba30ada173fc343ca1fa6d}{test\+\_\+si\+\_\+correction}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test the Strutinsky integral correction. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_a8eb520f312c2647e714f169e9d5b8421}{bartel\+\_\+bencheikh\+\_\+benchmark}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to check different contributions to $\tau_{ETF}$ at 2nd order, for comparison with results in Bartel and Bencheikh (2002) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+integer \mbox{\hyperlink{namespacetest_a91c93b5bfe044cfbaabf6b3acfe3be00}{file\+\_\+unit}}
+\item 
+integer \mbox{\hyperlink{namespacetest_aed47eec898fde16ebc3dae8f3c61abef}{file\+\_\+unit\+\_\+2}}
+\begin{DoxyCompactList}\small\item\em Unit numbers for opening files. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{namespacetest_ab8cdf368336f888e9382efe275ce4d16}{sample\+\_\+profile}}
+\begin{DoxyCompactList}\small\item\em Test density profile to use. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Module to hold test routines. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+
+\subsection{Function/\+Subroutine Documentation}
+\mbox{\Hypertarget{namespacetest_a8eb520f312c2647e714f169e9d5b8421}\label{namespacetest_a8eb520f312c2647e714f169e9d5b8421}} 
+\index{test@{test}!bartel\+\_\+bencheikh\+\_\+benchmark@{bartel\+\_\+bencheikh\+\_\+benchmark}}
+\index{bartel\+\_\+bencheikh\+\_\+benchmark@{bartel\+\_\+bencheikh\+\_\+benchmark}!test@{test}}
+\subsubsection{\texorpdfstring{bartel\+\_\+bencheikh\+\_\+benchmark()}{bartel\_bencheikh\_benchmark()}}
+{\footnotesize\ttfamily subroutine test\+::bartel\+\_\+bencheikh\+\_\+benchmark (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to check different contributions to $\tau_{ETF}$ at 2nd order, for comparison with results in Bartel and Bencheikh (2002) 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{namespacetest_a8eb520f312c2647e714f169e9d5b8421_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacetest_a12069a39539c68f8d22f7eb4219d2e2b}\label{namespacetest_a12069a39539c68f8d22f7eb4219d2e2b}} 
+\index{test@{test}!orders\+\_\+kinetic\+\_\+densities@{orders\+\_\+kinetic\+\_\+densities}}
+\index{orders\+\_\+kinetic\+\_\+densities@{orders\+\_\+kinetic\+\_\+densities}!test@{test}}
+\subsubsection{\texorpdfstring{orders\+\_\+kinetic\+\_\+densities()}{orders\_kinetic\_densities()}}
+{\footnotesize\ttfamily subroutine test\+::orders\+\_\+kinetic\+\_\+densities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to write order-\/by-\/order comparison of kinetic densities to file. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=245pt]{namespacetest_a12069a39539c68f8d22f7eb4219d2e2b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacetest_a2d72f655d80bac0b01030b9cbda3518f}\label{namespacetest_a2d72f655d80bac0b01030b9cbda3518f}} 
+\index{test@{test}!read\+\_\+test\+\_\+params@{read\+\_\+test\+\_\+params}}
+\index{read\+\_\+test\+\_\+params@{read\+\_\+test\+\_\+params}!test@{test}}
+\subsubsection{\texorpdfstring{read\+\_\+test\+\_\+params()}{read\_test\_params()}}
+{\footnotesize\ttfamily subroutine test\+::read\+\_\+test\+\_\+params (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to read from \char`\"{}test\+\_\+input.\+in\char`\"{} parameters used for test routines. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{namespacetest_a2d72f655d80bac0b01030b9cbda3518f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacetest_ae4857dad0359d5f90718d5593398f8b3}\label{namespacetest_ae4857dad0359d5f90718d5593398f8b3}} 
+\index{test@{test}!test\+\_\+calc\+\_\+coulomb\+\_\+energy@{test\+\_\+calc\+\_\+coulomb\+\_\+energy}}
+\index{test\+\_\+calc\+\_\+coulomb\+\_\+energy@{test\+\_\+calc\+\_\+coulomb\+\_\+energy}!test@{test}}
+\subsubsection{\texorpdfstring{test\+\_\+calc\+\_\+coulomb\+\_\+energy()}{test\_calc\_coulomb\_energy()}}
+{\footnotesize\ttfamily subroutine test\+::test\+\_\+calc\+\_\+coulomb\+\_\+energy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to test calculation of Coulomb energy. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{namespacetest_ae4857dad0359d5f90718d5593398f8b3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacetest_af860540d68e055817e3f618b7a04298a}\label{namespacetest_af860540d68e055817e3f618b7a04298a}} 
+\index{test@{test}!test\+\_\+calc\+\_\+particle\+\_\+number@{test\+\_\+calc\+\_\+particle\+\_\+number}}
+\index{test\+\_\+calc\+\_\+particle\+\_\+number@{test\+\_\+calc\+\_\+particle\+\_\+number}!test@{test}}
+\subsubsection{\texorpdfstring{test\+\_\+calc\+\_\+particle\+\_\+number()}{test\_calc\_particle\_number()}}
+{\footnotesize\ttfamily subroutine test\+::test\+\_\+calc\+\_\+particle\+\_\+number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to test calculation of neutron and proton particle numbers. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{namespacetest_af860540d68e055817e3f618b7a04298a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacetest_aa2a14f70fb7372abc970b6271f19417f}\label{namespacetest_aa2a14f70fb7372abc970b6271f19417f}} 
+\index{test@{test}!test\+\_\+calc\+\_\+skyrme\+\_\+energy@{test\+\_\+calc\+\_\+skyrme\+\_\+energy}}
+\index{test\+\_\+calc\+\_\+skyrme\+\_\+energy@{test\+\_\+calc\+\_\+skyrme\+\_\+energy}!test@{test}}
+\subsubsection{\texorpdfstring{test\+\_\+calc\+\_\+skyrme\+\_\+energy()}{test\_calc\_skyrme\_energy()}}
+{\footnotesize\ttfamily subroutine test\+::test\+\_\+calc\+\_\+skyrme\+\_\+energy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to test calculation of Skyrme energy. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{namespacetest_aa2a14f70fb7372abc970b6271f19417f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacetest_a5693dbb30b96995df35fa720f0ab1436}\label{namespacetest_a5693dbb30b96995df35fa720f0ab1436}} 
+\index{test@{test}!test\+\_\+central\+\_\+potentials@{test\+\_\+central\+\_\+potentials}}
+\index{test\+\_\+central\+\_\+potentials@{test\+\_\+central\+\_\+potentials}!test@{test}}
+\subsubsection{\texorpdfstring{test\+\_\+central\+\_\+potentials()}{test\_central\_potentials()}}
+{\footnotesize\ttfamily subroutine test\+::test\+\_\+central\+\_\+potentials (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to write spin central potentials to file. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{namespacetest_a5693dbb30b96995df35fa720f0ab1436_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacetest_ac81b1d59a968470b8ef8a165101df52c}\label{namespacetest_ac81b1d59a968470b8ef8a165101df52c}} 
+\index{test@{test}!test\+\_\+densities@{test\+\_\+densities}}
+\index{test\+\_\+densities@{test\+\_\+densities}!test@{test}}
+\subsubsection{\texorpdfstring{test\+\_\+densities()}{test\_densities()}}
+{\footnotesize\ttfamily subroutine test\+::test\+\_\+densities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the density profiles using sample parameters. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{namespacetest_ac81b1d59a968470b8ef8a165101df52c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=245pt]{namespacetest_ac81b1d59a968470b8ef8a165101df52c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacetest_a50469f436f9c4caa447dafc48e311558}\label{namespacetest_a50469f436f9c4caa447dafc48e311558}} 
+\index{test@{test}!test\+\_\+density\+\_\+derivs@{test\+\_\+density\+\_\+derivs}}
+\index{test\+\_\+density\+\_\+derivs@{test\+\_\+density\+\_\+derivs}!test@{test}}
+\subsubsection{\texorpdfstring{test\+\_\+density\+\_\+derivs()}{test\_density\_derivs()}}
+{\footnotesize\ttfamily subroutine test\+::test\+\_\+density\+\_\+derivs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to test some derivatives of the total and individual densities. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{namespacetest_a50469f436f9c4caa447dafc48e311558_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacetest_ac49b81619b874cdd8276af19d24675cc}\label{namespacetest_ac49b81619b874cdd8276af19d24675cc}} 
+\index{test@{test}!test\+\_\+eff\+\_\+mass@{test\+\_\+eff\+\_\+mass}}
+\index{test\+\_\+eff\+\_\+mass@{test\+\_\+eff\+\_\+mass}!test@{test}}
+\subsubsection{\texorpdfstring{test\+\_\+eff\+\_\+mass()}{test\_eff\_mass()}}
+{\footnotesize\ttfamily subroutine test\+::test\+\_\+eff\+\_\+mass (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to test effective masses $fm^{-3}$. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{namespacetest_ac49b81619b874cdd8276af19d24675cc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacetest_a377babe07d6ab6f0791233afee079582}\label{namespacetest_a377babe07d6ab6f0791233afee079582}} 
+\index{test@{test}!test\+\_\+kinetic\+\_\+densities@{test\+\_\+kinetic\+\_\+densities}}
+\index{test\+\_\+kinetic\+\_\+densities@{test\+\_\+kinetic\+\_\+densities}!test@{test}}
+\subsubsection{\texorpdfstring{test\+\_\+kinetic\+\_\+densities()}{test\_kinetic\_densities()}}
+{\footnotesize\ttfamily subroutine test\+::test\+\_\+kinetic\+\_\+densities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to test kinetic energy densities. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{namespacetest_a377babe07d6ab6f0791233afee079582_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacetest_afde013e321ba30ada173fc343ca1fa6d}\label{namespacetest_afde013e321ba30ada173fc343ca1fa6d}} 
+\index{test@{test}!test\+\_\+si\+\_\+correction@{test\+\_\+si\+\_\+correction}}
+\index{test\+\_\+si\+\_\+correction@{test\+\_\+si\+\_\+correction}!test@{test}}
+\subsubsection{\texorpdfstring{test\+\_\+si\+\_\+correction()}{test\_si\_correction()}}
+{\footnotesize\ttfamily subroutine test\+::test\+\_\+si\+\_\+correction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to test the Strutinsky integral correction. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacetest_afde013e321ba30ada173fc343ca1fa6d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{namespacetest_afde013e321ba30ada173fc343ca1fa6d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacetest_abeb5e336395994821e96838b809e4140}\label{namespacetest_abeb5e336395994821e96838b809e4140}} 
+\index{test@{test}!test\+\_\+sp\+\_\+energies@{test\+\_\+sp\+\_\+energies}}
+\index{test\+\_\+sp\+\_\+energies@{test\+\_\+sp\+\_\+energies}!test@{test}}
+\subsubsection{\texorpdfstring{test\+\_\+sp\+\_\+energies()}{test\_sp\_energies()}}
+{\footnotesize\ttfamily subroutine test\+::test\+\_\+sp\+\_\+energies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to test calculation of single particle energies. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacetest_abeb5e336395994821e96838b809e4140_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{namespacetest_abeb5e336395994821e96838b809e4140_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacetest_a3e49a3b6fd835efb13dd446bfb6e8b1f}\label{namespacetest_a3e49a3b6fd835efb13dd446bfb6e8b1f}} 
+\index{test@{test}!test\+\_\+spin\+\_\+current\+\_\+densities@{test\+\_\+spin\+\_\+current\+\_\+densities}}
+\index{test\+\_\+spin\+\_\+current\+\_\+densities@{test\+\_\+spin\+\_\+current\+\_\+densities}!test@{test}}
+\subsubsection{\texorpdfstring{test\+\_\+spin\+\_\+current\+\_\+densities()}{test\_spin\_current\_densities()}}
+{\footnotesize\ttfamily subroutine test\+::test\+\_\+spin\+\_\+current\+\_\+densities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to write spin current densities and spin-\/orbit fields to file. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{namespacetest_a3e49a3b6fd835efb13dd446bfb6e8b1f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacetest_ae6399ba2e0d2b484e6b467b2cee74a1b}\label{namespacetest_ae6399ba2e0d2b484e6b467b2cee74a1b}} 
+\index{test@{test}!write\+\_\+ws\+\_\+cell\+\_\+array\+\_\+quantity@{write\+\_\+ws\+\_\+cell\+\_\+array\+\_\+quantity}}
+\index{write\+\_\+ws\+\_\+cell\+\_\+array\+\_\+quantity@{write\+\_\+ws\+\_\+cell\+\_\+array\+\_\+quantity}!test@{test}}
+\subsubsection{\texorpdfstring{write\+\_\+ws\+\_\+cell\+\_\+array\+\_\+quantity()}{write\_ws\_cell\_array\_quantity()}}
+{\footnotesize\ttfamily subroutine test\+::write\+\_\+ws\+\_\+cell\+\_\+array\+\_\+quantity (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{quantity }\end{DoxyParamCaption})}
+
+
+
+Utility subroutine that can be called anywhere at any time, for writing a quantity (evaluated over WS cell) to file. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em quantity} & Array to be written to file (1\+:n) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{namespacetest_a91c93b5bfe044cfbaabf6b3acfe3be00}\label{namespacetest_a91c93b5bfe044cfbaabf6b3acfe3be00}} 
+\index{test@{test}!file\+\_\+unit@{file\+\_\+unit}}
+\index{file\+\_\+unit@{file\+\_\+unit}!test@{test}}
+\subsubsection{\texorpdfstring{file\+\_\+unit}{file\_unit}}
+{\footnotesize\ttfamily integer test\+::file\+\_\+unit}
+
+\mbox{\Hypertarget{namespacetest_aed47eec898fde16ebc3dae8f3c61abef}\label{namespacetest_aed47eec898fde16ebc3dae8f3c61abef}} 
+\index{test@{test}!file\+\_\+unit\+\_\+2@{file\+\_\+unit\+\_\+2}}
+\index{file\+\_\+unit\+\_\+2@{file\+\_\+unit\+\_\+2}!test@{test}}
+\subsubsection{\texorpdfstring{file\+\_\+unit\+\_\+2}{file\_unit\_2}}
+{\footnotesize\ttfamily integer test\+::file\+\_\+unit\+\_\+2}
+
+
+
+Unit numbers for opening files. 
+
+\mbox{\Hypertarget{namespacetest_ab8cdf368336f888e9382efe275ce4d16}\label{namespacetest_ab8cdf368336f888e9382efe275ce4d16}} 
+\index{test@{test}!sample\+\_\+profile@{sample\+\_\+profile}}
+\index{sample\+\_\+profile@{sample\+\_\+profile}!test@{test}}
+\subsubsection{\texorpdfstring{sample\+\_\+profile}{sample\_profile}}
+{\footnotesize\ttfamily integer test\+::sample\+\_\+profile}
+
+
+
+Test density profile to use. 
+

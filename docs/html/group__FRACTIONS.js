@@ -1,0 +1,25 @@
+var group__FRACTIONS =
+[
+    [ "fr12", "group__FRACTIONS.html#ga22877764fb6363b2fa930793c57a03da", null ],
+    [ "fr13", "group__FRACTIONS.html#ga7012f1eaa8d54fce4923459913c9ea89", null ],
+    [ "fr14", "group__FRACTIONS.html#gaffec0a7933c65703944576ebea0c1cd1", null ],
+    [ "fr16", "group__FRACTIONS.html#ga67d2b3b04777af92b519826b97ce69a4", null ],
+    [ "fr18", "group__FRACTIONS.html#ga59c72e10a23b892113d106b25c1f60d7", null ],
+    [ "fr1_12", "group__FRACTIONS.html#gaa8dad9cec662853b1633da29ad89f6aa", null ],
+    [ "fr1_16", "group__FRACTIONS.html#ga49bc50cd5025d08ac8f93efb9d2f2c57", null ],
+    [ "fr1_24", "group__FRACTIONS.html#ga6f3d13faca548dd3fb16645525651743", null ],
+    [ "fr1_32", "group__FRACTIONS.html#ga9d703cf8cb03df7ac75c98494659c894", null ],
+    [ "fr1_36", "group__FRACTIONS.html#gaa55c45ce58d2200ffa6ff168d00e94d7", null ],
+    [ "fr23", "group__FRACTIONS.html#gaf550152b4a78556eab5e45a3505a690e", null ],
+    [ "fr260_3", "group__FRACTIONS.html#ga5a9e77cd58019aeeb71cd5be86faf68f", null ],
+    [ "fr29", "group__FRACTIONS.html#gaae4b443a271ca66ffd82ed02a3062073", null ],
+    [ "fr32", "group__FRACTIONS.html#gadb06185f00fedb4688eb75250f7365de", null ],
+    [ "fr34", "group__FRACTIONS.html#ga8f9972a5fa3d36c2893e702ab70c7fff", null ],
+    [ "fr35", "group__FRACTIONS.html#ga51fd0944911031e89f45e11247545886", null ],
+    [ "fr38", "group__FRACTIONS.html#ga7fcdf682bf3d4c7901343542bcee3976", null ],
+    [ "fr3_10", "group__FRACTIONS.html#gadb8dc3cfa1864abcbb3226845f3d1953", null ],
+    [ "fr43", "group__FRACTIONS.html#ga1705bf89adaf6e54bdf027386ecdc5a9", null ],
+    [ "fr53", "group__FRACTIONS.html#ga348f3739fc94f9786aeb6045a5c9c76b", null ],
+    [ "fr54", "group__FRACTIONS.html#ga4b5dee914c69f248bc576e0ef5a48cad", null ],
+    [ "fr83", "group__FRACTIONS.html#ga74e22f362165a8830c6acb135f54921a", null ]
+];

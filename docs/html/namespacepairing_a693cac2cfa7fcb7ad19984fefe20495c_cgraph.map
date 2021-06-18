@@ -1,0 +1,9 @@
+<map id="pairing::bcs_protons" name="pairing::bcs_protons">
+<area shape="rect" id="node2" href="$namespacestrutinsky.html#a106e8ec285383b5042e8436a2376147a" title="Subroutine to sort single particle states by their energies. Use bubble sort. " alt="" coords="203,5,348,32"/>
+<area shape="rect" id="node3" href="$namespacepairing.html#a37440fb2ff0d8a3495d051f3f14c9107" title="Function to solve gap equation at given chemical potential &quot;mu_p&quot;, returning the (BCS) number of prot..." alt="" coords="192,56,359,83"/>
+<area shape="rect" id="node4" href="$namespaceroutines.html#a8146fb4359e556bad19f882b8aabfc4b" title="routines::str2int" alt="" coords="443,5,555,32"/>
+<area shape="rect" id="node5" href="$namespacepairing.html#aebb21947c7228a3fb9a092edfa226662" title="Function to calculate the interaction strength for the effective contact pairing force. Modified by M. Shelley. " alt="" coords="407,56,591,83"/>
+<area shape="rect" id="node8" href="$namespaceroutines.html#a5737b4327dcaa959a9ee519e4fca42e8" title="Function to integrate a density or field over the whole W&#45;S cell, using Simpson&#39;s rule (+ Simpson&#39;s 3..." alt="" coords="427,107,570,133"/>
+<area shape="rect" id="node6" href="$namespacepairing.html#aaa0b619b1e454229caef01a56d0a61fd" title="Function to calculate the pairing gap using the analytical BSk expression. Modified by M..." alt="" coords="639,31,803,57"/>
+<area shape="rect" id="node7" href="$namespacepairing.html#ab022f3dcf7994e9f95315b3b2007a9ee" title="Function to calculate the pairing cutoff for the effective contact pairing force. ..." alt="" coords="664,81,777,108"/>
+</map>

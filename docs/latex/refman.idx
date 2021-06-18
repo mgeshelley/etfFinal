@@ -1,0 +1,620 @@
+\indexentry{Global parameters@{Global parameters}|hyperpage}{7}
+\indexentry{Global parameters@{Global parameters}!e2@{e2}|hyperpage}{7}
+\indexentry{e2@{e2}!Global parameters@{Global parameters}|hyperpage}{7}
+\indexentry{Global parameters@{Global parameters}!hbar2\+\_\+2m@{hbar2\+\_\+2m}|hyperpage}{7}
+\indexentry{hbar2\+\_\+2m@{hbar2\+\_\+2m}!Global parameters@{Global parameters}|hyperpage}{7}
+\indexentry{Global parameters@{Global parameters}!hbarc@{hbarc}|hyperpage}{8}
+\indexentry{hbarc@{hbarc}!Global parameters@{Global parameters}|hyperpage}{8}
+\indexentry{Global parameters@{Global parameters}!mec2@{mec2}|hyperpage}{8}
+\indexentry{mec2@{mec2}!Global parameters@{Global parameters}|hyperpage}{8}
+\indexentry{Global parameters@{Global parameters}!mnc2@{mnc2}|hyperpage}{8}
+\indexentry{mnc2@{mnc2}!Global parameters@{Global parameters}|hyperpage}{8}
+\indexentry{Global parameters@{Global parameters}!mpc2@{mpc2}|hyperpage}{8}
+\indexentry{mpc2@{mpc2}!Global parameters@{Global parameters}|hyperpage}{8}
+\indexentry{Global parameters@{Global parameters}!pi@{pi}|hyperpage}{8}
+\indexentry{pi@{pi}!Global parameters@{Global parameters}|hyperpage}{8}
+\indexentry{Global parameters@{Global parameters}!rho0@{rho0}|hyperpage}{8}
+\indexentry{rho0@{rho0}!Global parameters@{Global parameters}|hyperpage}{8}
+\indexentry{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces@{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}|hyperpage}{9}
+\indexentry{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces@{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}!mamuc2@{mamuc2}|hyperpage}{9}
+\indexentry{mamuc2@{mamuc2}!Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces@{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}|hyperpage}{9}
+\indexentry{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces@{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}!rydb@{rydb}|hyperpage}{9}
+\indexentry{rydb@{rydb}!Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces@{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}|hyperpage}{9}
+\indexentry{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces@{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}!xmh@{xmh}|hyperpage}{9}
+\indexentry{xmh@{xmh}!Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces@{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}|hyperpage}{9}
+\indexentry{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces@{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}!xmn@{xmn}|hyperpage}{9}
+\indexentry{xmn@{xmn}!Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces@{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}|hyperpage}{9}
+\indexentry{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces@{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}!xmp@{xmp}|hyperpage}{9}
+\indexentry{xmp@{xmp}!Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces@{Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}|hyperpage}{9}
+\indexentry{Numerical fractions@{Numerical fractions}|hyperpage}{10}
+\indexentry{Numerical fractions@{Numerical fractions}!fr12@{fr12}|hyperpage}{10}
+\indexentry{fr12@{fr12}!Numerical fractions@{Numerical fractions}|hyperpage}{10}
+\indexentry{Numerical fractions@{Numerical fractions}!fr13@{fr13}|hyperpage}{10}
+\indexentry{fr13@{fr13}!Numerical fractions@{Numerical fractions}|hyperpage}{10}
+\indexentry{Numerical fractions@{Numerical fractions}!fr14@{fr14}|hyperpage}{10}
+\indexentry{fr14@{fr14}!Numerical fractions@{Numerical fractions}|hyperpage}{10}
+\indexentry{Numerical fractions@{Numerical fractions}!fr16@{fr16}|hyperpage}{10}
+\indexentry{fr16@{fr16}!Numerical fractions@{Numerical fractions}|hyperpage}{10}
+\indexentry{Numerical fractions@{Numerical fractions}!fr18@{fr18}|hyperpage}{11}
+\indexentry{fr18@{fr18}!Numerical fractions@{Numerical fractions}|hyperpage}{11}
+\indexentry{Numerical fractions@{Numerical fractions}!fr1\+\_\+12@{fr1\+\_\+12}|hyperpage}{11}
+\indexentry{fr1\+\_\+12@{fr1\+\_\+12}!Numerical fractions@{Numerical fractions}|hyperpage}{11}
+\indexentry{Numerical fractions@{Numerical fractions}!fr1\+\_\+16@{fr1\+\_\+16}|hyperpage}{11}
+\indexentry{fr1\+\_\+16@{fr1\+\_\+16}!Numerical fractions@{Numerical fractions}|hyperpage}{11}
+\indexentry{Numerical fractions@{Numerical fractions}!fr1\+\_\+24@{fr1\+\_\+24}|hyperpage}{11}
+\indexentry{fr1\+\_\+24@{fr1\+\_\+24}!Numerical fractions@{Numerical fractions}|hyperpage}{11}
+\indexentry{Numerical fractions@{Numerical fractions}!fr1\+\_\+32@{fr1\+\_\+32}|hyperpage}{11}
+\indexentry{fr1\+\_\+32@{fr1\+\_\+32}!Numerical fractions@{Numerical fractions}|hyperpage}{11}
+\indexentry{Numerical fractions@{Numerical fractions}!fr1\+\_\+36@{fr1\+\_\+36}|hyperpage}{11}
+\indexentry{fr1\+\_\+36@{fr1\+\_\+36}!Numerical fractions@{Numerical fractions}|hyperpage}{11}
+\indexentry{Numerical fractions@{Numerical fractions}!fr23@{fr23}|hyperpage}{11}
+\indexentry{fr23@{fr23}!Numerical fractions@{Numerical fractions}|hyperpage}{11}
+\indexentry{Numerical fractions@{Numerical fractions}!fr260\+\_\+3@{fr260\+\_\+3}|hyperpage}{11}
+\indexentry{fr260\+\_\+3@{fr260\+\_\+3}!Numerical fractions@{Numerical fractions}|hyperpage}{11}
+\indexentry{Numerical fractions@{Numerical fractions}!fr29@{fr29}|hyperpage}{12}
+\indexentry{fr29@{fr29}!Numerical fractions@{Numerical fractions}|hyperpage}{12}
+\indexentry{Numerical fractions@{Numerical fractions}!fr32@{fr32}|hyperpage}{12}
+\indexentry{fr32@{fr32}!Numerical fractions@{Numerical fractions}|hyperpage}{12}
+\indexentry{Numerical fractions@{Numerical fractions}!fr34@{fr34}|hyperpage}{12}
+\indexentry{fr34@{fr34}!Numerical fractions@{Numerical fractions}|hyperpage}{12}
+\indexentry{Numerical fractions@{Numerical fractions}!fr35@{fr35}|hyperpage}{12}
+\indexentry{fr35@{fr35}!Numerical fractions@{Numerical fractions}|hyperpage}{12}
+\indexentry{Numerical fractions@{Numerical fractions}!fr38@{fr38}|hyperpage}{12}
+\indexentry{fr38@{fr38}!Numerical fractions@{Numerical fractions}|hyperpage}{12}
+\indexentry{Numerical fractions@{Numerical fractions}!fr3\+\_\+10@{fr3\+\_\+10}|hyperpage}{12}
+\indexentry{fr3\+\_\+10@{fr3\+\_\+10}!Numerical fractions@{Numerical fractions}|hyperpage}{12}
+\indexentry{Numerical fractions@{Numerical fractions}!fr43@{fr43}|hyperpage}{12}
+\indexentry{fr43@{fr43}!Numerical fractions@{Numerical fractions}|hyperpage}{12}
+\indexentry{Numerical fractions@{Numerical fractions}!fr53@{fr53}|hyperpage}{12}
+\indexentry{fr53@{fr53}!Numerical fractions@{Numerical fractions}|hyperpage}{12}
+\indexentry{Numerical fractions@{Numerical fractions}!fr54@{fr54}|hyperpage}{13}
+\indexentry{fr54@{fr54}!Numerical fractions@{Numerical fractions}|hyperpage}{13}
+\indexentry{Numerical fractions@{Numerical fractions}!fr83@{fr83}|hyperpage}{13}
+\indexentry{fr83@{fr83}!Numerical fractions@{Numerical fractions}|hyperpage}{13}
+\indexentry{Skyrme parameters@{Skyrme parameters}|hyperpage}{14}
+\indexentry{Skyrme parameters@{Skyrme parameters}!hbar2\+\_\+2m\+\_\+q@{hbar2\+\_\+2m\+\_\+q}|hyperpage}{14}
+\indexentry{hbar2\+\_\+2m\+\_\+q@{hbar2\+\_\+2m\+\_\+q}!Skyrme parameters@{Skyrme parameters}|hyperpage}{14}
+\indexentry{Skyrme parameters@{Skyrme parameters}!j2\+\_\+terms@{j2\+\_\+terms}|hyperpage}{14}
+\indexentry{j2\+\_\+terms@{j2\+\_\+terms}!Skyrme parameters@{Skyrme parameters}|hyperpage}{14}
+\indexentry{Skyrme parameters@{Skyrme parameters}!sigma@{sigma}|hyperpage}{14}
+\indexentry{sigma@{sigma}!Skyrme parameters@{Skyrme parameters}|hyperpage}{14}
+\indexentry{Skyrme parameters@{Skyrme parameters}!t0@{t0}|hyperpage}{14}
+\indexentry{t0@{t0}!Skyrme parameters@{Skyrme parameters}|hyperpage}{14}
+\indexentry{Skyrme parameters@{Skyrme parameters}!t1@{t1}|hyperpage}{15}
+\indexentry{t1@{t1}!Skyrme parameters@{Skyrme parameters}|hyperpage}{15}
+\indexentry{Skyrme parameters@{Skyrme parameters}!t2@{t2}|hyperpage}{15}
+\indexentry{t2@{t2}!Skyrme parameters@{Skyrme parameters}|hyperpage}{15}
+\indexentry{Skyrme parameters@{Skyrme parameters}!t3@{t3}|hyperpage}{15}
+\indexentry{t3@{t3}!Skyrme parameters@{Skyrme parameters}|hyperpage}{15}
+\indexentry{Skyrme parameters@{Skyrme parameters}!w0@{w0}|hyperpage}{15}
+\indexentry{w0@{w0}!Skyrme parameters@{Skyrme parameters}|hyperpage}{15}
+\indexentry{Skyrme parameters@{Skyrme parameters}!x0@{x0}|hyperpage}{15}
+\indexentry{x0@{x0}!Skyrme parameters@{Skyrme parameters}|hyperpage}{15}
+\indexentry{Skyrme parameters@{Skyrme parameters}!x1@{x1}|hyperpage}{15}
+\indexentry{x1@{x1}!Skyrme parameters@{Skyrme parameters}|hyperpage}{15}
+\indexentry{Skyrme parameters@{Skyrme parameters}!x2@{x2}|hyperpage}{15}
+\indexentry{x2@{x2}!Skyrme parameters@{Skyrme parameters}|hyperpage}{15}
+\indexentry{Skyrme parameters@{Skyrme parameters}!x3@{x3}|hyperpage}{15}
+\indexentry{x3@{x3}!Skyrme parameters@{Skyrme parameters}|hyperpage}{15}
+\indexentry{Skyrme coefficients@{Skyrme coefficients}|hyperpage}{16}
+\indexentry{Skyrme coefficients@{Skyrme coefficients}!b1@{b1}|hyperpage}{16}
+\indexentry{b1@{b1}!Skyrme coefficients@{Skyrme coefficients}|hyperpage}{16}
+\indexentry{Skyrme coefficients@{Skyrme coefficients}!b10@{b10}|hyperpage}{16}
+\indexentry{b10@{b10}!Skyrme coefficients@{Skyrme coefficients}|hyperpage}{16}
+\indexentry{Skyrme coefficients@{Skyrme coefficients}!b11@{b11}|hyperpage}{16}
+\indexentry{b11@{b11}!Skyrme coefficients@{Skyrme coefficients}|hyperpage}{16}
+\indexentry{Skyrme coefficients@{Skyrme coefficients}!b12@{b12}|hyperpage}{16}
+\indexentry{b12@{b12}!Skyrme coefficients@{Skyrme coefficients}|hyperpage}{16}
+\indexentry{Skyrme coefficients@{Skyrme coefficients}!b13@{b13}|hyperpage}{16}
+\indexentry{b13@{b13}!Skyrme coefficients@{Skyrme coefficients}|hyperpage}{16}
+\indexentry{Skyrme coefficients@{Skyrme coefficients}!b2@{b2}|hyperpage}{17}
+\indexentry{b2@{b2}!Skyrme coefficients@{Skyrme coefficients}|hyperpage}{17}
+\indexentry{Skyrme coefficients@{Skyrme coefficients}!b3@{b3}|hyperpage}{17}
+\indexentry{b3@{b3}!Skyrme coefficients@{Skyrme coefficients}|hyperpage}{17}
+\indexentry{Skyrme coefficients@{Skyrme coefficients}!b4@{b4}|hyperpage}{17}
+\indexentry{b4@{b4}!Skyrme coefficients@{Skyrme coefficients}|hyperpage}{17}
+\indexentry{Skyrme coefficients@{Skyrme coefficients}!b5@{b5}|hyperpage}{17}
+\indexentry{b5@{b5}!Skyrme coefficients@{Skyrme coefficients}|hyperpage}{17}
+\indexentry{Skyrme coefficients@{Skyrme coefficients}!b6@{b6}|hyperpage}{17}
+\indexentry{b6@{b6}!Skyrme coefficients@{Skyrme coefficients}|hyperpage}{17}
+\indexentry{Skyrme coefficients@{Skyrme coefficients}!b7@{b7}|hyperpage}{17}
+\indexentry{b7@{b7}!Skyrme coefficients@{Skyrme coefficients}|hyperpage}{17}
+\indexentry{Skyrme coefficients@{Skyrme coefficients}!b8@{b8}|hyperpage}{17}
+\indexentry{b8@{b8}!Skyrme coefficients@{Skyrme coefficients}|hyperpage}{17}
+\indexentry{Skyrme coefficients@{Skyrme coefficients}!b9@{b9}|hyperpage}{17}
+\indexentry{b9@{b9}!Skyrme coefficients@{Skyrme coefficients}|hyperpage}{17}
+\indexentry{Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}|hyperpage}{18}
+\indexentry{Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}!alpha@{alpha}|hyperpage}{18}
+\indexentry{alpha@{alpha}!Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}|hyperpage}{18}
+\indexentry{Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}!beta@{beta}|hyperpage}{18}
+\indexentry{beta@{beta}!Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}|hyperpage}{18}
+\indexentry{Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}!epsilon\+\_\+lambda@{epsilon\+\_\+lambda}|hyperpage}{18}
+\indexentry{epsilon\+\_\+lambda@{epsilon\+\_\+lambda}!Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}|hyperpage}{18}
+\indexentry{Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}!fn\+\_\+neg@{fn\+\_\+neg}|hyperpage}{18}
+\indexentry{fn\+\_\+neg@{fn\+\_\+neg}!Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}|hyperpage}{18}
+\indexentry{Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}!fn\+\_\+pos@{fn\+\_\+pos}|hyperpage}{18}
+\indexentry{fn\+\_\+pos@{fn\+\_\+pos}!Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}|hyperpage}{18}
+\indexentry{Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}!fp\+\_\+neg@{fp\+\_\+neg}|hyperpage}{19}
+\indexentry{fp\+\_\+neg@{fp\+\_\+neg}!Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}|hyperpage}{19}
+\indexentry{Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}!fp\+\_\+pos@{fp\+\_\+pos}|hyperpage}{19}
+\indexentry{fp\+\_\+pos@{fp\+\_\+pos}!Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}|hyperpage}{19}
+\indexentry{Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}!gamma@{gamma}|hyperpage}{19}
+\indexentry{gamma@{gamma}!Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}|hyperpage}{19}
+\indexentry{Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}!t4@{t4}|hyperpage}{19}
+\indexentry{t4@{t4}!Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}|hyperpage}{19}
+\indexentry{Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}!t5@{t5}|hyperpage}{19}
+\indexentry{t5@{t5}!Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}|hyperpage}{19}
+\indexentry{Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}!x4@{x4}|hyperpage}{19}
+\indexentry{x4@{x4}!Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}|hyperpage}{19}
+\indexentry{Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}!x5@{x5}|hyperpage}{19}
+\indexentry{x5@{x5}!Extra parameters for B\+Sk forces@{Extra parameters for B\+Sk forces}|hyperpage}{19}
+\indexentry{Mesh variable@{Mesh variable}|hyperpage}{20}
+\indexentry{Mesh variable@{Mesh variable}!r@{r}|hyperpage}{20}
+\indexentry{r@{r}!Mesh variable@{Mesh variable}|hyperpage}{20}
+\indexentry{Global density arrays@{Global density arrays}|hyperpage}{21}
+\indexentry{Global density arrays@{Global density arrays}!del2\+\_\+rho\+\_\+q@{del2\+\_\+rho\+\_\+q}|hyperpage}{21}
+\indexentry{del2\+\_\+rho\+\_\+q@{del2\+\_\+rho\+\_\+q}!Global density arrays@{Global density arrays}|hyperpage}{21}
+\indexentry{Global density arrays@{Global density arrays}!del2\+\_\+rho\+\_\+t@{del2\+\_\+rho\+\_\+t}|hyperpage}{21}
+\indexentry{del2\+\_\+rho\+\_\+t@{del2\+\_\+rho\+\_\+t}!Global density arrays@{Global density arrays}|hyperpage}{21}
+\indexentry{Global density arrays@{Global density arrays}!del\+\_\+rho\+\_\+q@{del\+\_\+rho\+\_\+q}|hyperpage}{21}
+\indexentry{del\+\_\+rho\+\_\+q@{del\+\_\+rho\+\_\+q}!Global density arrays@{Global density arrays}|hyperpage}{21}
+\indexentry{Global density arrays@{Global density arrays}!del\+\_\+rho\+\_\+t@{del\+\_\+rho\+\_\+t}|hyperpage}{21}
+\indexentry{del\+\_\+rho\+\_\+t@{del\+\_\+rho\+\_\+t}!Global density arrays@{Global density arrays}|hyperpage}{21}
+\indexentry{Global density arrays@{Global density arrays}!rho\+\_\+q@{rho\+\_\+q}|hyperpage}{21}
+\indexentry{rho\+\_\+q@{rho\+\_\+q}!Global density arrays@{Global density arrays}|hyperpage}{21}
+\indexentry{Global density arrays@{Global density arrays}!rho\+\_\+t@{rho\+\_\+t}|hyperpage}{21}
+\indexentry{rho\+\_\+t@{rho\+\_\+t}!Global density arrays@{Global density arrays}|hyperpage}{21}
+\indexentry{Global effective mass arrays@{Global effective mass arrays}|hyperpage}{22}
+\indexentry{Global effective mass arrays@{Global effective mass arrays}!del2\+\_\+f\+\_\+q@{del2\+\_\+f\+\_\+q}|hyperpage}{22}
+\indexentry{del2\+\_\+f\+\_\+q@{del2\+\_\+f\+\_\+q}!Global effective mass arrays@{Global effective mass arrays}|hyperpage}{22}
+\indexentry{Global effective mass arrays@{Global effective mass arrays}!del\+\_\+f\+\_\+q@{del\+\_\+f\+\_\+q}|hyperpage}{22}
+\indexentry{del\+\_\+f\+\_\+q@{del\+\_\+f\+\_\+q}!Global effective mass arrays@{Global effective mass arrays}|hyperpage}{22}
+\indexentry{Global effective mass arrays@{Global effective mass arrays}!f\+\_\+q@{f\+\_\+q}|hyperpage}{22}
+\indexentry{f\+\_\+q@{f\+\_\+q}!Global effective mass arrays@{Global effective mass arrays}|hyperpage}{22}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{23}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!del\+\_\+j\+\_\+q@{del\+\_\+j\+\_\+q}|hyperpage}{23}
+\indexentry{del\+\_\+j\+\_\+q@{del\+\_\+j\+\_\+q}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{23}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!del\+\_\+j\+\_\+t@{del\+\_\+j\+\_\+t}|hyperpage}{23}
+\indexentry{del\+\_\+j\+\_\+t@{del\+\_\+j\+\_\+t}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{23}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!div\+\_\+j\+\_\+2\+\_\+q@{div\+\_\+j\+\_\+2\+\_\+q}|hyperpage}{23}
+\indexentry{div\+\_\+j\+\_\+2\+\_\+q@{div\+\_\+j\+\_\+2\+\_\+q}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{23}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!div\+\_\+j\+\_\+q@{div\+\_\+j\+\_\+q}|hyperpage}{24}
+\indexentry{div\+\_\+j\+\_\+q@{div\+\_\+j\+\_\+q}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{24}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!div\+\_\+j\+\_\+t@{div\+\_\+j\+\_\+t}|hyperpage}{24}
+\indexentry{div\+\_\+j\+\_\+t@{div\+\_\+j\+\_\+t}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{24}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!div\+\_\+w\+\_\+q@{div\+\_\+w\+\_\+q}|hyperpage}{24}
+\indexentry{div\+\_\+w\+\_\+q@{div\+\_\+w\+\_\+q}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{24}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!e\+\_\+density\+\_\+c\+\_\+di@{e\+\_\+density\+\_\+c\+\_\+di}|hyperpage}{24}
+\indexentry{e\+\_\+density\+\_\+c\+\_\+di@{e\+\_\+density\+\_\+c\+\_\+di}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{24}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!e\+\_\+density\+\_\+c\+\_\+ex@{e\+\_\+density\+\_\+c\+\_\+ex}|hyperpage}{24}
+\indexentry{e\+\_\+density\+\_\+c\+\_\+ex@{e\+\_\+density\+\_\+c\+\_\+ex}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{24}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!e\+\_\+density\+\_\+field@{e\+\_\+density\+\_\+field}|hyperpage}{24}
+\indexentry{e\+\_\+density\+\_\+field@{e\+\_\+density\+\_\+field}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{24}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!e\+\_\+density\+\_\+sky@{e\+\_\+density\+\_\+sky}|hyperpage}{24}
+\indexentry{e\+\_\+density\+\_\+sky@{e\+\_\+density\+\_\+sky}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{24}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!j\+\_\+2\+\_\+q@{j\+\_\+2\+\_\+q}|hyperpage}{24}
+\indexentry{j\+\_\+2\+\_\+q@{j\+\_\+2\+\_\+q}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{24}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!j\+\_\+q@{j\+\_\+q}|hyperpage}{25}
+\indexentry{j\+\_\+q@{j\+\_\+q}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{25}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!j\+\_\+t@{j\+\_\+t}|hyperpage}{25}
+\indexentry{j\+\_\+t@{j\+\_\+t}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{25}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!rho\+\_\+ch@{rho\+\_\+ch}|hyperpage}{25}
+\indexentry{rho\+\_\+ch@{rho\+\_\+ch}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{25}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!tau\+\_\+2\+\_\+cont\+\_\+q@{tau\+\_\+2\+\_\+cont\+\_\+q}|hyperpage}{25}
+\indexentry{tau\+\_\+2\+\_\+cont\+\_\+q@{tau\+\_\+2\+\_\+cont\+\_\+q}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{25}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!tau\+\_\+2\+\_\+l\+\_\+q@{tau\+\_\+2\+\_\+l\+\_\+q}|hyperpage}{25}
+\indexentry{tau\+\_\+2\+\_\+l\+\_\+q@{tau\+\_\+2\+\_\+l\+\_\+q}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{25}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!tau\+\_\+2\+\_\+nl\+\_\+q@{tau\+\_\+2\+\_\+nl\+\_\+q}|hyperpage}{25}
+\indexentry{tau\+\_\+2\+\_\+nl\+\_\+q@{tau\+\_\+2\+\_\+nl\+\_\+q}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{25}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!tau\+\_\+etf\+\_\+q@{tau\+\_\+etf\+\_\+q}|hyperpage}{25}
+\indexentry{tau\+\_\+etf\+\_\+q@{tau\+\_\+etf\+\_\+q}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{25}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!tau\+\_\+etf\+\_\+t@{tau\+\_\+etf\+\_\+t}|hyperpage}{26}
+\indexentry{tau\+\_\+etf\+\_\+t@{tau\+\_\+etf\+\_\+t}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{26}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!tau\+\_\+tf\+\_\+q@{tau\+\_\+tf\+\_\+q}|hyperpage}{26}
+\indexentry{tau\+\_\+tf\+\_\+q@{tau\+\_\+tf\+\_\+q}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{26}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!u\+\_\+q@{u\+\_\+q}|hyperpage}{26}
+\indexentry{u\+\_\+q@{u\+\_\+q}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{26}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!v\+\_\+c\+\_\+di@{v\+\_\+c\+\_\+di}|hyperpage}{26}
+\indexentry{v\+\_\+c\+\_\+di@{v\+\_\+c\+\_\+di}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{26}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!v\+\_\+c\+\_\+ex@{v\+\_\+c\+\_\+ex}|hyperpage}{26}
+\indexentry{v\+\_\+c\+\_\+ex@{v\+\_\+c\+\_\+ex}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{26}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!v\+\_\+c\+\_\+pe@{v\+\_\+c\+\_\+pe}|hyperpage}{26}
+\indexentry{v\+\_\+c\+\_\+pe@{v\+\_\+c\+\_\+pe}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{26}
+\indexentry{Global arrays for other densities and fields@{Global arrays for other densities and fields}!w\+\_\+q@{w\+\_\+q}|hyperpage}{26}
+\indexentry{w\+\_\+q@{w\+\_\+q}!Global arrays for other densities and fields@{Global arrays for other densities and fields}|hyperpage}{26}
+\indexentry{Global arrays for densities and fields for 4th-\/order terms@{Global arrays for densities and fields for 4th-\/order terms}|hyperpage}{27}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{28}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!delta\+\_\+mu@{delta\+\_\+mu}|hyperpage}{28}
+\indexentry{delta\+\_\+mu@{delta\+\_\+mu}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{28}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!e\+\_\+coulomb@{e\+\_\+coulomb}|hyperpage}{29}
+\indexentry{e\+\_\+coulomb@{e\+\_\+coulomb}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{29}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!e\+\_\+coulomb\+\_\+di@{e\+\_\+coulomb\+\_\+di}|hyperpage}{29}
+\indexentry{e\+\_\+coulomb\+\_\+di@{e\+\_\+coulomb\+\_\+di}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{29}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!e\+\_\+coulomb\+\_\+ex@{e\+\_\+coulomb\+\_\+ex}|hyperpage}{29}
+\indexentry{e\+\_\+coulomb\+\_\+ex@{e\+\_\+coulomb\+\_\+ex}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{29}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!e\+\_\+field@{e\+\_\+field}|hyperpage}{29}
+\indexentry{e\+\_\+field@{e\+\_\+field}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{29}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!e\+\_\+kinetic\+\_\+q@{e\+\_\+kinetic\+\_\+q}|hyperpage}{29}
+\indexentry{e\+\_\+kinetic\+\_\+q@{e\+\_\+kinetic\+\_\+q}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{29}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!e\+\_\+kinetic\+\_\+t@{e\+\_\+kinetic\+\_\+t}|hyperpage}{29}
+\indexentry{e\+\_\+kinetic\+\_\+t@{e\+\_\+kinetic\+\_\+t}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{29}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!e\+\_\+skyrme@{e\+\_\+skyrme}|hyperpage}{30}
+\indexentry{e\+\_\+skyrme@{e\+\_\+skyrme}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{30}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!e\+\_\+so@{e\+\_\+so}|hyperpage}{30}
+\indexentry{e\+\_\+so@{e\+\_\+so}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{30}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!e\+\_\+total@{e\+\_\+total}|hyperpage}{30}
+\indexentry{e\+\_\+total@{e\+\_\+total}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{30}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!mu\+\_\+c@{mu\+\_\+c}|hyperpage}{30}
+\indexentry{mu\+\_\+c@{mu\+\_\+c}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{30}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!mu\+\_\+e@{mu\+\_\+e}|hyperpage}{30}
+\indexentry{mu\+\_\+e@{mu\+\_\+e}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{30}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!mu\+\_\+q@{mu\+\_\+q}|hyperpage}{30}
+\indexentry{mu\+\_\+q@{mu\+\_\+q}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{30}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!n\+\_\+q@{n\+\_\+q}|hyperpage}{31}
+\indexentry{n\+\_\+q@{n\+\_\+q}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{31}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!n\+\_\+t@{n\+\_\+t}|hyperpage}{31}
+\indexentry{n\+\_\+t@{n\+\_\+t}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{31}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!pressure\+\_\+e@{pressure\+\_\+e}|hyperpage}{31}
+\indexentry{pressure\+\_\+e@{pressure\+\_\+e}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{31}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!pressure\+\_\+ex@{pressure\+\_\+ex}|hyperpage}{31}
+\indexentry{pressure\+\_\+ex@{pressure\+\_\+ex}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{31}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!pressure\+\_\+nucl@{pressure\+\_\+nucl}|hyperpage}{31}
+\indexentry{pressure\+\_\+nucl@{pressure\+\_\+nucl}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{31}
+\indexentry{Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}!pressure\+\_\+t@{pressure\+\_\+t}|hyperpage}{31}
+\indexentry{pressure\+\_\+t@{pressure\+\_\+t}!Variables for storing properties of Wigner-\/\+Seitz cell@{Variables for storing properties of Wigner-\/\+Seitz cell}|hyperpage}{31}
+\indexentry{Input parameters@{Input parameters}|hyperpage}{32}
+\indexentry{Input parameters@{Input parameters}!calc\+\_\+chem\+\_\+pots@{calc\+\_\+chem\+\_\+pots}|hyperpage}{33}
+\indexentry{calc\+\_\+chem\+\_\+pots@{calc\+\_\+chem\+\_\+pots}!Input parameters@{Input parameters}|hyperpage}{33}
+\indexentry{Input parameters@{Input parameters}!coulomb\+\_\+on@{coulomb\+\_\+on}|hyperpage}{33}
+\indexentry{coulomb\+\_\+on@{coulomb\+\_\+on}!Input parameters@{Input parameters}|hyperpage}{33}
+\indexentry{Input parameters@{Input parameters}!dr@{dr}|hyperpage}{33}
+\indexentry{dr@{dr}!Input parameters@{Input parameters}|hyperpage}{33}
+\indexentry{Input parameters@{Input parameters}!electrons\+\_\+on@{electrons\+\_\+on}|hyperpage}{33}
+\indexentry{electrons\+\_\+on@{electrons\+\_\+on}!Input parameters@{Input parameters}|hyperpage}{33}
+\indexentry{Input parameters@{Input parameters}!emax0\+\_\+mod@{emax0\+\_\+mod}|hyperpage}{34}
+\indexentry{emax0\+\_\+mod@{emax0\+\_\+mod}!Input parameters@{Input parameters}|hyperpage}{34}
+\indexentry{Input parameters@{Input parameters}!etf\+\_\+order@{etf\+\_\+order}|hyperpage}{34}
+\indexentry{etf\+\_\+order@{etf\+\_\+order}!Input parameters@{Input parameters}|hyperpage}{34}
+\indexentry{Input parameters@{Input parameters}!force@{force}|hyperpage}{34}
+\indexentry{force@{force}!Input parameters@{Input parameters}|hyperpage}{34}
+\indexentry{Input parameters@{Input parameters}!lmax@{lmax}|hyperpage}{34}
+\indexentry{lmax@{lmax}!Input parameters@{Input parameters}|hyperpage}{34}
+\indexentry{Input parameters@{Input parameters}!n@{n}|hyperpage}{34}
+\indexentry{n@{n}!Input parameters@{Input parameters}|hyperpage}{34}
+\indexentry{Input parameters@{Input parameters}!neutron\+\_\+pairing@{neutron\+\_\+pairing}|hyperpage}{34}
+\indexentry{neutron\+\_\+pairing@{neutron\+\_\+pairing}!Input parameters@{Input parameters}|hyperpage}{34}
+\indexentry{Input parameters@{Input parameters}!nmaxstate@{nmaxstate}|hyperpage}{35}
+\indexentry{nmaxstate@{nmaxstate}!Input parameters@{Input parameters}|hyperpage}{35}
+\indexentry{Input parameters@{Input parameters}!pair\+\_\+alpha@{pair\+\_\+alpha}|hyperpage}{35}
+\indexentry{pair\+\_\+alpha@{pair\+\_\+alpha}!Input parameters@{Input parameters}|hyperpage}{35}
+\indexentry{Input parameters@{Input parameters}!pair\+\_\+del\+\_\+init@{pair\+\_\+del\+\_\+init}|hyperpage}{35}
+\indexentry{pair\+\_\+del\+\_\+init@{pair\+\_\+del\+\_\+init}!Input parameters@{Input parameters}|hyperpage}{35}
+\indexentry{Input parameters@{Input parameters}!pair\+\_\+dk@{pair\+\_\+dk}|hyperpage}{35}
+\indexentry{pair\+\_\+dk@{pair\+\_\+dk}!Input parameters@{Input parameters}|hyperpage}{35}
+\indexentry{Input parameters@{Input parameters}!pair\+\_\+eta@{pair\+\_\+eta}|hyperpage}{35}
+\indexentry{pair\+\_\+eta@{pair\+\_\+eta}!Input parameters@{Input parameters}|hyperpage}{35}
+\indexentry{Input parameters@{Input parameters}!pair\+\_\+k\+\_\+max@{pair\+\_\+k\+\_\+max}|hyperpage}{35}
+\indexentry{pair\+\_\+k\+\_\+max@{pair\+\_\+k\+\_\+max}!Input parameters@{Input parameters}|hyperpage}{35}
+\indexentry{Input parameters@{Input parameters}!pair\+\_\+max\+\_\+iters@{pair\+\_\+max\+\_\+iters}|hyperpage}{36}
+\indexentry{pair\+\_\+max\+\_\+iters@{pair\+\_\+max\+\_\+iters}!Input parameters@{Input parameters}|hyperpage}{36}
+\indexentry{Input parameters@{Input parameters}!pair\+\_\+mix@{pair\+\_\+mix}|hyperpage}{36}
+\indexentry{pair\+\_\+mix@{pair\+\_\+mix}!Input parameters@{Input parameters}|hyperpage}{36}
+\indexentry{Input parameters@{Input parameters}!pair\+\_\+num\+\_\+tol@{pair\+\_\+num\+\_\+tol}|hyperpage}{36}
+\indexentry{pair\+\_\+num\+\_\+tol@{pair\+\_\+num\+\_\+tol}!Input parameters@{Input parameters}|hyperpage}{36}
+\indexentry{Input parameters@{Input parameters}!pair\+\_\+qp\+\_\+cut@{pair\+\_\+qp\+\_\+cut}|hyperpage}{36}
+\indexentry{pair\+\_\+qp\+\_\+cut@{pair\+\_\+qp\+\_\+cut}!Input parameters@{Input parameters}|hyperpage}{36}
+\indexentry{Input parameters@{Input parameters}!pair\+\_\+tol@{pair\+\_\+tol}|hyperpage}{36}
+\indexentry{pair\+\_\+tol@{pair\+\_\+tol}!Input parameters@{Input parameters}|hyperpage}{36}
+\indexentry{Input parameters@{Input parameters}!pair\+\_\+v0@{pair\+\_\+v0}|hyperpage}{36}
+\indexentry{pair\+\_\+v0@{pair\+\_\+v0}!Input parameters@{Input parameters}|hyperpage}{36}
+\indexentry{Input parameters@{Input parameters}!profile\+\_\+r\+\_\+max@{profile\+\_\+r\+\_\+max}|hyperpage}{37}
+\indexentry{profile\+\_\+r\+\_\+max@{profile\+\_\+r\+\_\+max}!Input parameters@{Input parameters}|hyperpage}{37}
+\indexentry{Input parameters@{Input parameters}!proton\+\_\+bcs@{proton\+\_\+bcs}|hyperpage}{37}
+\indexentry{proton\+\_\+bcs@{proton\+\_\+bcs}!Input parameters@{Input parameters}|hyperpage}{37}
+\indexentry{Input parameters@{Input parameters}!r\+\_\+max@{r\+\_\+max}|hyperpage}{37}
+\indexentry{r\+\_\+max@{r\+\_\+max}!Input parameters@{Input parameters}|hyperpage}{37}
+\indexentry{Input parameters@{Input parameters}!run\+\_\+mode@{run\+\_\+mode}|hyperpage}{37}
+\indexentry{run\+\_\+mode@{run\+\_\+mode}!Input parameters@{Input parameters}|hyperpage}{37}
+\indexentry{Input parameters@{Input parameters}!smooth\+\_\+qp\+\_\+cut@{smooth\+\_\+qp\+\_\+cut}|hyperpage}{37}
+\indexentry{smooth\+\_\+qp\+\_\+cut@{smooth\+\_\+qp\+\_\+cut}!Input parameters@{Input parameters}|hyperpage}{37}
+\indexentry{Input parameters@{Input parameters}!specify\+\_\+n@{specify\+\_\+n}|hyperpage}{37}
+\indexentry{specify\+\_\+n@{specify\+\_\+n}!Input parameters@{Input parameters}|hyperpage}{37}
+\indexentry{Input parameters@{Input parameters}!strut\+\_\+r\+\_\+max@{strut\+\_\+r\+\_\+max}|hyperpage}{38}
+\indexentry{strut\+\_\+r\+\_\+max@{strut\+\_\+r\+\_\+max}!Input parameters@{Input parameters}|hyperpage}{38}
+\indexentry{Input parameters@{Input parameters}!strutinsky\+\_\+on@{strutinsky\+\_\+on}|hyperpage}{38}
+\indexentry{strutinsky\+\_\+on@{strutinsky\+\_\+on}!Input parameters@{Input parameters}|hyperpage}{38}
+\indexentry{Input parameters@{Input parameters}!verbose@{verbose}|hyperpage}{38}
+\indexentry{verbose@{verbose}!Input parameters@{Input parameters}|hyperpage}{38}
+\indexentry{External profiles@{External profiles}|hyperpage}{39}
+\indexentry{External profiles@{External profiles}!n\+\_\+profile@{n\+\_\+profile}|hyperpage}{39}
+\indexentry{n\+\_\+profile@{n\+\_\+profile}!External profiles@{External profiles}|hyperpage}{39}
+\indexentry{External profiles@{External profiles}!num\+\_\+n@{num\+\_\+n}|hyperpage}{39}
+\indexentry{num\+\_\+n@{num\+\_\+n}!External profiles@{External profiles}|hyperpage}{39}
+\indexentry{External profiles@{External profiles}!num\+\_\+p@{num\+\_\+p}|hyperpage}{39}
+\indexentry{num\+\_\+p@{num\+\_\+p}!External profiles@{External profiles}|hyperpage}{39}
+\indexentry{External profiles@{External profiles}!p\+\_\+profile@{p\+\_\+profile}|hyperpage}{39}
+\indexentry{p\+\_\+profile@{p\+\_\+profile}!External profiles@{External profiles}|hyperpage}{39}
+\indexentry{External profiles@{External profiles}!r\+\_\+ws@{r\+\_\+ws}|hyperpage}{39}
+\indexentry{r\+\_\+ws@{r\+\_\+ws}!External profiles@{External profiles}|hyperpage}{39}
+\indexentry{Format statements@{Format statements}|hyperpage}{40}
+\indexentry{Format statements@{Format statements}!info\+\_\+format@{info\+\_\+format}|hyperpage}{40}
+\indexentry{info\+\_\+format@{info\+\_\+format}!Format statements@{Format statements}|hyperpage}{40}
+\indexentry{Format statements@{Format statements}!n\+\_\+floats@{n\+\_\+floats}|hyperpage}{40}
+\indexentry{n\+\_\+floats@{n\+\_\+floats}!Format statements@{Format statements}|hyperpage}{40}
+\indexentry{Global strings for printing output@{Global strings for printing output}|hyperpage}{41}
+\indexentry{Global strings for printing output@{Global strings for printing output}!force\+\_\+string@{force\+\_\+string}|hyperpage}{41}
+\indexentry{force\+\_\+string@{force\+\_\+string}!Global strings for printing output@{Global strings for printing output}|hyperpage}{41}
+\indexentry{Global strings for printing output@{Global strings for printing output}!iso\+\_\+string@{iso\+\_\+string}|hyperpage}{41}
+\indexentry{iso\+\_\+string@{iso\+\_\+string}!Global strings for printing output@{Global strings for printing output}|hyperpage}{41}
+\indexentry{Global strings for printing output@{Global strings for printing output}!line\+\_\+break@{line\+\_\+break}|hyperpage}{41}
+\indexentry{line\+\_\+break@{line\+\_\+break}!Global strings for printing output@{Global strings for printing output}|hyperpage}{41}
+\indexentry{Global strings for printing output@{Global strings for printing output}!space4@{space4}|hyperpage}{41}
+\indexentry{space4@{space4}!Global strings for printing output@{Global strings for printing output}|hyperpage}{41}
+\indexentry{Global strings for printing output@{Global strings for printing output}!table\+\_\+string@{table\+\_\+string}|hyperpage}{41}
+\indexentry{table\+\_\+string@{table\+\_\+string}!Global strings for printing output@{Global strings for printing output}|hyperpage}{41}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{42}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}!d2hmen@{d2hmen}|hyperpage}{42}
+\indexentry{d2hmen@{d2hmen}!Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{42}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}!dhmen@{dhmen}|hyperpage}{42}
+\indexentry{dhmen@{dhmen}!Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{42}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}!e\+\_\+sc\+\_\+q@{e\+\_\+sc\+\_\+q}|hyperpage}{42}
+\indexentry{e\+\_\+sc\+\_\+q@{e\+\_\+sc\+\_\+q}!Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{42}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}!e\+\_\+sc\+\_\+t@{e\+\_\+sc\+\_\+t}|hyperpage}{43}
+\indexentry{e\+\_\+sc\+\_\+t@{e\+\_\+sc\+\_\+t}!Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{43}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}!ecut@{ecut}|hyperpage}{43}
+\indexentry{ecut@{ecut}!Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{43}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}!ep@{ep}|hyperpage}{43}
+\indexentry{ep@{ep}!Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{43}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}!hb2m@{hb2m}|hyperpage}{43}
+\indexentry{hb2m@{hb2m}!Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{43}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}!jjp@{jjp}|hyperpage}{43}
+\indexentry{jjp@{jjp}!Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{43}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}!lp@{lp}|hyperpage}{43}
+\indexentry{lp@{lp}!Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{43}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}!nnst@{nnst}|hyperpage}{44}
+\indexentry{nnst@{nnst}!Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{44}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}!ps@{ps}|hyperpage}{44}
+\indexentry{ps@{ps}!Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{44}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}!strut\+\_\+n@{strut\+\_\+n}|hyperpage}{44}
+\indexentry{strut\+\_\+n@{strut\+\_\+n}!Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{44}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}!vpot@{vpot}|hyperpage}{44}
+\indexentry{vpot@{vpot}!Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{44}
+\indexentry{Variables for use in strutinsky module@{Variables for use in strutinsky module}!vso@{vso}|hyperpage}{44}
+\indexentry{vso@{vso}!Variables for use in strutinsky module@{Variables for use in strutinsky module}|hyperpage}{44}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{45}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}!delta\+\_\+n@{delta\+\_\+n}|hyperpage}{45}
+\indexentry{delta\+\_\+n@{delta\+\_\+n}!Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{45}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}!delta\+\_\+p@{delta\+\_\+p}|hyperpage}{45}
+\indexentry{delta\+\_\+p@{delta\+\_\+p}!Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{45}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}!e\+\_\+pair\+\_\+bcs@{e\+\_\+pair\+\_\+bcs}|hyperpage}{46}
+\indexentry{e\+\_\+pair\+\_\+bcs@{e\+\_\+pair\+\_\+bcs}!Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{46}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}!e\+\_\+pair\+\_\+q@{e\+\_\+pair\+\_\+q}|hyperpage}{46}
+\indexentry{e\+\_\+pair\+\_\+q@{e\+\_\+pair\+\_\+q}!Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{46}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}!e\+\_\+pair\+\_\+t@{e\+\_\+pair\+\_\+t}|hyperpage}{46}
+\indexentry{e\+\_\+pair\+\_\+t@{e\+\_\+pair\+\_\+t}!Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{46}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}!e\+\_\+qp\+\_\+p@{e\+\_\+qp\+\_\+p}|hyperpage}{46}
+\indexentry{e\+\_\+qp\+\_\+p@{e\+\_\+qp\+\_\+p}!Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{46}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}!num\+\_\+p\+\_\+bcs@{num\+\_\+p\+\_\+bcs}|hyperpage}{46}
+\indexentry{num\+\_\+p\+\_\+bcs@{num\+\_\+p\+\_\+bcs}!Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{46}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}!occ\+\_\+u@{occ\+\_\+u}|hyperpage}{46}
+\indexentry{occ\+\_\+u@{occ\+\_\+u}!Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{46}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}!occ\+\_\+v@{occ\+\_\+v}|hyperpage}{47}
+\indexentry{occ\+\_\+v@{occ\+\_\+v}!Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{47}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}!pair\+\_\+gap\+\_\+n@{pair\+\_\+gap\+\_\+n}|hyperpage}{47}
+\indexentry{pair\+\_\+gap\+\_\+n@{pair\+\_\+gap\+\_\+n}!Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{47}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}!pair\+\_\+gap\+\_\+p@{pair\+\_\+gap\+\_\+p}|hyperpage}{47}
+\indexentry{pair\+\_\+gap\+\_\+p@{pair\+\_\+gap\+\_\+p}!Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{47}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}!rho\+\_\+anom\+\_\+p\+\_\+bcs@{rho\+\_\+anom\+\_\+p\+\_\+bcs}|hyperpage}{47}
+\indexentry{rho\+\_\+anom\+\_\+p\+\_\+bcs@{rho\+\_\+anom\+\_\+p\+\_\+bcs}!Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{47}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}!rho\+\_\+p\+\_\+bcs@{rho\+\_\+p\+\_\+bcs}|hyperpage}{47}
+\indexentry{rho\+\_\+p\+\_\+bcs@{rho\+\_\+p\+\_\+bcs}!Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{47}
+\indexentry{Variables for use in pairing module@{Variables for use in pairing module}!strength\+\_\+bcs@{strength\+\_\+bcs}|hyperpage}{47}
+\indexentry{strength\+\_\+bcs@{strength\+\_\+bcs}!Variables for use in pairing module@{Variables for use in pairing module}|hyperpage}{47}
+\indexentry{Variables for electron contributions@{Variables for electron contributions}|hyperpage}{48}
+\indexentry{Variables for electron contributions@{Variables for electron contributions}!e\+\_\+coulomb\+\_\+e@{e\+\_\+coulomb\+\_\+e}|hyperpage}{48}
+\indexentry{e\+\_\+coulomb\+\_\+e@{e\+\_\+coulomb\+\_\+e}!Variables for electron contributions@{Variables for electron contributions}|hyperpage}{48}
+\indexentry{Variables for electron contributions@{Variables for electron contributions}!e\+\_\+coulomb\+\_\+pe@{e\+\_\+coulomb\+\_\+pe}|hyperpage}{48}
+\indexentry{e\+\_\+coulomb\+\_\+pe@{e\+\_\+coulomb\+\_\+pe}!Variables for electron contributions@{Variables for electron contributions}|hyperpage}{48}
+\indexentry{Variables for electron contributions@{Variables for electron contributions}!e\+\_\+kinetic\+\_\+e@{e\+\_\+kinetic\+\_\+e}|hyperpage}{48}
+\indexentry{e\+\_\+kinetic\+\_\+e@{e\+\_\+kinetic\+\_\+e}!Variables for electron contributions@{Variables for electron contributions}|hyperpage}{48}
+\indexentry{Variables for electron contributions@{Variables for electron contributions}!rho\+\_\+e@{rho\+\_\+e}|hyperpage}{48}
+\indexentry{rho\+\_\+e@{rho\+\_\+e}!Variables for electron contributions@{Variables for electron contributions}|hyperpage}{48}
+\indexentry{pairing@{pairing}|hyperpage}{49}
+\indexentry{pairing@{pairing}!bcs\+\_\+protons@{bcs\+\_\+protons}|hyperpage}{49}
+\indexentry{bcs\+\_\+protons@{bcs\+\_\+protons}!pairing@{pairing}|hyperpage}{49}
+\indexentry{pairing@{pairing}!calc\+\_\+bcs\+\_\+num\+\_\+p@{calc\+\_\+bcs\+\_\+num\+\_\+p}|hyperpage}{50}
+\indexentry{calc\+\_\+bcs\+\_\+num\+\_\+p@{calc\+\_\+bcs\+\_\+num\+\_\+p}!pairing@{pairing}|hyperpage}{50}
+\indexentry{pairing@{pairing}!calc\+\_\+e\+\_\+pair@{calc\+\_\+e\+\_\+pair}|hyperpage}{51}
+\indexentry{calc\+\_\+e\+\_\+pair@{calc\+\_\+e\+\_\+pair}!pairing@{pairing}|hyperpage}{51}
+\indexentry{pairing@{pairing}!calc\+\_\+gap@{calc\+\_\+gap}|hyperpage}{51}
+\indexentry{calc\+\_\+gap@{calc\+\_\+gap}!pairing@{pairing}|hyperpage}{51}
+\indexentry{pairing@{pairing}!delta\+\_\+parametric@{delta\+\_\+parametric}|hyperpage}{52}
+\indexentry{delta\+\_\+parametric@{delta\+\_\+parametric}!pairing@{pairing}|hyperpage}{52}
+\indexentry{pairing@{pairing}!interazchamelanalyt@{interazchamelanalyt}|hyperpage}{53}
+\indexentry{interazchamelanalyt@{interazchamelanalyt}!pairing@{pairing}|hyperpage}{53}
+\indexentry{pairing@{pairing}!llambda@{llambda}|hyperpage}{54}
+\indexentry{llambda@{llambda}!pairing@{pairing}|hyperpage}{54}
+\indexentry{parameters@{parameters}|hyperpage}{55}
+\indexentry{parameters@{parameters}!force\+\_\+initialise@{force\+\_\+initialise}|hyperpage}{61}
+\indexentry{force\+\_\+initialise@{force\+\_\+initialise}!parameters@{parameters}|hyperpage}{61}
+\indexentry{parameters@{parameters}!a\+\_\+q@{a\+\_\+q}|hyperpage}{61}
+\indexentry{a\+\_\+q@{a\+\_\+q}!parameters@{parameters}|hyperpage}{61}
+\indexentry{parameters@{parameters}!d1\+\_\+a\+\_\+q@{d1\+\_\+a\+\_\+q}|hyperpage}{62}
+\indexentry{d1\+\_\+a\+\_\+q@{d1\+\_\+a\+\_\+q}!parameters@{parameters}|hyperpage}{62}
+\indexentry{parameters@{parameters}!d2\+\_\+a\+\_\+q@{d2\+\_\+a\+\_\+q}|hyperpage}{62}
+\indexentry{d2\+\_\+a\+\_\+q@{d2\+\_\+a\+\_\+q}!parameters@{parameters}|hyperpage}{62}
+\indexentry{parameters@{parameters}!d2\+\_\+f\+\_\+q@{d2\+\_\+f\+\_\+q}|hyperpage}{62}
+\indexentry{d2\+\_\+f\+\_\+q@{d2\+\_\+f\+\_\+q}!parameters@{parameters}|hyperpage}{62}
+\indexentry{parameters@{parameters}!d2\+\_\+rho\+\_\+q@{d2\+\_\+rho\+\_\+q}|hyperpage}{62}
+\indexentry{d2\+\_\+rho\+\_\+q@{d2\+\_\+rho\+\_\+q}!parameters@{parameters}|hyperpage}{62}
+\indexentry{parameters@{parameters}!d3\+\_\+a\+\_\+q@{d3\+\_\+a\+\_\+q}|hyperpage}{62}
+\indexentry{d3\+\_\+a\+\_\+q@{d3\+\_\+a\+\_\+q}!parameters@{parameters}|hyperpage}{62}
+\indexentry{parameters@{parameters}!d3\+\_\+f\+\_\+q@{d3\+\_\+f\+\_\+q}|hyperpage}{62}
+\indexentry{d3\+\_\+f\+\_\+q@{d3\+\_\+f\+\_\+q}!parameters@{parameters}|hyperpage}{62}
+\indexentry{parameters@{parameters}!d3\+\_\+rho\+\_\+q@{d3\+\_\+rho\+\_\+q}|hyperpage}{62}
+\indexentry{d3\+\_\+rho\+\_\+q@{d3\+\_\+rho\+\_\+q}!parameters@{parameters}|hyperpage}{62}
+\indexentry{parameters@{parameters}!d4\+\_\+a\+\_\+q@{d4\+\_\+a\+\_\+q}|hyperpage}{62}
+\indexentry{d4\+\_\+a\+\_\+q@{d4\+\_\+a\+\_\+q}!parameters@{parameters}|hyperpage}{62}
+\indexentry{parameters@{parameters}!d4\+\_\+f\+\_\+q@{d4\+\_\+f\+\_\+q}|hyperpage}{63}
+\indexentry{d4\+\_\+f\+\_\+q@{d4\+\_\+f\+\_\+q}!parameters@{parameters}|hyperpage}{63}
+\indexentry{parameters@{parameters}!d4\+\_\+rho\+\_\+q@{d4\+\_\+rho\+\_\+q}|hyperpage}{63}
+\indexentry{d4\+\_\+rho\+\_\+q@{d4\+\_\+rho\+\_\+q}!parameters@{parameters}|hyperpage}{63}
+\indexentry{parameters@{parameters}!div\+\_\+j\+\_\+4\+\_\+q@{div\+\_\+j\+\_\+4\+\_\+q}|hyperpage}{63}
+\indexentry{div\+\_\+j\+\_\+4\+\_\+q@{div\+\_\+j\+\_\+4\+\_\+q}!parameters@{parameters}|hyperpage}{63}
+\indexentry{parameters@{parameters}!dp@{dp}|hyperpage}{63}
+\indexentry{dp@{dp}!parameters@{parameters}|hyperpage}{63}
+\indexentry{parameters@{parameters}!j\+\_\+4\+\_\+q@{j\+\_\+4\+\_\+q}|hyperpage}{63}
+\indexentry{j\+\_\+4\+\_\+q@{j\+\_\+4\+\_\+q}!parameters@{parameters}|hyperpage}{63}
+\indexentry{parameters@{parameters}!tau\+\_\+4\+\_\+cont\+\_\+q@{tau\+\_\+4\+\_\+cont\+\_\+q}|hyperpage}{63}
+\indexentry{tau\+\_\+4\+\_\+cont\+\_\+q@{tau\+\_\+4\+\_\+cont\+\_\+q}!parameters@{parameters}|hyperpage}{63}
+\indexentry{parameters@{parameters}!tau\+\_\+4\+\_\+no\+\_\+spin\+\_\+q@{tau\+\_\+4\+\_\+no\+\_\+spin\+\_\+q}|hyperpage}{63}
+\indexentry{tau\+\_\+4\+\_\+no\+\_\+spin\+\_\+q@{tau\+\_\+4\+\_\+no\+\_\+spin\+\_\+q}!parameters@{parameters}|hyperpage}{63}
+\indexentry{parameters@{parameters}!tau\+\_\+4\+\_\+so\+\_\+q@{tau\+\_\+4\+\_\+so\+\_\+q}|hyperpage}{64}
+\indexentry{tau\+\_\+4\+\_\+so\+\_\+q@{tau\+\_\+4\+\_\+so\+\_\+q}!parameters@{parameters}|hyperpage}{64}
+\indexentry{routines@{routines}|hyperpage}{64}
+\indexentry{routines@{routines}!allocate\+\_\+arrays@{allocate\+\_\+arrays}|hyperpage}{66}
+\indexentry{allocate\+\_\+arrays@{allocate\+\_\+arrays}!routines@{routines}|hyperpage}{66}
+\indexentry{routines@{routines}!calc\+\_\+div\+\_\+j\+\_\+2\+\_\+q@{calc\+\_\+div\+\_\+j\+\_\+2\+\_\+q}|hyperpage}{66}
+\indexentry{calc\+\_\+div\+\_\+j\+\_\+2\+\_\+q@{calc\+\_\+div\+\_\+j\+\_\+2\+\_\+q}!routines@{routines}|hyperpage}{66}
+\indexentry{routines@{routines}!calc\+\_\+div\+\_\+j\+\_\+4\+\_\+q@{calc\+\_\+div\+\_\+j\+\_\+4\+\_\+q}|hyperpage}{67}
+\indexentry{calc\+\_\+div\+\_\+j\+\_\+4\+\_\+q@{calc\+\_\+div\+\_\+j\+\_\+4\+\_\+q}!routines@{routines}|hyperpage}{67}
+\indexentry{routines@{routines}!calc\+\_\+e\+\_\+f\+\_\+q@{calc\+\_\+e\+\_\+f\+\_\+q}|hyperpage}{68}
+\indexentry{calc\+\_\+e\+\_\+f\+\_\+q@{calc\+\_\+e\+\_\+f\+\_\+q}!routines@{routines}|hyperpage}{68}
+\indexentry{routines@{routines}!calc\+\_\+f\+\_\+q@{calc\+\_\+f\+\_\+q}|hyperpage}{69}
+\indexentry{calc\+\_\+f\+\_\+q@{calc\+\_\+f\+\_\+q}!routines@{routines}|hyperpage}{69}
+\indexentry{routines@{routines}!calc\+\_\+j\+\_\+2\+\_\+q@{calc\+\_\+j\+\_\+2\+\_\+q}|hyperpage}{70}
+\indexentry{calc\+\_\+j\+\_\+2\+\_\+q@{calc\+\_\+j\+\_\+2\+\_\+q}!routines@{routines}|hyperpage}{70}
+\indexentry{routines@{routines}!calc\+\_\+j\+\_\+4\+\_\+q@{calc\+\_\+j\+\_\+4\+\_\+q}|hyperpage}{70}
+\indexentry{calc\+\_\+j\+\_\+4\+\_\+q@{calc\+\_\+j\+\_\+4\+\_\+q}!routines@{routines}|hyperpage}{70}
+\indexentry{routines@{routines}!calc\+\_\+particle\+\_\+number@{calc\+\_\+particle\+\_\+number}|hyperpage}{71}
+\indexentry{calc\+\_\+particle\+\_\+number@{calc\+\_\+particle\+\_\+number}!routines@{routines}|hyperpage}{71}
+\indexentry{routines@{routines}!calc\+\_\+rho\+\_\+q@{calc\+\_\+rho\+\_\+q}|hyperpage}{72}
+\indexentry{calc\+\_\+rho\+\_\+q@{calc\+\_\+rho\+\_\+q}!routines@{routines}|hyperpage}{72}
+\indexentry{routines@{routines}!calc\+\_\+tau\+\_\+2\+\_\+l@{calc\+\_\+tau\+\_\+2\+\_\+l}|hyperpage}{73}
+\indexentry{calc\+\_\+tau\+\_\+2\+\_\+l@{calc\+\_\+tau\+\_\+2\+\_\+l}!routines@{routines}|hyperpage}{73}
+\indexentry{routines@{routines}!calc\+\_\+tau\+\_\+2\+\_\+nl@{calc\+\_\+tau\+\_\+2\+\_\+nl}|hyperpage}{73}
+\indexentry{calc\+\_\+tau\+\_\+2\+\_\+nl@{calc\+\_\+tau\+\_\+2\+\_\+nl}!routines@{routines}|hyperpage}{73}
+\indexentry{routines@{routines}!calc\+\_\+tau\+\_\+4\+\_\+no\+\_\+spin@{calc\+\_\+tau\+\_\+4\+\_\+no\+\_\+spin}|hyperpage}{74}
+\indexentry{calc\+\_\+tau\+\_\+4\+\_\+no\+\_\+spin@{calc\+\_\+tau\+\_\+4\+\_\+no\+\_\+spin}!routines@{routines}|hyperpage}{74}
+\indexentry{routines@{routines}!calc\+\_\+tau\+\_\+4\+\_\+so@{calc\+\_\+tau\+\_\+4\+\_\+so}|hyperpage}{75}
+\indexentry{calc\+\_\+tau\+\_\+4\+\_\+so@{calc\+\_\+tau\+\_\+4\+\_\+so}!routines@{routines}|hyperpage}{75}
+\indexentry{routines@{routines}!calc\+\_\+tau\+\_\+tf@{calc\+\_\+tau\+\_\+tf}|hyperpage}{76}
+\indexentry{calc\+\_\+tau\+\_\+tf@{calc\+\_\+tau\+\_\+tf}!routines@{routines}|hyperpage}{76}
+\indexentry{routines@{routines}!calc\+\_\+u\+\_\+q@{calc\+\_\+u\+\_\+q}|hyperpage}{77}
+\indexentry{calc\+\_\+u\+\_\+q@{calc\+\_\+u\+\_\+q}!routines@{routines}|hyperpage}{77}
+\indexentry{routines@{routines}!calc\+\_\+w\+\_\+q@{calc\+\_\+w\+\_\+q}|hyperpage}{78}
+\indexentry{calc\+\_\+w\+\_\+q@{calc\+\_\+w\+\_\+q}!routines@{routines}|hyperpage}{78}
+\indexentry{routines@{routines}!charge@{charge}|hyperpage}{78}
+\indexentry{charge@{charge}!routines@{routines}|hyperpage}{78}
+\indexentry{routines@{routines}!d1@{d1}|hyperpage}{79}
+\indexentry{d1@{d1}!routines@{routines}|hyperpage}{79}
+\indexentry{routines@{routines}!d2@{d2}|hyperpage}{80}
+\indexentry{d2@{d2}!routines@{routines}|hyperpage}{80}
+\indexentry{routines@{routines}!d3@{d3}|hyperpage}{80}
+\indexentry{d3@{d3}!routines@{routines}|hyperpage}{80}
+\indexentry{routines@{routines}!d4@{d4}|hyperpage}{81}
+\indexentry{d4@{d4}!routines@{routines}|hyperpage}{81}
+\indexentry{routines@{routines}!deallocate\+\_\+arrays@{deallocate\+\_\+arrays}|hyperpage}{82}
+\indexentry{deallocate\+\_\+arrays@{deallocate\+\_\+arrays}!routines@{routines}|hyperpage}{82}
+\indexentry{routines@{routines}!deallocate\+\_\+mesh@{deallocate\+\_\+mesh}|hyperpage}{82}
+\indexentry{deallocate\+\_\+mesh@{deallocate\+\_\+mesh}!routines@{routines}|hyperpage}{82}
+\indexentry{routines@{routines}!eval\+\_\+coulomb@{eval\+\_\+coulomb}|hyperpage}{82}
+\indexentry{eval\+\_\+coulomb@{eval\+\_\+coulomb}!routines@{routines}|hyperpage}{82}
+\indexentry{routines@{routines}!eval\+\_\+electrons@{eval\+\_\+electrons}|hyperpage}{83}
+\indexentry{eval\+\_\+electrons@{eval\+\_\+electrons}!routines@{routines}|hyperpage}{83}
+\indexentry{routines@{routines}!eval\+\_\+fields@{eval\+\_\+fields}|hyperpage}{84}
+\indexentry{eval\+\_\+fields@{eval\+\_\+fields}!routines@{routines}|hyperpage}{84}
+\indexentry{routines@{routines}!eval\+\_\+skyrme\+\_\+energy\+\_\+density@{eval\+\_\+skyrme\+\_\+energy\+\_\+density}|hyperpage}{85}
+\indexentry{eval\+\_\+skyrme\+\_\+energy\+\_\+density@{eval\+\_\+skyrme\+\_\+energy\+\_\+density}!routines@{routines}|hyperpage}{85}
+\indexentry{routines@{routines}!eval\+\_\+tau\+\_\+etf@{eval\+\_\+tau\+\_\+etf}|hyperpage}{86}
+\indexentry{eval\+\_\+tau\+\_\+etf@{eval\+\_\+tau\+\_\+etf}!routines@{routines}|hyperpage}{86}
+\indexentry{routines@{routines}!eval\+\_\+u\+\_\+q@{eval\+\_\+u\+\_\+q}|hyperpage}{87}
+\indexentry{eval\+\_\+u\+\_\+q@{eval\+\_\+u\+\_\+q}!routines@{routines}|hyperpage}{87}
+\indexentry{routines@{routines}!eval\+\_\+ws\+\_\+quantities@{eval\+\_\+ws\+\_\+quantities}|hyperpage}{88}
+\indexentry{eval\+\_\+ws\+\_\+quantities@{eval\+\_\+ws\+\_\+quantities}!routines@{routines}|hyperpage}{88}
+\indexentry{routines@{routines}!extrapolate\+\_\+back\+\_\+3@{extrapolate\+\_\+back\+\_\+3}|hyperpage}{90}
+\indexentry{extrapolate\+\_\+back\+\_\+3@{extrapolate\+\_\+back\+\_\+3}!routines@{routines}|hyperpage}{90}
+\indexentry{routines@{routines}!initialise\+\_\+uniform\+\_\+mesh@{initialise\+\_\+uniform\+\_\+mesh}|hyperpage}{90}
+\indexentry{initialise\+\_\+uniform\+\_\+mesh@{initialise\+\_\+uniform\+\_\+mesh}!routines@{routines}|hyperpage}{90}
+\indexentry{routines@{routines}!lap\+\_\+sphe\+\_\+symm@{lap\+\_\+sphe\+\_\+symm}|hyperpage}{90}
+\indexentry{lap\+\_\+sphe\+\_\+symm@{lap\+\_\+sphe\+\_\+symm}!routines@{routines}|hyperpage}{90}
+\indexentry{routines@{routines}!pressure@{pressure}|hyperpage}{91}
+\indexentry{pressure@{pressure}!routines@{routines}|hyperpage}{91}
+\indexentry{routines@{routines}!str2int@{str2int}|hyperpage}{92}
+\indexentry{str2int@{str2int}!routines@{routines}|hyperpage}{92}
+\indexentry{routines@{routines}!write\+\_\+densities@{write\+\_\+densities}|hyperpage}{92}
+\indexentry{write\+\_\+densities@{write\+\_\+densities}!routines@{routines}|hyperpage}{92}
+\indexentry{routines@{routines}!write\+\_\+fields@{write\+\_\+fields}|hyperpage}{93}
+\indexentry{write\+\_\+fields@{write\+\_\+fields}!routines@{routines}|hyperpage}{93}
+\indexentry{routines@{routines}!write\+\_\+sp\+\_\+states\+\_\+p@{write\+\_\+sp\+\_\+states\+\_\+p}|hyperpage}{93}
+\indexentry{write\+\_\+sp\+\_\+states\+\_\+p@{write\+\_\+sp\+\_\+states\+\_\+p}!routines@{routines}|hyperpage}{93}
+\indexentry{routines@{routines}!ws\+\_\+integral@{ws\+\_\+integral}|hyperpage}{94}
+\indexentry{ws\+\_\+integral@{ws\+\_\+integral}!routines@{routines}|hyperpage}{94}
+\indexentry{routines@{routines}!file\+\_\+unit\+\_\+0@{file\+\_\+unit\+\_\+0}|hyperpage}{95}
+\indexentry{file\+\_\+unit\+\_\+0@{file\+\_\+unit\+\_\+0}!routines@{routines}|hyperpage}{95}
+\indexentry{routines@{routines}!file\+\_\+unit\+\_\+1@{file\+\_\+unit\+\_\+1}|hyperpage}{95}
+\indexentry{file\+\_\+unit\+\_\+1@{file\+\_\+unit\+\_\+1}!routines@{routines}|hyperpage}{95}
+\indexentry{rspace@{rspace}|hyperpage}{95}
+\indexentry{rspace@{rspace}!boundary@{boundary}|hyperpage}{96}
+\indexentry{boundary@{boundary}!rspace@{rspace}|hyperpage}{96}
+\indexentry{rspace@{rspace}!numerov@{numerov}|hyperpage}{96}
+\indexentry{numerov@{numerov}!rspace@{rspace}|hyperpage}{96}
+\indexentry{strutinsky@{strutinsky}|hyperpage}{97}
+\indexentry{strutinsky@{strutinsky}!calc\+\_\+e\+\_\+sc@{calc\+\_\+e\+\_\+sc}|hyperpage}{98}
+\indexentry{calc\+\_\+e\+\_\+sc@{calc\+\_\+e\+\_\+sc}!strutinsky@{strutinsky}|hyperpage}{98}
+\indexentry{strutinsky@{strutinsky}!calc\+\_\+e\+\_\+sc\+\_\+pair@{calc\+\_\+e\+\_\+sc\+\_\+pair}|hyperpage}{98}
+\indexentry{calc\+\_\+e\+\_\+sc\+\_\+pair@{calc\+\_\+e\+\_\+sc\+\_\+pair}!strutinsky@{strutinsky}|hyperpage}{98}
+\indexentry{strutinsky@{strutinsky}!sp\+\_\+states\+\_\+deallocate@{sp\+\_\+states\+\_\+deallocate}|hyperpage}{99}
+\indexentry{sp\+\_\+states\+\_\+deallocate@{sp\+\_\+states\+\_\+deallocate}!strutinsky@{strutinsky}|hyperpage}{99}
+\indexentry{strutinsky@{strutinsky}!sp\+\_\+states\+\_\+setup@{sp\+\_\+states\+\_\+setup}|hyperpage}{99}
+\indexentry{sp\+\_\+states\+\_\+setup@{sp\+\_\+states\+\_\+setup}!strutinsky@{strutinsky}|hyperpage}{99}
+\indexentry{strutinsky@{strutinsky}!state\+\_\+sort@{state\+\_\+sort}|hyperpage}{100}
+\indexentry{state\+\_\+sort@{state\+\_\+sort}!strutinsky@{strutinsky}|hyperpage}{100}
+\indexentry{test@{test}|hyperpage}{101}
+\indexentry{test@{test}!bartel\+\_\+bencheikh\+\_\+benchmark@{bartel\+\_\+bencheikh\+\_\+benchmark}|hyperpage}{102}
+\indexentry{bartel\+\_\+bencheikh\+\_\+benchmark@{bartel\+\_\+bencheikh\+\_\+benchmark}!test@{test}|hyperpage}{102}
+\indexentry{test@{test}!orders\+\_\+kinetic\+\_\+densities@{orders\+\_\+kinetic\+\_\+densities}|hyperpage}{102}
+\indexentry{orders\+\_\+kinetic\+\_\+densities@{orders\+\_\+kinetic\+\_\+densities}!test@{test}|hyperpage}{102}
+\indexentry{test@{test}!read\+\_\+test\+\_\+params@{read\+\_\+test\+\_\+params}|hyperpage}{103}
+\indexentry{read\+\_\+test\+\_\+params@{read\+\_\+test\+\_\+params}!test@{test}|hyperpage}{103}
+\indexentry{test@{test}!test\+\_\+calc\+\_\+coulomb\+\_\+energy@{test\+\_\+calc\+\_\+coulomb\+\_\+energy}|hyperpage}{103}
+\indexentry{test\+\_\+calc\+\_\+coulomb\+\_\+energy@{test\+\_\+calc\+\_\+coulomb\+\_\+energy}!test@{test}|hyperpage}{103}
+\indexentry{test@{test}!test\+\_\+calc\+\_\+particle\+\_\+number@{test\+\_\+calc\+\_\+particle\+\_\+number}|hyperpage}{104}
+\indexentry{test\+\_\+calc\+\_\+particle\+\_\+number@{test\+\_\+calc\+\_\+particle\+\_\+number}!test@{test}|hyperpage}{104}
+\indexentry{test@{test}!test\+\_\+calc\+\_\+skyrme\+\_\+energy@{test\+\_\+calc\+\_\+skyrme\+\_\+energy}|hyperpage}{104}
+\indexentry{test\+\_\+calc\+\_\+skyrme\+\_\+energy@{test\+\_\+calc\+\_\+skyrme\+\_\+energy}!test@{test}|hyperpage}{104}
+\indexentry{test@{test}!test\+\_\+central\+\_\+potentials@{test\+\_\+central\+\_\+potentials}|hyperpage}{105}
+\indexentry{test\+\_\+central\+\_\+potentials@{test\+\_\+central\+\_\+potentials}!test@{test}|hyperpage}{105}
+\indexentry{test@{test}!test\+\_\+densities@{test\+\_\+densities}|hyperpage}{105}
+\indexentry{test\+\_\+densities@{test\+\_\+densities}!test@{test}|hyperpage}{105}
+\indexentry{test@{test}!test\+\_\+density\+\_\+derivs@{test\+\_\+density\+\_\+derivs}|hyperpage}{106}
+\indexentry{test\+\_\+density\+\_\+derivs@{test\+\_\+density\+\_\+derivs}!test@{test}|hyperpage}{106}
+\indexentry{test@{test}!test\+\_\+eff\+\_\+mass@{test\+\_\+eff\+\_\+mass}|hyperpage}{106}
+\indexentry{test\+\_\+eff\+\_\+mass@{test\+\_\+eff\+\_\+mass}!test@{test}|hyperpage}{106}
+\indexentry{test@{test}!test\+\_\+kinetic\+\_\+densities@{test\+\_\+kinetic\+\_\+densities}|hyperpage}{107}
+\indexentry{test\+\_\+kinetic\+\_\+densities@{test\+\_\+kinetic\+\_\+densities}!test@{test}|hyperpage}{107}
+\indexentry{test@{test}!test\+\_\+si\+\_\+correction@{test\+\_\+si\+\_\+correction}|hyperpage}{107}
+\indexentry{test\+\_\+si\+\_\+correction@{test\+\_\+si\+\_\+correction}!test@{test}|hyperpage}{107}
+\indexentry{test@{test}!test\+\_\+sp\+\_\+energies@{test\+\_\+sp\+\_\+energies}|hyperpage}{108}
+\indexentry{test\+\_\+sp\+\_\+energies@{test\+\_\+sp\+\_\+energies}!test@{test}|hyperpage}{108}
+\indexentry{test@{test}!test\+\_\+spin\+\_\+current\+\_\+densities@{test\+\_\+spin\+\_\+current\+\_\+densities}|hyperpage}{109}
+\indexentry{test\+\_\+spin\+\_\+current\+\_\+densities@{test\+\_\+spin\+\_\+current\+\_\+densities}!test@{test}|hyperpage}{109}
+\indexentry{test@{test}!write\+\_\+ws\+\_\+cell\+\_\+array\+\_\+quantity@{write\+\_\+ws\+\_\+cell\+\_\+array\+\_\+quantity}|hyperpage}{109}
+\indexentry{write\+\_\+ws\+\_\+cell\+\_\+array\+\_\+quantity@{write\+\_\+ws\+\_\+cell\+\_\+array\+\_\+quantity}!test@{test}|hyperpage}{109}
+\indexentry{test@{test}!file\+\_\+unit@{file\+\_\+unit}|hyperpage}{110}
+\indexentry{file\+\_\+unit@{file\+\_\+unit}!test@{test}|hyperpage}{110}
+\indexentry{test@{test}!file\+\_\+unit\+\_\+2@{file\+\_\+unit\+\_\+2}|hyperpage}{110}
+\indexentry{file\+\_\+unit\+\_\+2@{file\+\_\+unit\+\_\+2}!test@{test}|hyperpage}{110}
+\indexentry{test@{test}!sample\+\_\+profile@{sample\+\_\+profile}|hyperpage}{110}
+\indexentry{sample\+\_\+profile@{sample\+\_\+profile}!test@{test}|hyperpage}{110}
+\indexentry{srcs/boundary.\+f90@{srcs/boundary.\+f90}|hyperpage}{111}
+\indexentry{srcs/etf.\+f90@{srcs/etf.\+f90}|hyperpage}{111}
+\indexentry{etf.\+f90@{etf.\+f90}!etf@{etf}|hyperpage}{111}
+\indexentry{etf@{etf}!etf.\+f90@{etf.\+f90}|hyperpage}{111}
+\indexentry{etf.\+f90@{etf.\+f90}!total\+\_\+energy\+\_\+with\+\_\+corrections@{total\+\_\+energy\+\_\+with\+\_\+corrections}|hyperpage}{113}
+\indexentry{total\+\_\+energy\+\_\+with\+\_\+corrections@{total\+\_\+energy\+\_\+with\+\_\+corrections}!etf.\+f90@{etf.\+f90}|hyperpage}{113}
+\indexentry{srcs/pairing.\+f90@{srcs/pairing.\+f90}|hyperpage}{115}
+\indexentry{srcs/parameters.\+f90@{srcs/parameters.\+f90}|hyperpage}{115}
+\indexentry{srcs/routines.\+f90@{srcs/routines.\+f90}|hyperpage}{122}
+\indexentry{srcs/strutinsky.\+f90@{srcs/strutinsky.\+f90}|hyperpage}{124}
+\indexentry{srcs/test.\+f90@{srcs/test.\+f90}|hyperpage}{124}

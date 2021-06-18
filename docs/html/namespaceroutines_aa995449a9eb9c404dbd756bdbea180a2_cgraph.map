@@ -1,0 +1,16 @@
+<map id="routines::eval_fields" name="routines::eval_fields">
+<area shape="rect" id="node2" href="$namespaceroutines.html#af143340288720f8019e944ec7110a84e" title="Subroutine to extrapolate back 3 points on the r mesh, to faciliate the calculation of first and seco..." alt="" coords="207,5,347,47"/>
+<area shape="rect" id="node3" href="$namespaceroutines.html#a92e52c281532c938dfa10d85404a367a" title="This subroutine computes the first derivative of function evaluated on the meshpoints 1..." alt="" coords="232,71,323,98"/>
+<area shape="rect" id="node4" href="$namespaceroutines.html#a635a2461a6c20207dd3b268842381ce3" title="Subroutine to carry out Laplacian in spherical symmetry. " alt="" coords="192,122,363,149"/>
+<area shape="rect" id="node5" href="$namespaceroutines.html#aafc8447e9af12216ae995f63c1606f1a" title="This subroutine computes the second derivative of function evaluated on the meshpoints 1..." alt="" coords="421,147,512,174"/>
+<area shape="rect" id="node6" href="$namespaceroutines.html#a701f911aa939448c5bee0589d57369ca" title="Subroutine to calculate the effective mass ratio &#160;for neutrons or protons, for standard Skyrme or for..." alt="" coords="215,223,340,250"/>
+<area shape="rect" id="node8" href="$namespaceroutines.html#a8c520afea1e9ca6698a0792fbac37e7a" title="Function to calculate the spin&#45;orbit field &#160;for neutrons or protons. " alt="" coords="212,274,343,301"/>
+<area shape="rect" id="node9" href="$namespaceroutines.html#af03f37f9deca52ef9a56287f50b982a1" title="Subroutine to calculate the second&#45;order contributions to the spin current density &#160;for neutrons or p..." alt="" coords="208,325,347,351"/>
+<area shape="rect" id="node10" href="$namespaceroutines.html#a136b7a1f0387466390decb98ce91c152" title="Subroutine to calculate the second&#45;order contributions to the divergence of the current density &#160;for ..." alt="" coords="215,376,339,417"/>
+<area shape="rect" id="node11" href="$namespaceroutines.html#ac563b00969cb307d71ebc02aaef0a3b4" title="Subroutine to calculate third derivative of function f evaluated on evenly&#45;spaced meshpoints from 1 t..." alt="" coords="232,442,323,469"/>
+<area shape="rect" id="node12" href="$namespaceroutines.html#a6d38e9b19f2e939feb7840d2575fbb56" title="Subroutine to calculate fourth derivative of function f evaluated on evenly&#45;spaced meshpoints from 1 ..." alt="" coords="232,493,323,519"/>
+<area shape="rect" id="node13" href="$namespaceroutines.html#a014fed5fe5fbc19302e7cbc651ba59bd" title="Subroutine to calculate the fourth&#45;order contributions to the spin current density &#160;for neutrons or p..." alt="" coords="208,543,347,570"/>
+<area shape="rect" id="node14" href="$namespaceroutines.html#a7f66729f05be35eda4266dbf47eda026" title="Subroutine to calculate the fourth&#45;order contributions to the divergence of the current density &#160;for ..." alt="" coords="215,595,339,636"/>
+<area shape="rect" id="node15" href="$namespaceroutines.html#a5737b4327dcaa959a9ee519e4fca42e8" title="Function to integrate a density or field over the whole W&#45;S cell, using Simpson&#39;s rule (+ Simpson&#39;s 3..." alt="" coords="206,661,349,687"/>
+<area shape="rect" id="node7" href="$namespaceroutines.html#a8146fb4359e556bad19f882b8aabfc4b" title="routines::str2int" alt="" coords="411,223,523,250"/>
+</map>

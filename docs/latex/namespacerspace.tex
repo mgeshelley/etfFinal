@@ -1,0 +1,61 @@
+\hypertarget{namespacerspace}{}\section{rspace Module Reference}
+\label{namespacerspace}\index{rspace@{rspace}}
+
+
+Module to hold routines for calculating single particle energies. Written by A. Pastore, some variables and use statements modified by M. Shelley for integration into etf code.  
+
+
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \mbox{\hyperlink{namespacerspace_af32fb6df1b49e330db5a70e2b05faa5b}{boundary}} (h, Lmax, Ecut, Nmaxt, PS, N\+N\+ST, J\+JP, LP, EP, isospin)
+\item 
+subroutine \mbox{\hyperlink{namespacerspace_a95f8e6b75776b923eb4ab9cc71a3be33}{numerov}} (h, Nrmax, Emax0, N, L, J, E\+F\+I\+N\+AL, U, V, V\+SO, H\+ME, GI, G\+Iprimo, no)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Module to hold routines for calculating single particle energies. Written by A. Pastore, some variables and use statements modified by M. Shelley for integration into etf code. 
+
+\begin{DoxyAuthor}{Author}
+A. Pastore, M. Shelley 
+\end{DoxyAuthor}
+
+
+\subsection{Function/\+Subroutine Documentation}
+\mbox{\Hypertarget{namespacerspace_af32fb6df1b49e330db5a70e2b05faa5b}\label{namespacerspace_af32fb6df1b49e330db5a70e2b05faa5b}} 
+\index{rspace@{rspace}!boundary@{boundary}}
+\index{boundary@{boundary}!rspace@{rspace}}
+\subsubsection{\texorpdfstring{boundary()}{boundary()}}
+{\footnotesize\ttfamily subroutine rspace\+::boundary (\begin{DoxyParamCaption}\item[{double precision}]{h,  }\item[{integer}]{Lmax,  }\item[{double precision}]{Ecut,  }\item[{integer}]{Nmaxt,  }\item[{double precision, dimension(nmaxstate,nmaxt)}]{PS,  }\item[{integer}]{N\+N\+ST,  }\item[{integer, dimension(nmaxstate)}]{J\+JP,  }\item[{integer, dimension(nmaxstate)}]{LP,  }\item[{double precision, dimension(nmaxstate)}]{EP,  }\item[{integer}]{isospin }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{namespacerspace_af32fb6df1b49e330db5a70e2b05faa5b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacerspace_af32fb6df1b49e330db5a70e2b05faa5b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacerspace_a95f8e6b75776b923eb4ab9cc71a3be33}\label{namespacerspace_a95f8e6b75776b923eb4ab9cc71a3be33}} 
+\index{rspace@{rspace}!numerov@{numerov}}
+\index{numerov@{numerov}!rspace@{rspace}}
+\subsubsection{\texorpdfstring{numerov()}{numerov()}}
+{\footnotesize\ttfamily subroutine rspace\+::numerov (\begin{DoxyParamCaption}\item[{double precision}]{h,  }\item[{integer}]{Nrmax,  }\item[{double precision}]{Emax0,  }\item[{integer}]{N,  }\item[{integer}]{L,  }\item[{integer}]{J,  }\item[{double precision}]{E\+F\+I\+N\+AL,  }\item[{double precision, dimension(nrmax)}]{U,  }\item[{double precision, dimension(nrmax)}]{V,  }\item[{double precision, dimension(nrmax)}]{V\+SO,  }\item[{double precision, dimension(nrmax)}]{H\+ME,  }\item[{double precision, dimension(nrmax)}]{GI,  }\item[{double precision, dimension(nrmax)}]{G\+Iprimo,  }\item[{integer}]{no }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacerspace_a95f8e6b75776b923eb4ab9cc71a3be33_icgraph}
+\end{center}
+\end{figure}

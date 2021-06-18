@@ -1,0 +1,1039 @@
+\begin{theindex}
+
+  \item {a\+\_\+q}
+    \subitem {parameters}, \hyperpage{61}
+  \item {allocate\+\_\+arrays}
+    \subitem {routines}, \hyperpage{66}
+  \item {alpha}
+    \subitem {Extra parameters for B\+Sk forces}, \hyperpage{18}
+
+  \indexspace
+
+  \item {b1}
+    \subitem {Skyrme coefficients}, \hyperpage{16}
+  \item {b10}
+    \subitem {Skyrme coefficients}, \hyperpage{16}
+  \item {b11}
+    \subitem {Skyrme coefficients}, \hyperpage{16}
+  \item {b12}
+    \subitem {Skyrme coefficients}, \hyperpage{16}
+  \item {b13}
+    \subitem {Skyrme coefficients}, \hyperpage{16}
+  \item {b2}
+    \subitem {Skyrme coefficients}, \hyperpage{17}
+  \item {b3}
+    \subitem {Skyrme coefficients}, \hyperpage{17}
+  \item {b4}
+    \subitem {Skyrme coefficients}, \hyperpage{17}
+  \item {b5}
+    \subitem {Skyrme coefficients}, \hyperpage{17}
+  \item {b6}
+    \subitem {Skyrme coefficients}, \hyperpage{17}
+  \item {b7}
+    \subitem {Skyrme coefficients}, \hyperpage{17}
+  \item {b8}
+    \subitem {Skyrme coefficients}, \hyperpage{17}
+  \item {b9}
+    \subitem {Skyrme coefficients}, \hyperpage{17}
+  \item {bartel\+\_\+bencheikh\+\_\+benchmark}
+    \subitem {test}, \hyperpage{102}
+  \item {bcs\+\_\+protons}
+    \subitem {pairing}, \hyperpage{49}
+  \item {beta}
+    \subitem {Extra parameters for B\+Sk forces}, \hyperpage{18}
+  \item {boundary}
+    \subitem {rspace}, \hyperpage{96}
+
+  \indexspace
+
+  \item {calc\+\_\+bcs\+\_\+num\+\_\+p}
+    \subitem {pairing}, \hyperpage{50}
+  \item {calc\+\_\+chem\+\_\+pots}
+    \subitem {Input parameters}, \hyperpage{33}
+  \item {calc\+\_\+div\+\_\+j\+\_\+2\+\_\+q}
+    \subitem {routines}, \hyperpage{66}
+  \item {calc\+\_\+div\+\_\+j\+\_\+4\+\_\+q}
+    \subitem {routines}, \hyperpage{67}
+  \item {calc\+\_\+e\+\_\+f\+\_\+q}
+    \subitem {routines}, \hyperpage{68}
+  \item {calc\+\_\+e\+\_\+pair}
+    \subitem {pairing}, \hyperpage{51}
+  \item {calc\+\_\+e\+\_\+sc}
+    \subitem {strutinsky}, \hyperpage{98}
+  \item {calc\+\_\+e\+\_\+sc\+\_\+pair}
+    \subitem {strutinsky}, \hyperpage{98}
+  \item {calc\+\_\+f\+\_\+q}
+    \subitem {routines}, \hyperpage{69}
+  \item {calc\+\_\+gap}
+    \subitem {pairing}, \hyperpage{51}
+  \item {calc\+\_\+j\+\_\+2\+\_\+q}
+    \subitem {routines}, \hyperpage{70}
+  \item {calc\+\_\+j\+\_\+4\+\_\+q}
+    \subitem {routines}, \hyperpage{70}
+  \item {calc\+\_\+particle\+\_\+number}
+    \subitem {routines}, \hyperpage{71}
+  \item {calc\+\_\+rho\+\_\+q}
+    \subitem {routines}, \hyperpage{72}
+  \item {calc\+\_\+tau\+\_\+2\+\_\+l}
+    \subitem {routines}, \hyperpage{73}
+  \item {calc\+\_\+tau\+\_\+2\+\_\+nl}
+    \subitem {routines}, \hyperpage{73}
+  \item {calc\+\_\+tau\+\_\+4\+\_\+no\+\_\+spin}
+    \subitem {routines}, \hyperpage{74}
+  \item {calc\+\_\+tau\+\_\+4\+\_\+so}
+    \subitem {routines}, \hyperpage{75}
+  \item {calc\+\_\+tau\+\_\+tf}
+    \subitem {routines}, \hyperpage{76}
+  \item {calc\+\_\+u\+\_\+q}
+    \subitem {routines}, \hyperpage{77}
+  \item {calc\+\_\+w\+\_\+q}
+    \subitem {routines}, \hyperpage{78}
+  \item {charge}
+    \subitem {routines}, \hyperpage{78}
+  \item {coulomb\+\_\+on}
+    \subitem {Input parameters}, \hyperpage{33}
+
+  \indexspace
+
+  \item {d1}
+    \subitem {routines}, \hyperpage{79}
+  \item {d1\+\_\+a\+\_\+q}
+    \subitem {parameters}, \hyperpage{62}
+  \item {d2}
+    \subitem {routines}, \hyperpage{80}
+  \item {d2\+\_\+a\+\_\+q}
+    \subitem {parameters}, \hyperpage{62}
+  \item {d2\+\_\+f\+\_\+q}
+    \subitem {parameters}, \hyperpage{62}
+  \item {d2\+\_\+rho\+\_\+q}
+    \subitem {parameters}, \hyperpage{62}
+  \item {d2hmen}
+    \subitem {Variables for use in strutinsky module}, \hyperpage{42}
+  \item {d3}
+    \subitem {routines}, \hyperpage{80}
+  \item {d3\+\_\+a\+\_\+q}
+    \subitem {parameters}, \hyperpage{62}
+  \item {d3\+\_\+f\+\_\+q}
+    \subitem {parameters}, \hyperpage{62}
+  \item {d3\+\_\+rho\+\_\+q}
+    \subitem {parameters}, \hyperpage{62}
+  \item {d4}
+    \subitem {routines}, \hyperpage{81}
+  \item {d4\+\_\+a\+\_\+q}
+    \subitem {parameters}, \hyperpage{62}
+  \item {d4\+\_\+f\+\_\+q}
+    \subitem {parameters}, \hyperpage{63}
+  \item {d4\+\_\+rho\+\_\+q}
+    \subitem {parameters}, \hyperpage{63}
+  \item {deallocate\+\_\+arrays}
+    \subitem {routines}, \hyperpage{82}
+  \item {deallocate\+\_\+mesh}
+    \subitem {routines}, \hyperpage{82}
+  \item {del2\+\_\+f\+\_\+q}
+    \subitem {Global effective mass arrays}, \hyperpage{22}
+  \item {del2\+\_\+rho\+\_\+q}
+    \subitem {Global density arrays}, \hyperpage{21}
+  \item {del2\+\_\+rho\+\_\+t}
+    \subitem {Global density arrays}, \hyperpage{21}
+  \item {del\+\_\+f\+\_\+q}
+    \subitem {Global effective mass arrays}, \hyperpage{22}
+  \item {del\+\_\+j\+\_\+q}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{23}
+  \item {del\+\_\+j\+\_\+t}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{23}
+  \item {del\+\_\+rho\+\_\+q}
+    \subitem {Global density arrays}, \hyperpage{21}
+  \item {del\+\_\+rho\+\_\+t}
+    \subitem {Global density arrays}, \hyperpage{21}
+  \item {delta\+\_\+mu}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{28}
+  \item {delta\+\_\+n}
+    \subitem {Variables for use in pairing module}, \hyperpage{45}
+  \item {delta\+\_\+p}
+    \subitem {Variables for use in pairing module}, \hyperpage{45}
+  \item {delta\+\_\+parametric}
+    \subitem {pairing}, \hyperpage{52}
+  \item {dhmen}
+    \subitem {Variables for use in strutinsky module}, \hyperpage{42}
+  \item {div\+\_\+j\+\_\+2\+\_\+q}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{23}
+  \item {div\+\_\+j\+\_\+4\+\_\+q}
+    \subitem {parameters}, \hyperpage{63}
+  \item {div\+\_\+j\+\_\+q}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{24}
+  \item {div\+\_\+j\+\_\+t}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{24}
+  \item {div\+\_\+w\+\_\+q}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{24}
+  \item {dp}
+    \subitem {parameters}, \hyperpage{63}
+  \item {dr}
+    \subitem {Input parameters}, \hyperpage{33}
+
+  \indexspace
+
+  \item {e2}
+    \subitem {Global parameters}, \hyperpage{7}
+  \item {e\+\_\+coulomb}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{29}
+  \item {e\+\_\+coulomb\+\_\+di}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{29}
+  \item {e\+\_\+coulomb\+\_\+e}
+    \subitem {Variables for electron contributions}, \hyperpage{48}
+  \item {e\+\_\+coulomb\+\_\+ex}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{29}
+  \item {e\+\_\+coulomb\+\_\+pe}
+    \subitem {Variables for electron contributions}, \hyperpage{48}
+  \item {e\+\_\+density\+\_\+c\+\_\+di}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{24}
+  \item {e\+\_\+density\+\_\+c\+\_\+ex}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{24}
+  \item {e\+\_\+density\+\_\+field}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{24}
+  \item {e\+\_\+density\+\_\+sky}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{24}
+  \item {e\+\_\+field}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{29}
+  \item {e\+\_\+kinetic\+\_\+e}
+    \subitem {Variables for electron contributions}, \hyperpage{48}
+  \item {e\+\_\+kinetic\+\_\+q}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{29}
+  \item {e\+\_\+kinetic\+\_\+t}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{29}
+  \item {e\+\_\+pair\+\_\+bcs}
+    \subitem {Variables for use in pairing module}, \hyperpage{46}
+  \item {e\+\_\+pair\+\_\+q}
+    \subitem {Variables for use in pairing module}, \hyperpage{46}
+  \item {e\+\_\+pair\+\_\+t}
+    \subitem {Variables for use in pairing module}, \hyperpage{46}
+  \item {e\+\_\+qp\+\_\+p}
+    \subitem {Variables for use in pairing module}, \hyperpage{46}
+  \item {e\+\_\+sc\+\_\+q}
+    \subitem {Variables for use in strutinsky module}, \hyperpage{42}
+  \item {e\+\_\+sc\+\_\+t}
+    \subitem {Variables for use in strutinsky module}, \hyperpage{43}
+  \item {e\+\_\+skyrme}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{30}
+  \item {e\+\_\+so}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{30}
+  \item {e\+\_\+total}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{30}
+  \item {ecut}
+    \subitem {Variables for use in strutinsky module}, \hyperpage{43}
+  \item {electrons\+\_\+on}
+    \subitem {Input parameters}, \hyperpage{33}
+  \item {emax0\+\_\+mod}
+    \subitem {Input parameters}, \hyperpage{34}
+  \item {ep}
+    \subitem {Variables for use in strutinsky module}, \hyperpage{43}
+  \item {epsilon\+\_\+lambda}
+    \subitem {Extra parameters for B\+Sk forces}, \hyperpage{18}
+  \item {etf}
+    \subitem {etf.\+f90}, \hyperpage{111}
+  \item {etf.\+f90}
+    \subitem {etf}, \hyperpage{111}
+    \subitem {total\+\_\+energy\+\_\+with\+\_\+corrections}, 
+		\hyperpage{113}
+  \item {etf\+\_\+order}
+    \subitem {Input parameters}, \hyperpage{34}
+  \item {eval\+\_\+coulomb}
+    \subitem {routines}, \hyperpage{82}
+  \item {eval\+\_\+electrons}
+    \subitem {routines}, \hyperpage{83}
+  \item {eval\+\_\+fields}
+    \subitem {routines}, \hyperpage{84}
+  \item {eval\+\_\+skyrme\+\_\+energy\+\_\+density}
+    \subitem {routines}, \hyperpage{85}
+  \item {eval\+\_\+tau\+\_\+etf}
+    \subitem {routines}, \hyperpage{86}
+  \item {eval\+\_\+u\+\_\+q}
+    \subitem {routines}, \hyperpage{87}
+  \item {eval\+\_\+ws\+\_\+quantities}
+    \subitem {routines}, \hyperpage{88}
+  \item {External profiles}, \hyperpage{39}
+    \subitem {n\+\_\+profile}, \hyperpage{39}
+    \subitem {num\+\_\+n}, \hyperpage{39}
+    \subitem {num\+\_\+p}, \hyperpage{39}
+    \subitem {p\+\_\+profile}, \hyperpage{39}
+    \subitem {r\+\_\+ws}, \hyperpage{39}
+  \item {Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}, 
+		\hyperpage{9}
+    \subitem {mamuc2}, \hyperpage{9}
+    \subitem {rydb}, \hyperpage{9}
+    \subitem {xmh}, \hyperpage{9}
+    \subitem {xmn}, \hyperpage{9}
+    \subitem {xmp}, \hyperpage{9}
+  \item {Extra parameters for B\+Sk forces}, \hyperpage{18}
+    \subitem {alpha}, \hyperpage{18}
+    \subitem {beta}, \hyperpage{18}
+    \subitem {epsilon\+\_\+lambda}, \hyperpage{18}
+    \subitem {fn\+\_\+neg}, \hyperpage{18}
+    \subitem {fn\+\_\+pos}, \hyperpage{18}
+    \subitem {fp\+\_\+neg}, \hyperpage{19}
+    \subitem {fp\+\_\+pos}, \hyperpage{19}
+    \subitem {gamma}, \hyperpage{19}
+    \subitem {t4}, \hyperpage{19}
+    \subitem {t5}, \hyperpage{19}
+    \subitem {x4}, \hyperpage{19}
+    \subitem {x5}, \hyperpage{19}
+  \item {extrapolate\+\_\+back\+\_\+3}
+    \subitem {routines}, \hyperpage{90}
+
+  \indexspace
+
+  \item {f\+\_\+q}
+    \subitem {Global effective mass arrays}, \hyperpage{22}
+  \item {file\+\_\+unit}
+    \subitem {test}, \hyperpage{110}
+  \item {file\+\_\+unit\+\_\+0}
+    \subitem {routines}, \hyperpage{95}
+  \item {file\+\_\+unit\+\_\+1}
+    \subitem {routines}, \hyperpage{95}
+  \item {file\+\_\+unit\+\_\+2}
+    \subitem {test}, \hyperpage{110}
+  \item {fn\+\_\+neg}
+    \subitem {Extra parameters for B\+Sk forces}, \hyperpage{18}
+  \item {fn\+\_\+pos}
+    \subitem {Extra parameters for B\+Sk forces}, \hyperpage{18}
+  \item {force}
+    \subitem {Input parameters}, \hyperpage{34}
+  \item {force\+\_\+initialise}
+    \subitem {parameters}, \hyperpage{61}
+  \item {force\+\_\+string}
+    \subitem {Global strings for printing output}, \hyperpage{41}
+  \item {Format statements}, \hyperpage{40}
+    \subitem {info\+\_\+format}, \hyperpage{40}
+    \subitem {n\+\_\+floats}, \hyperpage{40}
+  \item {fp\+\_\+neg}
+    \subitem {Extra parameters for B\+Sk forces}, \hyperpage{19}
+  \item {fp\+\_\+pos}
+    \subitem {Extra parameters for B\+Sk forces}, \hyperpage{19}
+  \item {fr12}
+    \subitem {Numerical fractions}, \hyperpage{10}
+  \item {fr13}
+    \subitem {Numerical fractions}, \hyperpage{10}
+  \item {fr14}
+    \subitem {Numerical fractions}, \hyperpage{10}
+  \item {fr16}
+    \subitem {Numerical fractions}, \hyperpage{10}
+  \item {fr18}
+    \subitem {Numerical fractions}, \hyperpage{11}
+  \item {fr1\+\_\+12}
+    \subitem {Numerical fractions}, \hyperpage{11}
+  \item {fr1\+\_\+16}
+    \subitem {Numerical fractions}, \hyperpage{11}
+  \item {fr1\+\_\+24}
+    \subitem {Numerical fractions}, \hyperpage{11}
+  \item {fr1\+\_\+32}
+    \subitem {Numerical fractions}, \hyperpage{11}
+  \item {fr1\+\_\+36}
+    \subitem {Numerical fractions}, \hyperpage{11}
+  \item {fr23}
+    \subitem {Numerical fractions}, \hyperpage{11}
+  \item {fr260\+\_\+3}
+    \subitem {Numerical fractions}, \hyperpage{11}
+  \item {fr29}
+    \subitem {Numerical fractions}, \hyperpage{12}
+  \item {fr32}
+    \subitem {Numerical fractions}, \hyperpage{12}
+  \item {fr34}
+    \subitem {Numerical fractions}, \hyperpage{12}
+  \item {fr35}
+    \subitem {Numerical fractions}, \hyperpage{12}
+  \item {fr38}
+    \subitem {Numerical fractions}, \hyperpage{12}
+  \item {fr3\+\_\+10}
+    \subitem {Numerical fractions}, \hyperpage{12}
+  \item {fr43}
+    \subitem {Numerical fractions}, \hyperpage{12}
+  \item {fr53}
+    \subitem {Numerical fractions}, \hyperpage{12}
+  \item {fr54}
+    \subitem {Numerical fractions}, \hyperpage{13}
+  \item {fr83}
+    \subitem {Numerical fractions}, \hyperpage{13}
+
+  \indexspace
+
+  \item {gamma}
+    \subitem {Extra parameters for B\+Sk forces}, \hyperpage{19}
+  \item {Global arrays for densities and fields for 4th-\/order terms}, 
+		\hyperpage{27}
+  \item {Global arrays for other densities and fields}, \hyperpage{23}
+    \subitem {del\+\_\+j\+\_\+q}, \hyperpage{23}
+    \subitem {del\+\_\+j\+\_\+t}, \hyperpage{23}
+    \subitem {div\+\_\+j\+\_\+2\+\_\+q}, \hyperpage{23}
+    \subitem {div\+\_\+j\+\_\+q}, \hyperpage{24}
+    \subitem {div\+\_\+j\+\_\+t}, \hyperpage{24}
+    \subitem {div\+\_\+w\+\_\+q}, \hyperpage{24}
+    \subitem {e\+\_\+density\+\_\+c\+\_\+di}, \hyperpage{24}
+    \subitem {e\+\_\+density\+\_\+c\+\_\+ex}, \hyperpage{24}
+    \subitem {e\+\_\+density\+\_\+field}, \hyperpage{24}
+    \subitem {e\+\_\+density\+\_\+sky}, \hyperpage{24}
+    \subitem {j\+\_\+2\+\_\+q}, \hyperpage{24}
+    \subitem {j\+\_\+q}, \hyperpage{25}
+    \subitem {j\+\_\+t}, \hyperpage{25}
+    \subitem {rho\+\_\+ch}, \hyperpage{25}
+    \subitem {tau\+\_\+2\+\_\+cont\+\_\+q}, \hyperpage{25}
+    \subitem {tau\+\_\+2\+\_\+l\+\_\+q}, \hyperpage{25}
+    \subitem {tau\+\_\+2\+\_\+nl\+\_\+q}, \hyperpage{25}
+    \subitem {tau\+\_\+etf\+\_\+q}, \hyperpage{25}
+    \subitem {tau\+\_\+etf\+\_\+t}, \hyperpage{26}
+    \subitem {tau\+\_\+tf\+\_\+q}, \hyperpage{26}
+    \subitem {u\+\_\+q}, \hyperpage{26}
+    \subitem {v\+\_\+c\+\_\+di}, \hyperpage{26}
+    \subitem {v\+\_\+c\+\_\+ex}, \hyperpage{26}
+    \subitem {v\+\_\+c\+\_\+pe}, \hyperpage{26}
+    \subitem {w\+\_\+q}, \hyperpage{26}
+  \item {Global density arrays}, \hyperpage{21}
+    \subitem {del2\+\_\+rho\+\_\+q}, \hyperpage{21}
+    \subitem {del2\+\_\+rho\+\_\+t}, \hyperpage{21}
+    \subitem {del\+\_\+rho\+\_\+q}, \hyperpage{21}
+    \subitem {del\+\_\+rho\+\_\+t}, \hyperpage{21}
+    \subitem {rho\+\_\+q}, \hyperpage{21}
+    \subitem {rho\+\_\+t}, \hyperpage{21}
+  \item {Global effective mass arrays}, \hyperpage{22}
+    \subitem {del2\+\_\+f\+\_\+q}, \hyperpage{22}
+    \subitem {del\+\_\+f\+\_\+q}, \hyperpage{22}
+    \subitem {f\+\_\+q}, \hyperpage{22}
+  \item {Global parameters}, \hyperpage{7}
+    \subitem {e2}, \hyperpage{7}
+    \subitem {hbar2\+\_\+2m}, \hyperpage{7}
+    \subitem {hbarc}, \hyperpage{8}
+    \subitem {mec2}, \hyperpage{8}
+    \subitem {mnc2}, \hyperpage{8}
+    \subitem {mpc2}, \hyperpage{8}
+    \subitem {pi}, \hyperpage{8}
+    \subitem {rho0}, \hyperpage{8}
+  \item {Global strings for printing output}, \hyperpage{41}
+    \subitem {force\+\_\+string}, \hyperpage{41}
+    \subitem {iso\+\_\+string}, \hyperpage{41}
+    \subitem {line\+\_\+break}, \hyperpage{41}
+    \subitem {space4}, \hyperpage{41}
+    \subitem {table\+\_\+string}, \hyperpage{41}
+
+  \indexspace
+
+  \item {hb2m}
+    \subitem {Variables for use in strutinsky module}, \hyperpage{43}
+  \item {hbar2\+\_\+2m}
+    \subitem {Global parameters}, \hyperpage{7}
+  \item {hbar2\+\_\+2m\+\_\+q}
+    \subitem {Skyrme parameters}, \hyperpage{14}
+  \item {hbarc}
+    \subitem {Global parameters}, \hyperpage{8}
+
+  \indexspace
+
+  \item {info\+\_\+format}
+    \subitem {Format statements}, \hyperpage{40}
+  \item {initialise\+\_\+uniform\+\_\+mesh}
+    \subitem {routines}, \hyperpage{90}
+  \item {Input parameters}, \hyperpage{32}
+    \subitem {calc\+\_\+chem\+\_\+pots}, \hyperpage{33}
+    \subitem {coulomb\+\_\+on}, \hyperpage{33}
+    \subitem {dr}, \hyperpage{33}
+    \subitem {electrons\+\_\+on}, \hyperpage{33}
+    \subitem {emax0\+\_\+mod}, \hyperpage{34}
+    \subitem {etf\+\_\+order}, \hyperpage{34}
+    \subitem {force}, \hyperpage{34}
+    \subitem {lmax}, \hyperpage{34}
+    \subitem {n}, \hyperpage{34}
+    \subitem {neutron\+\_\+pairing}, \hyperpage{34}
+    \subitem {nmaxstate}, \hyperpage{35}
+    \subitem {pair\+\_\+alpha}, \hyperpage{35}
+    \subitem {pair\+\_\+del\+\_\+init}, \hyperpage{35}
+    \subitem {pair\+\_\+dk}, \hyperpage{35}
+    \subitem {pair\+\_\+eta}, \hyperpage{35}
+    \subitem {pair\+\_\+k\+\_\+max}, \hyperpage{35}
+    \subitem {pair\+\_\+max\+\_\+iters}, \hyperpage{36}
+    \subitem {pair\+\_\+mix}, \hyperpage{36}
+    \subitem {pair\+\_\+num\+\_\+tol}, \hyperpage{36}
+    \subitem {pair\+\_\+qp\+\_\+cut}, \hyperpage{36}
+    \subitem {pair\+\_\+tol}, \hyperpage{36}
+    \subitem {pair\+\_\+v0}, \hyperpage{36}
+    \subitem {profile\+\_\+r\+\_\+max}, \hyperpage{37}
+    \subitem {proton\+\_\+bcs}, \hyperpage{37}
+    \subitem {r\+\_\+max}, \hyperpage{37}
+    \subitem {run\+\_\+mode}, \hyperpage{37}
+    \subitem {smooth\+\_\+qp\+\_\+cut}, \hyperpage{37}
+    \subitem {specify\+\_\+n}, \hyperpage{37}
+    \subitem {strut\+\_\+r\+\_\+max}, \hyperpage{38}
+    \subitem {strutinsky\+\_\+on}, \hyperpage{38}
+    \subitem {verbose}, \hyperpage{38}
+  \item {interazchamelanalyt}
+    \subitem {pairing}, \hyperpage{53}
+  \item {iso\+\_\+string}
+    \subitem {Global strings for printing output}, \hyperpage{41}
+
+  \indexspace
+
+  \item {j2\+\_\+terms}
+    \subitem {Skyrme parameters}, \hyperpage{14}
+  \item {j\+\_\+2\+\_\+q}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{24}
+  \item {j\+\_\+4\+\_\+q}
+    \subitem {parameters}, \hyperpage{63}
+  \item {j\+\_\+q}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{25}
+  \item {j\+\_\+t}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{25}
+  \item {jjp}
+    \subitem {Variables for use in strutinsky module}, \hyperpage{43}
+
+  \indexspace
+
+  \item {lap\+\_\+sphe\+\_\+symm}
+    \subitem {routines}, \hyperpage{90}
+  \item {line\+\_\+break}
+    \subitem {Global strings for printing output}, \hyperpage{41}
+  \item {llambda}
+    \subitem {pairing}, \hyperpage{54}
+  \item {lmax}
+    \subitem {Input parameters}, \hyperpage{34}
+  \item {lp}
+    \subitem {Variables for use in strutinsky module}, \hyperpage{43}
+
+  \indexspace
+
+  \item {mamuc2}
+    \subitem {Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}, 
+		\hyperpage{9}
+  \item {mec2}
+    \subitem {Global parameters}, \hyperpage{8}
+  \item {Mesh variable}, \hyperpage{20}
+    \subitem {r}, \hyperpage{20}
+  \item {mnc2}
+    \subitem {Global parameters}, \hyperpage{8}
+  \item {mpc2}
+    \subitem {Global parameters}, \hyperpage{8}
+  \item {mu\+\_\+c}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{30}
+  \item {mu\+\_\+e}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{30}
+  \item {mu\+\_\+q}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{30}
+
+  \indexspace
+
+  \item {n}
+    \subitem {Input parameters}, \hyperpage{34}
+  \item {n\+\_\+floats}
+    \subitem {Format statements}, \hyperpage{40}
+  \item {n\+\_\+profile}
+    \subitem {External profiles}, \hyperpage{39}
+  \item {n\+\_\+q}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{31}
+  \item {n\+\_\+t}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{31}
+  \item {neutron\+\_\+pairing}
+    \subitem {Input parameters}, \hyperpage{34}
+  \item {nmaxstate}
+    \subitem {Input parameters}, \hyperpage{35}
+  \item {nnst}
+    \subitem {Variables for use in strutinsky module}, \hyperpage{44}
+  \item {num\+\_\+n}
+    \subitem {External profiles}, \hyperpage{39}
+  \item {num\+\_\+p}
+    \subitem {External profiles}, \hyperpage{39}
+  \item {num\+\_\+p\+\_\+bcs}
+    \subitem {Variables for use in pairing module}, \hyperpage{46}
+  \item {Numerical fractions}, \hyperpage{10}
+    \subitem {fr12}, \hyperpage{10}
+    \subitem {fr13}, \hyperpage{10}
+    \subitem {fr14}, \hyperpage{10}
+    \subitem {fr16}, \hyperpage{10}
+    \subitem {fr18}, \hyperpage{11}
+    \subitem {fr1\+\_\+12}, \hyperpage{11}
+    \subitem {fr1\+\_\+16}, \hyperpage{11}
+    \subitem {fr1\+\_\+24}, \hyperpage{11}
+    \subitem {fr1\+\_\+32}, \hyperpage{11}
+    \subitem {fr1\+\_\+36}, \hyperpage{11}
+    \subitem {fr23}, \hyperpage{11}
+    \subitem {fr260\+\_\+3}, \hyperpage{11}
+    \subitem {fr29}, \hyperpage{12}
+    \subitem {fr32}, \hyperpage{12}
+    \subitem {fr34}, \hyperpage{12}
+    \subitem {fr35}, \hyperpage{12}
+    \subitem {fr38}, \hyperpage{12}
+    \subitem {fr3\+\_\+10}, \hyperpage{12}
+    \subitem {fr43}, \hyperpage{12}
+    \subitem {fr53}, \hyperpage{12}
+    \subitem {fr54}, \hyperpage{13}
+    \subitem {fr83}, \hyperpage{13}
+  \item {numerov}
+    \subitem {rspace}, \hyperpage{96}
+
+  \indexspace
+
+  \item {occ\+\_\+u}
+    \subitem {Variables for use in pairing module}, \hyperpage{46}
+  \item {occ\+\_\+v}
+    \subitem {Variables for use in pairing module}, \hyperpage{47}
+  \item {orders\+\_\+kinetic\+\_\+densities}
+    \subitem {test}, \hyperpage{102}
+
+  \indexspace
+
+  \item {p\+\_\+profile}
+    \subitem {External profiles}, \hyperpage{39}
+  \item {pair\+\_\+alpha}
+    \subitem {Input parameters}, \hyperpage{35}
+  \item {pair\+\_\+del\+\_\+init}
+    \subitem {Input parameters}, \hyperpage{35}
+  \item {pair\+\_\+dk}
+    \subitem {Input parameters}, \hyperpage{35}
+  \item {pair\+\_\+eta}
+    \subitem {Input parameters}, \hyperpage{35}
+  \item {pair\+\_\+gap\+\_\+n}
+    \subitem {Variables for use in pairing module}, \hyperpage{47}
+  \item {pair\+\_\+gap\+\_\+p}
+    \subitem {Variables for use in pairing module}, \hyperpage{47}
+  \item {pair\+\_\+k\+\_\+max}
+    \subitem {Input parameters}, \hyperpage{35}
+  \item {pair\+\_\+max\+\_\+iters}
+    \subitem {Input parameters}, \hyperpage{36}
+  \item {pair\+\_\+mix}
+    \subitem {Input parameters}, \hyperpage{36}
+  \item {pair\+\_\+num\+\_\+tol}
+    \subitem {Input parameters}, \hyperpage{36}
+  \item {pair\+\_\+qp\+\_\+cut}
+    \subitem {Input parameters}, \hyperpage{36}
+  \item {pair\+\_\+tol}
+    \subitem {Input parameters}, \hyperpage{36}
+  \item {pair\+\_\+v0}
+    \subitem {Input parameters}, \hyperpage{36}
+  \item {pairing}, \hyperpage{49}
+    \subitem {bcs\+\_\+protons}, \hyperpage{49}
+    \subitem {calc\+\_\+bcs\+\_\+num\+\_\+p}, \hyperpage{50}
+    \subitem {calc\+\_\+e\+\_\+pair}, \hyperpage{51}
+    \subitem {calc\+\_\+gap}, \hyperpage{51}
+    \subitem {delta\+\_\+parametric}, \hyperpage{52}
+    \subitem {interazchamelanalyt}, \hyperpage{53}
+    \subitem {llambda}, \hyperpage{54}
+  \item {parameters}, \hyperpage{55}
+    \subitem {a\+\_\+q}, \hyperpage{61}
+    \subitem {d1\+\_\+a\+\_\+q}, \hyperpage{62}
+    \subitem {d2\+\_\+a\+\_\+q}, \hyperpage{62}
+    \subitem {d2\+\_\+f\+\_\+q}, \hyperpage{62}
+    \subitem {d2\+\_\+rho\+\_\+q}, \hyperpage{62}
+    \subitem {d3\+\_\+a\+\_\+q}, \hyperpage{62}
+    \subitem {d3\+\_\+f\+\_\+q}, \hyperpage{62}
+    \subitem {d3\+\_\+rho\+\_\+q}, \hyperpage{62}
+    \subitem {d4\+\_\+a\+\_\+q}, \hyperpage{62}
+    \subitem {d4\+\_\+f\+\_\+q}, \hyperpage{63}
+    \subitem {d4\+\_\+rho\+\_\+q}, \hyperpage{63}
+    \subitem {div\+\_\+j\+\_\+4\+\_\+q}, \hyperpage{63}
+    \subitem {dp}, \hyperpage{63}
+    \subitem {force\+\_\+initialise}, \hyperpage{61}
+    \subitem {j\+\_\+4\+\_\+q}, \hyperpage{63}
+    \subitem {tau\+\_\+4\+\_\+cont\+\_\+q}, \hyperpage{63}
+    \subitem {tau\+\_\+4\+\_\+no\+\_\+spin\+\_\+q}, \hyperpage{63}
+    \subitem {tau\+\_\+4\+\_\+so\+\_\+q}, \hyperpage{64}
+  \item {pi}
+    \subitem {Global parameters}, \hyperpage{8}
+  \item {pressure}
+    \subitem {routines}, \hyperpage{91}
+  \item {pressure\+\_\+e}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{31}
+  \item {pressure\+\_\+ex}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{31}
+  \item {pressure\+\_\+nucl}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{31}
+  \item {pressure\+\_\+t}
+    \subitem {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{31}
+  \item {profile\+\_\+r\+\_\+max}
+    \subitem {Input parameters}, \hyperpage{37}
+  \item {proton\+\_\+bcs}
+    \subitem {Input parameters}, \hyperpage{37}
+  \item {ps}
+    \subitem {Variables for use in strutinsky module}, \hyperpage{44}
+
+  \indexspace
+
+  \item {r}
+    \subitem {Mesh variable}, \hyperpage{20}
+  \item {r\+\_\+max}
+    \subitem {Input parameters}, \hyperpage{37}
+  \item {r\+\_\+ws}
+    \subitem {External profiles}, \hyperpage{39}
+  \item {read\+\_\+test\+\_\+params}
+    \subitem {test}, \hyperpage{103}
+  \item {rho0}
+    \subitem {Global parameters}, \hyperpage{8}
+  \item {rho\+\_\+anom\+\_\+p\+\_\+bcs}
+    \subitem {Variables for use in pairing module}, \hyperpage{47}
+  \item {rho\+\_\+ch}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{25}
+  \item {rho\+\_\+e}
+    \subitem {Variables for electron contributions}, \hyperpage{48}
+  \item {rho\+\_\+p\+\_\+bcs}
+    \subitem {Variables for use in pairing module}, \hyperpage{47}
+  \item {rho\+\_\+q}
+    \subitem {Global density arrays}, \hyperpage{21}
+  \item {rho\+\_\+t}
+    \subitem {Global density arrays}, \hyperpage{21}
+  \item {routines}, \hyperpage{64}
+    \subitem {allocate\+\_\+arrays}, \hyperpage{66}
+    \subitem {calc\+\_\+div\+\_\+j\+\_\+2\+\_\+q}, \hyperpage{66}
+    \subitem {calc\+\_\+div\+\_\+j\+\_\+4\+\_\+q}, \hyperpage{67}
+    \subitem {calc\+\_\+e\+\_\+f\+\_\+q}, \hyperpage{68}
+    \subitem {calc\+\_\+f\+\_\+q}, \hyperpage{69}
+    \subitem {calc\+\_\+j\+\_\+2\+\_\+q}, \hyperpage{70}
+    \subitem {calc\+\_\+j\+\_\+4\+\_\+q}, \hyperpage{70}
+    \subitem {calc\+\_\+particle\+\_\+number}, \hyperpage{71}
+    \subitem {calc\+\_\+rho\+\_\+q}, \hyperpage{72}
+    \subitem {calc\+\_\+tau\+\_\+2\+\_\+l}, \hyperpage{73}
+    \subitem {calc\+\_\+tau\+\_\+2\+\_\+nl}, \hyperpage{73}
+    \subitem {calc\+\_\+tau\+\_\+4\+\_\+no\+\_\+spin}, \hyperpage{74}
+    \subitem {calc\+\_\+tau\+\_\+4\+\_\+so}, \hyperpage{75}
+    \subitem {calc\+\_\+tau\+\_\+tf}, \hyperpage{76}
+    \subitem {calc\+\_\+u\+\_\+q}, \hyperpage{77}
+    \subitem {calc\+\_\+w\+\_\+q}, \hyperpage{78}
+    \subitem {charge}, \hyperpage{78}
+    \subitem {d1}, \hyperpage{79}
+    \subitem {d2}, \hyperpage{80}
+    \subitem {d3}, \hyperpage{80}
+    \subitem {d4}, \hyperpage{81}
+    \subitem {deallocate\+\_\+arrays}, \hyperpage{82}
+    \subitem {deallocate\+\_\+mesh}, \hyperpage{82}
+    \subitem {eval\+\_\+coulomb}, \hyperpage{82}
+    \subitem {eval\+\_\+electrons}, \hyperpage{83}
+    \subitem {eval\+\_\+fields}, \hyperpage{84}
+    \subitem {eval\+\_\+skyrme\+\_\+energy\+\_\+density}, 
+		\hyperpage{85}
+    \subitem {eval\+\_\+tau\+\_\+etf}, \hyperpage{86}
+    \subitem {eval\+\_\+u\+\_\+q}, \hyperpage{87}
+    \subitem {eval\+\_\+ws\+\_\+quantities}, \hyperpage{88}
+    \subitem {extrapolate\+\_\+back\+\_\+3}, \hyperpage{90}
+    \subitem {file\+\_\+unit\+\_\+0}, \hyperpage{95}
+    \subitem {file\+\_\+unit\+\_\+1}, \hyperpage{95}
+    \subitem {initialise\+\_\+uniform\+\_\+mesh}, \hyperpage{90}
+    \subitem {lap\+\_\+sphe\+\_\+symm}, \hyperpage{90}
+    \subitem {pressure}, \hyperpage{91}
+    \subitem {str2int}, \hyperpage{92}
+    \subitem {write\+\_\+densities}, \hyperpage{92}
+    \subitem {write\+\_\+fields}, \hyperpage{93}
+    \subitem {write\+\_\+sp\+\_\+states\+\_\+p}, \hyperpage{93}
+    \subitem {ws\+\_\+integral}, \hyperpage{94}
+  \item {rspace}, \hyperpage{95}
+    \subitem {boundary}, \hyperpage{96}
+    \subitem {numerov}, \hyperpage{96}
+  \item {run\+\_\+mode}
+    \subitem {Input parameters}, \hyperpage{37}
+  \item {rydb}
+    \subitem {Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}, 
+		\hyperpage{9}
+
+  \indexspace
+
+  \item {sample\+\_\+profile}
+    \subitem {test}, \hyperpage{110}
+  \item {sigma}
+    \subitem {Skyrme parameters}, \hyperpage{14}
+  \item {Skyrme coefficients}, \hyperpage{16}
+    \subitem {b1}, \hyperpage{16}
+    \subitem {b10}, \hyperpage{16}
+    \subitem {b11}, \hyperpage{16}
+    \subitem {b12}, \hyperpage{16}
+    \subitem {b13}, \hyperpage{16}
+    \subitem {b2}, \hyperpage{17}
+    \subitem {b3}, \hyperpage{17}
+    \subitem {b4}, \hyperpage{17}
+    \subitem {b5}, \hyperpage{17}
+    \subitem {b6}, \hyperpage{17}
+    \subitem {b7}, \hyperpage{17}
+    \subitem {b8}, \hyperpage{17}
+    \subitem {b9}, \hyperpage{17}
+  \item {Skyrme parameters}, \hyperpage{14}
+    \subitem {hbar2\+\_\+2m\+\_\+q}, \hyperpage{14}
+    \subitem {j2\+\_\+terms}, \hyperpage{14}
+    \subitem {sigma}, \hyperpage{14}
+    \subitem {t0}, \hyperpage{14}
+    \subitem {t1}, \hyperpage{15}
+    \subitem {t2}, \hyperpage{15}
+    \subitem {t3}, \hyperpage{15}
+    \subitem {w0}, \hyperpage{15}
+    \subitem {x0}, \hyperpage{15}
+    \subitem {x1}, \hyperpage{15}
+    \subitem {x2}, \hyperpage{15}
+    \subitem {x3}, \hyperpage{15}
+  \item {smooth\+\_\+qp\+\_\+cut}
+    \subitem {Input parameters}, \hyperpage{37}
+  \item {sp\+\_\+states\+\_\+deallocate}
+    \subitem {strutinsky}, \hyperpage{99}
+  \item {sp\+\_\+states\+\_\+setup}
+    \subitem {strutinsky}, \hyperpage{99}
+  \item {space4}
+    \subitem {Global strings for printing output}, \hyperpage{41}
+  \item {specify\+\_\+n}
+    \subitem {Input parameters}, \hyperpage{37}
+  \item {srcs/boundary.\+f90}, \hyperpage{111}
+  \item {srcs/etf.\+f90}, \hyperpage{111}
+  \item {srcs/pairing.\+f90}, \hyperpage{115}
+  \item {srcs/parameters.\+f90}, \hyperpage{115}
+  \item {srcs/routines.\+f90}, \hyperpage{122}
+  \item {srcs/strutinsky.\+f90}, \hyperpage{124}
+  \item {srcs/test.\+f90}, \hyperpage{124}
+  \item {state\+\_\+sort}
+    \subitem {strutinsky}, \hyperpage{100}
+  \item {str2int}
+    \subitem {routines}, \hyperpage{92}
+  \item {strength\+\_\+bcs}
+    \subitem {Variables for use in pairing module}, \hyperpage{47}
+  \item {strut\+\_\+n}
+    \subitem {Variables for use in strutinsky module}, \hyperpage{44}
+  \item {strut\+\_\+r\+\_\+max}
+    \subitem {Input parameters}, \hyperpage{38}
+  \item {strutinsky}, \hyperpage{97}
+    \subitem {calc\+\_\+e\+\_\+sc}, \hyperpage{98}
+    \subitem {calc\+\_\+e\+\_\+sc\+\_\+pair}, \hyperpage{98}
+    \subitem {sp\+\_\+states\+\_\+deallocate}, \hyperpage{99}
+    \subitem {sp\+\_\+states\+\_\+setup}, \hyperpage{99}
+    \subitem {state\+\_\+sort}, \hyperpage{100}
+  \item {strutinsky\+\_\+on}
+    \subitem {Input parameters}, \hyperpage{38}
+
+  \indexspace
+
+  \item {t0}
+    \subitem {Skyrme parameters}, \hyperpage{14}
+  \item {t1}
+    \subitem {Skyrme parameters}, \hyperpage{15}
+  \item {t2}
+    \subitem {Skyrme parameters}, \hyperpage{15}
+  \item {t3}
+    \subitem {Skyrme parameters}, \hyperpage{15}
+  \item {t4}
+    \subitem {Extra parameters for B\+Sk forces}, \hyperpage{19}
+  \item {t5}
+    \subitem {Extra parameters for B\+Sk forces}, \hyperpage{19}
+  \item {table\+\_\+string}
+    \subitem {Global strings for printing output}, \hyperpage{41}
+  \item {tau\+\_\+2\+\_\+cont\+\_\+q}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{25}
+  \item {tau\+\_\+2\+\_\+l\+\_\+q}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{25}
+  \item {tau\+\_\+2\+\_\+nl\+\_\+q}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{25}
+  \item {tau\+\_\+4\+\_\+cont\+\_\+q}
+    \subitem {parameters}, \hyperpage{63}
+  \item {tau\+\_\+4\+\_\+no\+\_\+spin\+\_\+q}
+    \subitem {parameters}, \hyperpage{63}
+  \item {tau\+\_\+4\+\_\+so\+\_\+q}
+    \subitem {parameters}, \hyperpage{64}
+  \item {tau\+\_\+etf\+\_\+q}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{25}
+  \item {tau\+\_\+etf\+\_\+t}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{26}
+  \item {tau\+\_\+tf\+\_\+q}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{26}
+  \item {test}, \hyperpage{101}
+    \subitem {bartel\+\_\+bencheikh\+\_\+benchmark}, \hyperpage{102}
+    \subitem {file\+\_\+unit}, \hyperpage{110}
+    \subitem {file\+\_\+unit\+\_\+2}, \hyperpage{110}
+    \subitem {orders\+\_\+kinetic\+\_\+densities}, \hyperpage{102}
+    \subitem {read\+\_\+test\+\_\+params}, \hyperpage{103}
+    \subitem {sample\+\_\+profile}, \hyperpage{110}
+    \subitem {test\+\_\+calc\+\_\+coulomb\+\_\+energy}, \hyperpage{103}
+    \subitem {test\+\_\+calc\+\_\+particle\+\_\+number}, 
+		\hyperpage{104}
+    \subitem {test\+\_\+calc\+\_\+skyrme\+\_\+energy}, \hyperpage{104}
+    \subitem {test\+\_\+central\+\_\+potentials}, \hyperpage{105}
+    \subitem {test\+\_\+densities}, \hyperpage{105}
+    \subitem {test\+\_\+density\+\_\+derivs}, \hyperpage{106}
+    \subitem {test\+\_\+eff\+\_\+mass}, \hyperpage{106}
+    \subitem {test\+\_\+kinetic\+\_\+densities}, \hyperpage{107}
+    \subitem {test\+\_\+si\+\_\+correction}, \hyperpage{107}
+    \subitem {test\+\_\+sp\+\_\+energies}, \hyperpage{108}
+    \subitem {test\+\_\+spin\+\_\+current\+\_\+densities}, 
+		\hyperpage{109}
+    \subitem {write\+\_\+ws\+\_\+cell\+\_\+array\+\_\+quantity}, 
+		\hyperpage{109}
+  \item {test\+\_\+calc\+\_\+coulomb\+\_\+energy}
+    \subitem {test}, \hyperpage{103}
+  \item {test\+\_\+calc\+\_\+particle\+\_\+number}
+    \subitem {test}, \hyperpage{104}
+  \item {test\+\_\+calc\+\_\+skyrme\+\_\+energy}
+    \subitem {test}, \hyperpage{104}
+  \item {test\+\_\+central\+\_\+potentials}
+    \subitem {test}, \hyperpage{105}
+  \item {test\+\_\+densities}
+    \subitem {test}, \hyperpage{105}
+  \item {test\+\_\+density\+\_\+derivs}
+    \subitem {test}, \hyperpage{106}
+  \item {test\+\_\+eff\+\_\+mass}
+    \subitem {test}, \hyperpage{106}
+  \item {test\+\_\+kinetic\+\_\+densities}
+    \subitem {test}, \hyperpage{107}
+  \item {test\+\_\+si\+\_\+correction}
+    \subitem {test}, \hyperpage{107}
+  \item {test\+\_\+sp\+\_\+energies}
+    \subitem {test}, \hyperpage{108}
+  \item {test\+\_\+spin\+\_\+current\+\_\+densities}
+    \subitem {test}, \hyperpage{109}
+  \item {total\+\_\+energy\+\_\+with\+\_\+corrections}
+    \subitem {etf.\+f90}, \hyperpage{113}
+
+  \indexspace
+
+  \item {u\+\_\+q}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{26}
+
+  \indexspace
+
+  \item {v\+\_\+c\+\_\+di}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{26}
+  \item {v\+\_\+c\+\_\+ex}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{26}
+  \item {v\+\_\+c\+\_\+pe}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{26}
+  \item {Variables for electron contributions}, \hyperpage{48}
+    \subitem {e\+\_\+coulomb\+\_\+e}, \hyperpage{48}
+    \subitem {e\+\_\+coulomb\+\_\+pe}, \hyperpage{48}
+    \subitem {e\+\_\+kinetic\+\_\+e}, \hyperpage{48}
+    \subitem {rho\+\_\+e}, \hyperpage{48}
+  \item {Variables for storing properties of Wigner-\/\+Seitz cell}, 
+		\hyperpage{28}
+    \subitem {delta\+\_\+mu}, \hyperpage{28}
+    \subitem {e\+\_\+coulomb}, \hyperpage{29}
+    \subitem {e\+\_\+coulomb\+\_\+di}, \hyperpage{29}
+    \subitem {e\+\_\+coulomb\+\_\+ex}, \hyperpage{29}
+    \subitem {e\+\_\+field}, \hyperpage{29}
+    \subitem {e\+\_\+kinetic\+\_\+q}, \hyperpage{29}
+    \subitem {e\+\_\+kinetic\+\_\+t}, \hyperpage{29}
+    \subitem {e\+\_\+skyrme}, \hyperpage{30}
+    \subitem {e\+\_\+so}, \hyperpage{30}
+    \subitem {e\+\_\+total}, \hyperpage{30}
+    \subitem {mu\+\_\+c}, \hyperpage{30}
+    \subitem {mu\+\_\+e}, \hyperpage{30}
+    \subitem {mu\+\_\+q}, \hyperpage{30}
+    \subitem {n\+\_\+q}, \hyperpage{31}
+    \subitem {n\+\_\+t}, \hyperpage{31}
+    \subitem {pressure\+\_\+e}, \hyperpage{31}
+    \subitem {pressure\+\_\+ex}, \hyperpage{31}
+    \subitem {pressure\+\_\+nucl}, \hyperpage{31}
+    \subitem {pressure\+\_\+t}, \hyperpage{31}
+  \item {Variables for use in pairing module}, \hyperpage{45}
+    \subitem {delta\+\_\+n}, \hyperpage{45}
+    \subitem {delta\+\_\+p}, \hyperpage{45}
+    \subitem {e\+\_\+pair\+\_\+bcs}, \hyperpage{46}
+    \subitem {e\+\_\+pair\+\_\+q}, \hyperpage{46}
+    \subitem {e\+\_\+pair\+\_\+t}, \hyperpage{46}
+    \subitem {e\+\_\+qp\+\_\+p}, \hyperpage{46}
+    \subitem {num\+\_\+p\+\_\+bcs}, \hyperpage{46}
+    \subitem {occ\+\_\+u}, \hyperpage{46}
+    \subitem {occ\+\_\+v}, \hyperpage{47}
+    \subitem {pair\+\_\+gap\+\_\+n}, \hyperpage{47}
+    \subitem {pair\+\_\+gap\+\_\+p}, \hyperpage{47}
+    \subitem {rho\+\_\+anom\+\_\+p\+\_\+bcs}, \hyperpage{47}
+    \subitem {rho\+\_\+p\+\_\+bcs}, \hyperpage{47}
+    \subitem {strength\+\_\+bcs}, \hyperpage{47}
+  \item {Variables for use in strutinsky module}, \hyperpage{42}
+    \subitem {d2hmen}, \hyperpage{42}
+    \subitem {dhmen}, \hyperpage{42}
+    \subitem {e\+\_\+sc\+\_\+q}, \hyperpage{42}
+    \subitem {e\+\_\+sc\+\_\+t}, \hyperpage{43}
+    \subitem {ecut}, \hyperpage{43}
+    \subitem {ep}, \hyperpage{43}
+    \subitem {hb2m}, \hyperpage{43}
+    \subitem {jjp}, \hyperpage{43}
+    \subitem {lp}, \hyperpage{43}
+    \subitem {nnst}, \hyperpage{44}
+    \subitem {ps}, \hyperpage{44}
+    \subitem {strut\+\_\+n}, \hyperpage{44}
+    \subitem {vpot}, \hyperpage{44}
+    \subitem {vso}, \hyperpage{44}
+  \item {verbose}
+    \subitem {Input parameters}, \hyperpage{38}
+  \item {vpot}
+    \subitem {Variables for use in strutinsky module}, \hyperpage{44}
+  \item {vso}
+    \subitem {Variables for use in strutinsky module}, \hyperpage{44}
+
+  \indexspace
+
+  \item {w0}
+    \subitem {Skyrme parameters}, \hyperpage{15}
+  \item {w\+\_\+q}
+    \subitem {Global arrays for other densities and fields}, 
+		\hyperpage{26}
+  \item {write\+\_\+densities}
+    \subitem {routines}, \hyperpage{92}
+  \item {write\+\_\+fields}
+    \subitem {routines}, \hyperpage{93}
+  \item {write\+\_\+sp\+\_\+states\+\_\+p}
+    \subitem {routines}, \hyperpage{93}
+  \item {write\+\_\+ws\+\_\+cell\+\_\+array\+\_\+quantity}
+    \subitem {test}, \hyperpage{109}
+  \item {ws\+\_\+integral}
+    \subitem {routines}, \hyperpage{94}
+
+  \indexspace
+
+  \item {x0}
+    \subitem {Skyrme parameters}, \hyperpage{15}
+  \item {x1}
+    \subitem {Skyrme parameters}, \hyperpage{15}
+  \item {x2}
+    \subitem {Skyrme parameters}, \hyperpage{15}
+  \item {x3}
+    \subitem {Skyrme parameters}, \hyperpage{15}
+  \item {x4}
+    \subitem {Extra parameters for B\+Sk forces}, \hyperpage{19}
+  \item {x5}
+    \subitem {Extra parameters for B\+Sk forces}, \hyperpage{19}
+  \item {xmh}
+    \subitem {Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}, 
+		\hyperpage{9}
+  \item {xmn}
+    \subitem {Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}, 
+		\hyperpage{9}
+  \item {xmp}
+    \subitem {Extra constants for calculatingf\$frac\lcurly{}hbar$^\wedge$2\rcurly{}\lcurly{}2m\rcurly{}f\$ for B\+Sk forces}, 
+		\hyperpage{9}
+
+\end{theindex}

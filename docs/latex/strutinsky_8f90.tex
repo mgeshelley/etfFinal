@@ -1,0 +1,20 @@
+\hypertarget{strutinsky_8f90}{}\section{srcs/strutinsky.f90 File Reference}
+\label{strutinsky_8f90}\index{srcs/strutinsky.\+f90@{srcs/strutinsky.\+f90}}
+\subsection*{Modules}
+\begin{DoxyCompactItemize}
+\item 
+module \mbox{\hyperlink{namespacestrutinsky}{strutinsky}}
+\begin{DoxyCompactList}\small\item\em Module to hold routines for carrying out Strutinsky correction. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \mbox{\hyperlink{namespacestrutinsky_a6eeba7570095328226f37df3e89b7a18}{strutinsky\+::sp\+\_\+states\+\_\+setup}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to allocate + initialise variables needed in \textquotesingle{}boundary\textquotesingle{} routine, and allocate arrays needed for B\+CS. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacestrutinsky_a0a07c6adfd14cbf345bf96b70d3f5d82}{strutinsky\+::sp\+\_\+states\+\_\+deallocate}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to deallocate arrays needed in \textquotesingle{}boundary\textquotesingle{} routine, and deallocate arrays needed for B\+CS. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacestrutinsky_a106e8ec285383b5042e8436a2376147a}{strutinsky\+::state\+\_\+sort}} (sp\+\_\+J, sp\+\_\+L, sp\+\_\+E, sp\+\_\+wfns)
+\begin{DoxyCompactList}\small\item\em Subroutine to sort single particle states by their energies. Use bubble sort. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacestrutinsky_a7a348b225e6556c53687ee28ee31b316}{strutinsky\+::calc\+\_\+e\+\_\+sc}} (q)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the Strutinsky shell correction energy for isospin $q$. First, sum over occupied states of s.\+p. energies. Second, integrate over W-\/S cell of smoothed E\+TF densities and fields. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacestrutinsky_a2cc0d4130d68c345ffe3ffa73706e796}{strutinsky\+::calc\+\_\+e\+\_\+sc\+\_\+pair}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the Strutinsky shell correction energy for protons, using B\+CS occupation probabilities. \end{DoxyCompactList}\end{DoxyCompactItemize}

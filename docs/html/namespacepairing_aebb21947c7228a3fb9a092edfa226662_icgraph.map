@@ -1,0 +1,8 @@
+<map id="pairing::interazchamelanalyt" name="pairing::interazchamelanalyt">
+<area shape="rect" id="node2" href="$namespacepairing.html#abad69eb8cb33077add1b9da84bff7c55" title="Function to calculate the pairing gap in infinite neutron matter, for specified density and effective..." alt="" coords="261,5,381,32"/>
+<area shape="rect" id="node6" href="$namespacepairing.html#a37440fb2ff0d8a3495d051f3f14c9107" title="Function to solve gap equation at given chemical potential &quot;mu_p&quot;, returning the (BCS) number of prot..." alt="" coords="237,56,404,83"/>
+<area shape="rect" id="node3" href="$namespacepairing.html#ac34989a934af1e6a63131c619426c5aa" title="Subroutine to calculate the pairing energy for the WS cell, using the method specified in &quot;input..." alt="" coords="454,5,589,32"/>
+<area shape="rect" id="node4" href="$etf_8f90.html#a48fed0623ded12967501f647461fb1cb" title="Subroutine to evaluate all WS quantities using supplied profile parameters, and calculate total energ..." alt="" coords="639,31,833,57"/>
+<area shape="rect" id="node5" href="$etf_8f90.html#a77a926a33d4e2b4d7c47fa641fc32e57" title="Program to calculate the equation of state in the inner crust with the extended Thomas&#45;Fermi (ETF) ap..." alt="" coords="881,31,920,57"/>
+<area shape="rect" id="node7" href="$namespacepairing.html#a693cac2cfa7fcb7ad19984fefe20495c" title="Subroutine to perform BCS for protons. " alt="" coords="452,56,591,83"/>
+</map>

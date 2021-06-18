@@ -1,0 +1,1362 @@
+\hypertarget{namespaceroutines}{}\section{routines Module Reference}
+\label{namespaceroutines}\index{routines@{routines}}
+
+
+Module to hold main routines\+: densities, energies.  
+
+
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+integer function \mbox{\hyperlink{namespaceroutines_a8146fb4359e556bad19f882b8aabfc4b}{str2int}} (string)
+\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a0d41e4cd4e61ac1463c75055bf784e8b}{allocate\+\_\+arrays}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to allocate arrays for all densities and effective masses, and for their derivatives. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a5caa9b33bdf3c960b6bb3bfa96771181}{initialise\+\_\+uniform\+\_\+mesh}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate number of mesh points for a uniform grid, allocate array for r, and then populate r with the mesh points. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a27ad9ac802069004010c9759fecced92}{deallocate\+\_\+mesh}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to deallocate array for r. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_ae7bc716d30ef4d9ecece5daa22324b77}{deallocate\+\_\+arrays}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to deallocate arrays for all densities and effective masses, and for their derivatives. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespaceroutines_a407a248748ce7c0e2e9e5dce03cc9415}{calc\+\_\+rho\+\_\+q}} (rhoqgas, rhoqliq, rq, aq, gammaq, r)
+\begin{DoxyCompactList}\small\item\em Function to calculate the neutron or proton density at a given radius r, using supplied input parameters. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a701f911aa939448c5bee0589d57369ca}{calc\+\_\+f\+\_\+q}} (rhot, rhoq, q, fq)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the effective mass ratio $f_q=\frac{m}{m^*_q}$ for neutrons or protons, for standard Skyrme or for B\+Sk forces. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a8c520afea1e9ca6698a0792fbac37e7a}{calc\+\_\+w\+\_\+q}} (delrho, delrhoq, Wq)
+\begin{DoxyCompactList}\small\item\em Function to calculate the spin-\/orbit field $\textbf{W}_q$ for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a421a5d2cca448f46b0dfb9bcdeec1111}{calc\+\_\+tau\+\_\+tf}} (rhoq, tau\+TF)
+\begin{DoxyCompactList}\small\item\em Function to calculate the zeroth-\/order contribution to the kinetic energy density for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_aaa80f6938f2b9c661821fa8956f8deef}{calc\+\_\+tau\+\_\+2\+\_\+l}} (rhoq, delrhoq, del2rhoq, tau2\+Lq, t2contq)
+\begin{DoxyCompactList}\small\item\em Function to calculate the local second-\/order contribution to the kinetic energy density for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a72bf2988651a9f3251dfb338ad1a7eca}{calc\+\_\+tau\+\_\+2\+\_\+nl}} (rhoq, delrhoq, fq, delfq, del2fq, Wq, q, tau2\+N\+Lq, t2contq)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the non-\/local second-\/order contribution to the kinetic energy density for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a9c7e02754e0ae8816b1bfeab92df6bc8}{calc\+\_\+tau\+\_\+4\+\_\+no\+\_\+spin}} (rhoq, d1rhoq, d2rhoq, d3rhoq, d4rhoq, fq, d1fq, d2fq, d3fq, d4fq, tau4nospinq, t4contq)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the fourth-\/order contributions to the kinetic energy density (without spin-\/orbit contributions) $\textbf{tau}_q$ for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a8825f02bb2ac98507fff5024d9b54c8f}{calc\+\_\+tau\+\_\+4\+\_\+so}} (rhoq, d1rhoq, fq, d1fq, d2fq, d1\+Aq, d2\+Aq, d3\+Aq, q, tau\+\_\+4\+\_\+so\+\_\+q, t4contq)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the fourth-\/order contributions to the kinetic energy density (spin-\/orbit contributions) $\textbf{tau}_q$ for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_af03f37f9deca52ef9a56287f50b982a1}{calc\+\_\+j\+\_\+2\+\_\+q}} (rhoq, Wq, fq, q, J2q)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the second-\/order contributions to the spin current density $\textbf{J}_q$ for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a014fed5fe5fbc19302e7cbc651ba59bd}{calc\+\_\+j\+\_\+4\+\_\+q}} (rhoq, d1rhoq, fq, d1fq, d2fq, d1\+Aq, d2\+Aq, d3\+Aq, q, J4q)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the fourth-\/order contributions to the spin current density $\textbf{J}_q$ for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a136b7a1f0387466390decb98ce91c152}{calc\+\_\+div\+\_\+j\+\_\+2\+\_\+q}} (rhoq, d1rhoq, fq, d1fq, d1\+Aq, d2\+Aq, q, div\+J2q)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the second-\/order contributions to the divergence of the current density $\textbf{J}_q$ for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a7f66729f05be35eda4266dbf47eda026}{calc\+\_\+div\+\_\+j\+\_\+4\+\_\+q}} (rhoq, d1rhoq, d2rhoq, fq, d1fq, d2fq, d3fq, d1\+Aq, d2\+Aq, d3\+Aq, d4\+Aq, q, div\+J4q)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the fourth-\/order contributions to the divergence of the current density $\textbf{J}_q$ for neutrons or protons. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespaceroutines_a2a44c591985c939162dabdeab4a4ced8}{calc\+\_\+u\+\_\+q}} (rhot, rhon, rhop, delrhot, delrhon, delrhop, del2rhot, del2rhon, del2rhop, taut, taun, taup, div\+Jt, div\+Jq, q)
+\begin{DoxyCompactList}\small\item\em Function to calculate the central potential $U_q$ for neutrons or protons, for standard Skyrme or for B\+Sk forces with extra terms. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_aa995449a9eb9c404dbd756bdbea180a2}{eval\+\_\+fields}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to evaluate matter density derivatives, and all fields\+: effective masses (and derivatives), spin-\/orbit fields, spin current densities (and derivatives) \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a97bfcff7e603cf9df3dcd48ae21b4612}{eval\+\_\+tau\+\_\+etf}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the kinetic energy density $\tau_{ETF}$ with the (extended) Thomas-\/\+Fermi approximation at order specified by \char`\"{}etf\+\_\+order\char`\"{}. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_afb83677ec76758dadc35de4b01bac45c}{charge}} (rho, Neutr, Nprot, Ngrid1, del1, rhoch)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the charge density from the matter densities. Modified by M. Shelley. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a74ed186c93b400a14428192e1cb7a0b2}{eval\+\_\+coulomb}} (prot\+\_\+dens, calc\+\_\+exchange)
+\begin{DoxyCompactList}\small\item\em Subroutine to evaluate the Coulomb potentials and energy densities, using either the proton or charge density. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a0b55cc503c7168299be63556e2602bd0}{eval\+\_\+electrons}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to evaluate the proton-\/electron potential which contributes to $U_q$, all energy contributions, and the pressure, coming from a homogeneous electron gas. Also calculates the electron chemical potential. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a6ee5e5cd7ce81b013d18b19f5f9a4092}{eval\+\_\+u\+\_\+q}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to evaluate the central fields $U_q$. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_ae210968d134fbcc79297971cc4fefb82}{eval\+\_\+skyrme\+\_\+energy\+\_\+density}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to evaluate the Skyrme energy density, after first separately evaluating the field energy density. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a383e2bf5a1fa37fbf95dd5f6ddbcc6be}{pressure}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the nuclear contribution to the pressure, and then the total pressure. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a0b8346e8e5457d6befb48b0ac56f4fdf}{calc\+\_\+particle\+\_\+number}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the number of particles in the Wigner-\/\+Seitz cell. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a93de76f3b26ead66893f46dc4892dbcb}{eval\+\_\+ws\+\_\+quantities}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to evaluate the various densities, fields, derivatives, energies, and particle numbers in the WS cell with densities $rho_q$. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespaceroutines_a8f2a013c7bb06da429f995e288515248}{calc\+\_\+e\+\_\+f\+\_\+q}} (rhoq, fq, q)
+\begin{DoxyCompactList}\small\item\em Subroutine to evaluate the Fermi energy at a given density and effective mass, for neutrons or protons. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a92e52c281532c938dfa10d85404a367a}{d1}} (n, h, f, df)
+\begin{DoxyCompactList}\small\item\em This subroutine computes the first derivative of function evaluated on the meshpoints 1,...,npt. The input is the function f with extrapolated values in -\/1, 0. Modified by M. Shelley. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_aafc8447e9af12216ae995f63c1606f1a}{d2}} (n, h, f, d2f)
+\begin{DoxyCompactList}\small\item\em This subroutine computes the second derivative of function evaluated on the meshpoints 1,...,npt. The input is the function f with extrapolated values in -\/1, 0. Modified by M. Shelley. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a635a2461a6c20207dd3b268842381ce3}{lap\+\_\+sphe\+\_\+symm}} (f, df\+\_\+dr, d2f\+\_\+dr2)
+\begin{DoxyCompactList}\small\item\em Subroutine to carry out Laplacian in spherical symmetry. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_ac563b00969cb307d71ebc02aaef0a3b4}{d3}} (f, d3f\+\_\+dr3)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate third derivative of function f evaluated on evenly-\/spaced meshpoints from 1 to n. Works with extrapolated values in -\/2,-\/1,0. Uses 7-\/point stencil. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a6d38e9b19f2e939feb7840d2575fbb56}{d4}} (f, d4f\+\_\+dr4)
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate fourth derivative of function f evaluated on evenly-\/spaced meshpoints from 1 to n. Works with extrapolated values in -\/2,-\/1,0. Uses 7-\/point stencil. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_af143340288720f8019e944ec7110a84e}{extrapolate\+\_\+back\+\_\+3}} (grid)
+\begin{DoxyCompactList}\small\item\em Subroutine to extrapolate back 3 points on the r mesh, to faciliate the calculation of first and second derivatives using a 5-\/point stencil. Values in grid start at 4, extrapolated values are put in elements 3,2,1. Coefficients come from solving 4th-\/order polynomial, assuming that f\textquotesingle{}(0) = 0, and f(-\/h) = f(h). \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespaceroutines_a5737b4327dcaa959a9ee519e4fca42e8}{ws\+\_\+integral}} (quantity, n\+\_\+max)
+\begin{DoxyCompactList}\small\item\em Function to integrate a density or field over the whole W-\/S cell, using Simpson\textquotesingle{}s rule (+ Simpson\textquotesingle{}s 3/8 rule if odd number of points) \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a81e61269fb96b5478fd7140a1f185ec1}{write\+\_\+densities}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to write neutron and proton densities to files. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_a4a59953c814b7fa48f2c4bf31d1763a2}{write\+\_\+fields}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to write neutron and proton fields to files. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespaceroutines_ad51ac6c5da6056a5346d7b15b3fbe7b4}{write\+\_\+sp\+\_\+states\+\_\+p}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to write proton single particle energies to file, and extra details if B\+CS has been performed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+integer \mbox{\hyperlink{namespaceroutines_a4433ed4e6fbf0c81f38d8df1749be025}{file\+\_\+unit\+\_\+0}}
+\item 
+integer \mbox{\hyperlink{namespaceroutines_a806b34a65a0678e540be124100a0f908}{file\+\_\+unit\+\_\+1}}
+\begin{DoxyCompactList}\small\item\em Unit numbers for opening files. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Module to hold main routines\+: densities, energies. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+
+\subsection{Function/\+Subroutine Documentation}
+\mbox{\Hypertarget{namespaceroutines_a0d41e4cd4e61ac1463c75055bf784e8b}\label{namespaceroutines_a0d41e4cd4e61ac1463c75055bf784e8b}} 
+\index{routines@{routines}!allocate\+\_\+arrays@{allocate\+\_\+arrays}}
+\index{allocate\+\_\+arrays@{allocate\+\_\+arrays}!routines@{routines}}
+\subsubsection{\texorpdfstring{allocate\+\_\+arrays()}{allocate\_arrays()}}
+{\footnotesize\ttfamily subroutine routines\+::allocate\+\_\+arrays (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to allocate arrays for all densities and effective masses, and for their derivatives. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{namespaceroutines_a0d41e4cd4e61ac1463c75055bf784e8b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a136b7a1f0387466390decb98ce91c152}\label{namespaceroutines_a136b7a1f0387466390decb98ce91c152}} 
+\index{routines@{routines}!calc\+\_\+div\+\_\+j\+\_\+2\+\_\+q@{calc\+\_\+div\+\_\+j\+\_\+2\+\_\+q}}
+\index{calc\+\_\+div\+\_\+j\+\_\+2\+\_\+q@{calc\+\_\+div\+\_\+j\+\_\+2\+\_\+q}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+div\+\_\+j\+\_\+2\+\_\+q()}{calc\_div\_j\_2\_q()}}
+{\footnotesize\ttfamily subroutine routines\+::calc\+\_\+div\+\_\+j\+\_\+2\+\_\+q (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d1rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d1fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d1\+Aq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d2\+Aq,  }\item[{integer, intent(in)}]{q,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{div\+J2q }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the second-\/order contributions to the divergence of the current density $\textbf{J}_q$ for neutrons or protons. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhoq} & Neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em d1rhoq} & First derivative of neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em fq} & Effective mass for protons or neutrons \\
+\hline
+\mbox{\tt in}  & {\em d1fq} & First derivative of effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em d1\+Aq} & First derivative of \char`\"{}composite\char`\"{} neutron or proton density $A_q$ \\
+\hline
+\mbox{\tt in}  & {\em d2\+Aq} & Second derivative of \char`\"{}composite\char`\"{} neutron or proton density $A_q$ \\
+\hline
+\mbox{\tt in}  & {\em q} & Isospin \\
+\hline
+\mbox{\tt in,out}  & {\em div\+J2q} & Array for second-\/order contributions \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a136b7a1f0387466390decb98ce91c152_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a7f66729f05be35eda4266dbf47eda026}\label{namespaceroutines_a7f66729f05be35eda4266dbf47eda026}} 
+\index{routines@{routines}!calc\+\_\+div\+\_\+j\+\_\+4\+\_\+q@{calc\+\_\+div\+\_\+j\+\_\+4\+\_\+q}}
+\index{calc\+\_\+div\+\_\+j\+\_\+4\+\_\+q@{calc\+\_\+div\+\_\+j\+\_\+4\+\_\+q}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+div\+\_\+j\+\_\+4\+\_\+q()}{calc\_div\_j\_4\_q()}}
+{\footnotesize\ttfamily subroutine routines\+::calc\+\_\+div\+\_\+j\+\_\+4\+\_\+q (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d1rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d2rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d1fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d2fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d3fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d1\+Aq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d2\+Aq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d3\+Aq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d4\+Aq,  }\item[{integer, intent(in)}]{q,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{div\+J4q }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the fourth-\/order contributions to the divergence of the current density $\textbf{J}_q$ for neutrons or protons. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhoq} & Neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em d1rhoq} & First derivative of neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em d2rhoq} & Second derivative of neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em fq} & Effective mass for protons or neutrons \\
+\hline
+\mbox{\tt in}  & {\em d1fq} & First derivative of effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em d2fq} & Second derivative of effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em d3fq} & Third derivative of effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em d1\+Aq} & First derivative of \char`\"{}composite\char`\"{} neutron or proton density $A_q$ \\
+\hline
+\mbox{\tt in}  & {\em d2\+Aq} & Second derivative of \char`\"{}composite\char`\"{} neutron or proton density $A_q$ \\
+\hline
+\mbox{\tt in}  & {\em d3\+Aq} & Third derivative of \char`\"{}composite\char`\"{} neutron or proton density $A_q$ \\
+\hline
+\mbox{\tt in}  & {\em d4\+Aq} & Fourth derivative of \char`\"{}composite\char`\"{} neutron or proton density $A_q$ \\
+\hline
+\mbox{\tt in}  & {\em q} & Isospin \\
+\hline
+\mbox{\tt in,out}  & {\em div\+J4q} & Array for fourth-\/order contributions \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a7f66729f05be35eda4266dbf47eda026_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a8f2a013c7bb06da429f995e288515248}\label{namespaceroutines_a8f2a013c7bb06da429f995e288515248}} 
+\index{routines@{routines}!calc\+\_\+e\+\_\+f\+\_\+q@{calc\+\_\+e\+\_\+f\+\_\+q}}
+\index{calc\+\_\+e\+\_\+f\+\_\+q@{calc\+\_\+e\+\_\+f\+\_\+q}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+e\+\_\+f\+\_\+q()}{calc\_e\_f\_q()}}
+{\footnotesize\ttfamily real(kind=dp) function routines\+::calc\+\_\+e\+\_\+f\+\_\+q (\begin{DoxyParamCaption}\item[{real(kind=dp), intent(in)}]{rhoq,  }\item[{real(kind=dp), intent(in)}]{fq,  }\item[{integer, intent(in)}]{q }\end{DoxyParamCaption})}
+
+
+
+Subroutine to evaluate the Fermi energy at a given density and effective mass, for neutrons or protons. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhoq} & Neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em fn} & Neutron or proton effective mass \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a8f2a013c7bb06da429f995e288515248_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a701f911aa939448c5bee0589d57369ca}\label{namespaceroutines_a701f911aa939448c5bee0589d57369ca}} 
+\index{routines@{routines}!calc\+\_\+f\+\_\+q@{calc\+\_\+f\+\_\+q}}
+\index{calc\+\_\+f\+\_\+q@{calc\+\_\+f\+\_\+q}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+f\+\_\+q()}{calc\_f\_q()}}
+{\footnotesize\ttfamily subroutine routines\+::calc\+\_\+f\+\_\+q (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(\+:), intent(in)}]{rhot,  }\item[{real(kind=dp), dimension(\+:), intent(in)}]{rhoq,  }\item[{integer, intent(in)}]{q,  }\item[{real(kind=dp), dimension(\+:), intent(inout)}]{fq }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the effective mass ratio $f_q=\frac{m}{m^*_q}$ for neutrons or protons, for standard Skyrme or for B\+Sk forces. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhot} & Total density \\
+\hline
+\mbox{\tt in}  & {\em rhoq} & Neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em q} & Isospin \\
+\hline
+\mbox{\tt in,out}  & {\em fq} & Neutron or proton effective mass \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{namespaceroutines_a701f911aa939448c5bee0589d57369ca_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a701f911aa939448c5bee0589d57369ca_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_af03f37f9deca52ef9a56287f50b982a1}\label{namespaceroutines_af03f37f9deca52ef9a56287f50b982a1}} 
+\index{routines@{routines}!calc\+\_\+j\+\_\+2\+\_\+q@{calc\+\_\+j\+\_\+2\+\_\+q}}
+\index{calc\+\_\+j\+\_\+2\+\_\+q@{calc\+\_\+j\+\_\+2\+\_\+q}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+j\+\_\+2\+\_\+q()}{calc\_j\_2\_q()}}
+{\footnotesize\ttfamily subroutine routines\+::calc\+\_\+j\+\_\+2\+\_\+q (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{Wq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{fq,  }\item[{integer, intent(in)}]{q,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{J2q }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the second-\/order contributions to the spin current density $\textbf{J}_q$ for neutrons or protons. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhoq} & Neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em Wq} & Spin-\/orbit field \\
+\hline
+\mbox{\tt in}  & {\em fq} & Effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em q} & Isospin \mbox{[}in,out\mbox{]} J2q Array for second-\/order contributions \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_af03f37f9deca52ef9a56287f50b982a1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a014fed5fe5fbc19302e7cbc651ba59bd}\label{namespaceroutines_a014fed5fe5fbc19302e7cbc651ba59bd}} 
+\index{routines@{routines}!calc\+\_\+j\+\_\+4\+\_\+q@{calc\+\_\+j\+\_\+4\+\_\+q}}
+\index{calc\+\_\+j\+\_\+4\+\_\+q@{calc\+\_\+j\+\_\+4\+\_\+q}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+j\+\_\+4\+\_\+q()}{calc\_j\_4\_q()}}
+{\footnotesize\ttfamily subroutine routines\+::calc\+\_\+j\+\_\+4\+\_\+q (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d1rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d1fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d2fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d1\+Aq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d2\+Aq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d3\+Aq,  }\item[{integer, intent(in)}]{q,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{J4q }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the fourth-\/order contributions to the spin current density $\textbf{J}_q$ for neutrons or protons. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhoq} & Neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em d1rhoq} & First derivative of neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em fq} & Effective mass for protons or neutrons \\
+\hline
+\mbox{\tt in}  & {\em d1fq} & First derivative of effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em d2fq} & Second derivative of effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em d1\+Aq} & First derivative of \char`\"{}composite\char`\"{} neutron or proton density $A_q$ \\
+\hline
+\mbox{\tt in}  & {\em d2\+Aq} & Second derivative of \char`\"{}composite\char`\"{} neutron or proton density $A_q$ \\
+\hline
+\mbox{\tt in}  & {\em d3\+Aq} & Third derivative of \char`\"{}composite\char`\"{} neutron or proton density $A_q$ \\
+\hline
+\mbox{\tt in}  & {\em q} & Isospin \\
+\hline
+\mbox{\tt in,out}  & {\em J4q} & Array for fourth-\/order contributions \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a014fed5fe5fbc19302e7cbc651ba59bd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a0b8346e8e5457d6befb48b0ac56f4fdf}\label{namespaceroutines_a0b8346e8e5457d6befb48b0ac56f4fdf}} 
+\index{routines@{routines}!calc\+\_\+particle\+\_\+number@{calc\+\_\+particle\+\_\+number}}
+\index{calc\+\_\+particle\+\_\+number@{calc\+\_\+particle\+\_\+number}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+particle\+\_\+number()}{calc\_particle\_number()}}
+{\footnotesize\ttfamily subroutine routines\+::calc\+\_\+particle\+\_\+number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the number of particles in the Wigner-\/\+Seitz cell. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{namespaceroutines_a0b8346e8e5457d6befb48b0ac56f4fdf_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a0b8346e8e5457d6befb48b0ac56f4fdf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a407a248748ce7c0e2e9e5dce03cc9415}\label{namespaceroutines_a407a248748ce7c0e2e9e5dce03cc9415}} 
+\index{routines@{routines}!calc\+\_\+rho\+\_\+q@{calc\+\_\+rho\+\_\+q}}
+\index{calc\+\_\+rho\+\_\+q@{calc\+\_\+rho\+\_\+q}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+rho\+\_\+q()}{calc\_rho\_q()}}
+{\footnotesize\ttfamily real(kind=dp) function routines\+::calc\+\_\+rho\+\_\+q (\begin{DoxyParamCaption}\item[{real(kind=dp), intent(in)}]{rhoqgas,  }\item[{real(kind=dp), intent(in)}]{rhoqliq,  }\item[{real(kind=dp), intent(in)}]{rq,  }\item[{real(kind=dp), intent(in)}]{aq,  }\item[{real(kind=dp), intent(in)}]{gammaq,  }\item[{real(kind=dp), intent(in)}]{r }\end{DoxyParamCaption})}
+
+
+
+Function to calculate the neutron or proton density at a given radius r, using supplied input parameters. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhoqgas} & Asymptotic density in gas far from surface \\
+\hline
+\mbox{\tt in}  & {\em rhoqliq} & Asymptotic density in cluster far from surface \\
+\hline
+\mbox{\tt in}  & {\em rq} & Cluster radius \\
+\hline
+\mbox{\tt in}  & {\em aq} & Surface diffuseness \\
+\hline
+\mbox{\tt in}  & {\em gammaq} & Parameter allowing for \char`\"{}asymmetric surface\char`\"{} \\
+\hline
+\mbox{\tt in}  & {\em r} & Radius \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a407a248748ce7c0e2e9e5dce03cc9415_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_aaa80f6938f2b9c661821fa8956f8deef}\label{namespaceroutines_aaa80f6938f2b9c661821fa8956f8deef}} 
+\index{routines@{routines}!calc\+\_\+tau\+\_\+2\+\_\+l@{calc\+\_\+tau\+\_\+2\+\_\+l}}
+\index{calc\+\_\+tau\+\_\+2\+\_\+l@{calc\+\_\+tau\+\_\+2\+\_\+l}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+tau\+\_\+2\+\_\+l()}{calc\_tau\_2\_l()}}
+{\footnotesize\ttfamily subroutine routines\+::calc\+\_\+tau\+\_\+2\+\_\+l (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{delrhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{del2rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{tau2\+Lq,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{t2contq }\end{DoxyParamCaption})}
+
+
+
+Function to calculate the local second-\/order contribution to the kinetic energy density for neutrons or protons. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhoq} & Neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em delrhoq} & Gradient of proton or neutron density \\
+\hline
+\mbox{\tt in}  & {\em del2rhoq} & Laplacian of proton or neutron density \\
+\hline
+\mbox{\tt in,out}  & {\em tau2\+Lq} & Array for local second-\/order contributions \\
+\hline
+\mbox{\tt in,out}  & {\em t2contq} & Array for individual second-\/order contributions \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_aaa80f6938f2b9c661821fa8956f8deef_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a72bf2988651a9f3251dfb338ad1a7eca}\label{namespaceroutines_a72bf2988651a9f3251dfb338ad1a7eca}} 
+\index{routines@{routines}!calc\+\_\+tau\+\_\+2\+\_\+nl@{calc\+\_\+tau\+\_\+2\+\_\+nl}}
+\index{calc\+\_\+tau\+\_\+2\+\_\+nl@{calc\+\_\+tau\+\_\+2\+\_\+nl}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+tau\+\_\+2\+\_\+nl()}{calc\_tau\_2\_nl()}}
+{\footnotesize\ttfamily subroutine routines\+::calc\+\_\+tau\+\_\+2\+\_\+nl (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{delrhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{delfq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{del2fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{Wq,  }\item[{integer, intent(in)}]{q,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{tau2\+N\+Lq,  }\item[{real(kind=dp), dimension(1\+:n,2\+:4), intent(inout)}]{t2contq }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the non-\/local second-\/order contribution to the kinetic energy density for neutrons or protons. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhoq} & Neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em delrhoq} & Gradient of neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em fq} & Effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em delfq} & Gradient of effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em del2fq} & Laplacian of effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em Wq} & Spin-\/orbit field \\
+\hline
+\mbox{\tt in}  & {\em q} & Isospin \\
+\hline
+\mbox{\tt in,out}  & {\em tau2\+N\+Lq} & Array for non-\/local second-\/order contributions \\
+\hline
+\mbox{\tt in,out}  & {\em t2contq} & Array for individual second-\/order contributions \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a72bf2988651a9f3251dfb338ad1a7eca_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a9c7e02754e0ae8816b1bfeab92df6bc8}\label{namespaceroutines_a9c7e02754e0ae8816b1bfeab92df6bc8}} 
+\index{routines@{routines}!calc\+\_\+tau\+\_\+4\+\_\+no\+\_\+spin@{calc\+\_\+tau\+\_\+4\+\_\+no\+\_\+spin}}
+\index{calc\+\_\+tau\+\_\+4\+\_\+no\+\_\+spin@{calc\+\_\+tau\+\_\+4\+\_\+no\+\_\+spin}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+tau\+\_\+4\+\_\+no\+\_\+spin()}{calc\_tau\_4\_no\_spin()}}
+{\footnotesize\ttfamily subroutine routines\+::calc\+\_\+tau\+\_\+4\+\_\+no\+\_\+spin (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d1rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d2rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d3rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d4rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d1fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d2fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d3fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d4fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{tau4nospinq,  }\item[{real(kind=dp), dimension(1\+:n,1\+:3), intent(inout)}]{t4contq }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the fourth-\/order contributions to the kinetic energy density (without spin-\/orbit contributions) $\textbf{tau}_q$ for neutrons or protons. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhoq} & Neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em d1rhoq} & First derivative of neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em d2rhoq} & Second derivative of neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em d3rhoq} & Third derivative of neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em d4rhoq} & Fourth derivative of neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em fq} & Effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em d1fq} & First derivative of effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em d2fq} & Second derivative of effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em d3fq} & Third derivative of effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em d4fq} & Fourth derivative of effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in,out}  & {\em tau4nospinq} & Array for fourth-\/order contributions (no spin-\/orbit) \\
+\hline
+\mbox{\tt in,out}  & {\em t4contq} & Array for individual fourth-\/order contributions \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a9c7e02754e0ae8816b1bfeab92df6bc8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a8825f02bb2ac98507fff5024d9b54c8f}\label{namespaceroutines_a8825f02bb2ac98507fff5024d9b54c8f}} 
+\index{routines@{routines}!calc\+\_\+tau\+\_\+4\+\_\+so@{calc\+\_\+tau\+\_\+4\+\_\+so}}
+\index{calc\+\_\+tau\+\_\+4\+\_\+so@{calc\+\_\+tau\+\_\+4\+\_\+so}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+tau\+\_\+4\+\_\+so()}{calc\_tau\_4\_so()}}
+{\footnotesize\ttfamily subroutine routines\+::calc\+\_\+tau\+\_\+4\+\_\+so (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d1rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d1fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d2fq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d1\+Aq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d2\+Aq,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{d3\+Aq,  }\item[{integer, intent(in)}]{q,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{tau\+\_\+4\+\_\+so\+\_\+q,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{t4contq }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the fourth-\/order contributions to the kinetic energy density (spin-\/orbit contributions) $\textbf{tau}_q$ for neutrons or protons. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhoq} & Neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em d1rhoq} & First derivative of neutron or proton density \\
+\hline
+\mbox{\tt in}  & {\em fq} & Effective mass for protons or neutrons \\
+\hline
+\mbox{\tt in}  & {\em d1fq} & First derivative of effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em d2fq} & Second derivative of effective mass for neutrons or protons \\
+\hline
+\mbox{\tt in}  & {\em d1\+Aq} & First derivative of \char`\"{}composite\char`\"{} neutron or proton density $A_q$ \\
+\hline
+\mbox{\tt in}  & {\em d2\+Aq} & Second derivative of \char`\"{}composite\char`\"{} neutron or proton density $A_q$ \\
+\hline
+\mbox{\tt in}  & {\em d3\+Aq} & Third derivative of \char`\"{}composite\char`\"{} neutron or proton density $A_q$ \\
+\hline
+\mbox{\tt in}  & {\em q} & Isospin \\
+\hline
+\mbox{\tt in,out}  & {\em tau\+\_\+4\+\_\+so\+\_\+q} & Array for fourth-\/order contributions (spin-\/ orbit) \\
+\hline
+\mbox{\tt in,out}  & {\em t4contq} & Array for individual fourth-\/order contributions \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a8825f02bb2ac98507fff5024d9b54c8f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a421a5d2cca448f46b0dfb9bcdeec1111}\label{namespaceroutines_a421a5d2cca448f46b0dfb9bcdeec1111}} 
+\index{routines@{routines}!calc\+\_\+tau\+\_\+tf@{calc\+\_\+tau\+\_\+tf}}
+\index{calc\+\_\+tau\+\_\+tf@{calc\+\_\+tau\+\_\+tf}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+tau\+\_\+tf()}{calc\_tau\_tf()}}
+{\footnotesize\ttfamily subroutine routines\+::calc\+\_\+tau\+\_\+tf (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{rhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{tau\+TF }\end{DoxyParamCaption})}
+
+
+
+Function to calculate the zeroth-\/order contribution to the kinetic energy density for neutrons or protons. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhoq} & Neutron or proton density \\
+\hline
+\mbox{\tt in,out}  & {\em tau\+TF} & Array for zeroth-\/order contributions \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a421a5d2cca448f46b0dfb9bcdeec1111_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a2a44c591985c939162dabdeab4a4ced8}\label{namespaceroutines_a2a44c591985c939162dabdeab4a4ced8}} 
+\index{routines@{routines}!calc\+\_\+u\+\_\+q@{calc\+\_\+u\+\_\+q}}
+\index{calc\+\_\+u\+\_\+q@{calc\+\_\+u\+\_\+q}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+u\+\_\+q()}{calc\_u\_q()}}
+{\footnotesize\ttfamily real(kind=dp) function routines\+::calc\+\_\+u\+\_\+q (\begin{DoxyParamCaption}\item[{real(kind=dp), intent(in)}]{rhot,  }\item[{real(kind=dp), intent(in)}]{rhon,  }\item[{real(kind=dp), intent(in)}]{rhop,  }\item[{real(kind=dp), intent(in)}]{delrhot,  }\item[{real(kind=dp), intent(in)}]{delrhon,  }\item[{real(kind=dp), intent(in)}]{delrhop,  }\item[{real(kind=dp), intent(in)}]{del2rhot,  }\item[{real(kind=dp), intent(in)}]{del2rhon,  }\item[{real(kind=dp), intent(in)}]{del2rhop,  }\item[{real(kind=dp), intent(in)}]{taut,  }\item[{real(kind=dp), intent(in)}]{taun,  }\item[{real(kind=dp), intent(in)}]{taup,  }\item[{real(kind=dp), intent(in)}]{div\+Jt,  }\item[{real(kind=dp), intent(in)}]{div\+Jq,  }\item[{integer, intent(in)}]{q }\end{DoxyParamCaption})}
+
+
+
+Function to calculate the central potential $U_q$ for neutrons or protons, for standard Skyrme or for B\+Sk forces with extra terms. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rhot} & Total density \\
+\hline
+\mbox{\tt in}  & {\em rhon} & Neutron density \\
+\hline
+\mbox{\tt in}  & {\em rhop} & Proton density \\
+\hline
+\mbox{\tt in}  & {\em delrhot} & First derivative of total density \\
+\hline
+\mbox{\tt in}  & {\em delrhon} & First derivative of neutron density \\
+\hline
+\mbox{\tt in}  & {\em delrhop} & First derivative of proton density \\
+\hline
+\mbox{\tt in}  & {\em del2rhot} & Laplacian of total density \\
+\hline
+\mbox{\tt in}  & {\em del2rhon} & Laplacian of neutron density \\
+\hline
+\mbox{\tt in}  & {\em del2rhop} & Laplacian of proton density \\
+\hline
+\mbox{\tt in}  & {\em taut} & Total kinetic density \\
+\hline
+\mbox{\tt in}  & {\em taun} & Neutron kinetic density \\
+\hline
+\mbox{\tt in}  & {\em taup} & Proton kinetic density \\
+\hline
+\mbox{\tt in}  & {\em div\+Jt} & Divergence of total spin current density \\
+\hline
+\mbox{\tt in}  & {\em div\+Jq} & Divergence of proton or neutron spin current density \\
+\hline
+\mbox{\tt in}  & {\em q} & Isospin \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=296pt]{namespaceroutines_a2a44c591985c939162dabdeab4a4ced8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a2a44c591985c939162dabdeab4a4ced8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a8c520afea1e9ca6698a0792fbac37e7a}\label{namespaceroutines_a8c520afea1e9ca6698a0792fbac37e7a}} 
+\index{routines@{routines}!calc\+\_\+w\+\_\+q@{calc\+\_\+w\+\_\+q}}
+\index{calc\+\_\+w\+\_\+q@{calc\+\_\+w\+\_\+q}!routines@{routines}}
+\subsubsection{\texorpdfstring{calc\+\_\+w\+\_\+q()}{calc\_w\_q()}}
+{\footnotesize\ttfamily subroutine routines\+::calc\+\_\+w\+\_\+q (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{delrho,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{delrhoq,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{Wq }\end{DoxyParamCaption})}
+
+
+
+Function to calculate the spin-\/orbit field $\textbf{W}_q$ for neutrons or protons. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em delrho} & Gradient of total density \\
+\hline
+\mbox{\tt in}  & {\em delrhoq} & Gradient of neutron or proton density \\
+\hline
+\mbox{\tt in,out}  & {\em Wq} & Array for spin-\/orbit field \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a8c520afea1e9ca6698a0792fbac37e7a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_afb83677ec76758dadc35de4b01bac45c}\label{namespaceroutines_afb83677ec76758dadc35de4b01bac45c}} 
+\index{routines@{routines}!charge@{charge}}
+\index{charge@{charge}!routines@{routines}}
+\subsubsection{\texorpdfstring{charge()}{charge()}}
+{\footnotesize\ttfamily subroutine routines\+::charge (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(ngrid1,0\+:1), intent(in)}]{rho,  }\item[{real(kind=dp), intent(in)}]{Neutr,  }\item[{real(kind=dp), intent(in)}]{Nprot,  }\item[{integer, intent(in)}]{Ngrid1,  }\item[{real(kind=dp), intent(in)}]{del1,  }\item[{real(kind=dp), dimension(ngrid1), intent(inout)}]{rhoch }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the charge density from the matter densities. Modified by M. Shelley. 
+
+\begin{DoxyAuthor}{Author}
+A. Pastore, M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rho} & Neutron and proton densities \\
+\hline
+\mbox{\tt in}  & {\em Neutr} & Number of neutrons \\
+\hline
+\mbox{\tt in}  & {\em Nprot} & Number of protons \\
+\hline
+\mbox{\tt in}  & {\em Ngrid1} & Number of mesh points \\
+\hline
+\mbox{\tt in}  & {\em del1} & Step size \\
+\hline
+\mbox{\tt in,out}  & {\em rhoch} & Array for charge density \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_afb83677ec76758dadc35de4b01bac45c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a92e52c281532c938dfa10d85404a367a}\label{namespaceroutines_a92e52c281532c938dfa10d85404a367a}} 
+\index{routines@{routines}!d1@{d1}}
+\index{d1@{d1}!routines@{routines}}
+\subsubsection{\texorpdfstring{d1()}{d1()}}
+{\footnotesize\ttfamily subroutine routines\+::d1 (\begin{DoxyParamCaption}\item[{integer, intent(in)}]{n,  }\item[{real(kind=dp), intent(in)}]{h,  }\item[{real(kind=dp), dimension(-\/1\+:n), intent(in)}]{f,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{df }\end{DoxyParamCaption})}
+
+
+
+This subroutine computes the first derivative of function evaluated on the meshpoints 1,...,npt. The input is the function f with extrapolated values in -\/1, 0. Modified by M. Shelley. 
+
+\begin{DoxyAuthor}{Author}
+A. Pastore, M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em n} & Number of meshpoints \\
+\hline
+\mbox{\tt in}  & {\em f} & Input function (1\+:n) with extrapolated values in -\/1,0 \\
+\hline
+\mbox{\tt in}  & {\em h} & Step size \\
+\hline
+\mbox{\tt in,out}  & {\em df} & Array for first derivatives \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a92e52c281532c938dfa10d85404a367a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_aafc8447e9af12216ae995f63c1606f1a}\label{namespaceroutines_aafc8447e9af12216ae995f63c1606f1a}} 
+\index{routines@{routines}!d2@{d2}}
+\index{d2@{d2}!routines@{routines}}
+\subsubsection{\texorpdfstring{d2()}{d2()}}
+{\footnotesize\ttfamily subroutine routines\+::d2 (\begin{DoxyParamCaption}\item[{integer, intent(in)}]{n,  }\item[{real(kind=dp), intent(in)}]{h,  }\item[{real(kind=dp), dimension(-\/1\+:n), intent(in)}]{f,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{d2f }\end{DoxyParamCaption})}
+
+
+
+This subroutine computes the second derivative of function evaluated on the meshpoints 1,...,npt. The input is the function f with extrapolated values in -\/1, 0. Modified by M. Shelley. 
+
+\begin{DoxyAuthor}{Author}
+A. Pastore, M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em n} & Number of meshpoints \\
+\hline
+\mbox{\tt in}  & {\em f} & Input function (1\+:n) with extrapolated values in -\/1,0 \\
+\hline
+\mbox{\tt in}  & {\em h} & Step size \\
+\hline
+\mbox{\tt in,out}  & {\em d2f} & Array for second derivatives \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_aafc8447e9af12216ae995f63c1606f1a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_ac563b00969cb307d71ebc02aaef0a3b4}\label{namespaceroutines_ac563b00969cb307d71ebc02aaef0a3b4}} 
+\index{routines@{routines}!d3@{d3}}
+\index{d3@{d3}!routines@{routines}}
+\subsubsection{\texorpdfstring{d3()}{d3()}}
+{\footnotesize\ttfamily subroutine routines\+::d3 (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(-\/2\+:n), intent(in)}]{f,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{d3f\+\_\+dr3 }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate third derivative of function f evaluated on evenly-\/spaced meshpoints from 1 to n. Works with extrapolated values in -\/2,-\/1,0. Uses 7-\/point stencil. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em f} & Input function (1\+:n) with extrapolated values in -\/2,-\/1,0 \\
+\hline
+\mbox{\tt in,out}  & {\em d3f\+\_\+dr3} & Array for third derivative \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_ac563b00969cb307d71ebc02aaef0a3b4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a6d38e9b19f2e939feb7840d2575fbb56}\label{namespaceroutines_a6d38e9b19f2e939feb7840d2575fbb56}} 
+\index{routines@{routines}!d4@{d4}}
+\index{d4@{d4}!routines@{routines}}
+\subsubsection{\texorpdfstring{d4()}{d4()}}
+{\footnotesize\ttfamily subroutine routines\+::d4 (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(-\/2\+:n), intent(in)}]{f,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{d4f\+\_\+dr4 }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate fourth derivative of function f evaluated on evenly-\/spaced meshpoints from 1 to n. Works with extrapolated values in -\/2,-\/1,0. Uses 7-\/point stencil. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em f} & Input function (1\+:n) with extrapolated values in -\/2,-\/1,0 \\
+\hline
+\mbox{\tt in,out}  & {\em d4f\+\_\+dr4} & Array for fourth derivative \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a6d38e9b19f2e939feb7840d2575fbb56_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_ae7bc716d30ef4d9ecece5daa22324b77}\label{namespaceroutines_ae7bc716d30ef4d9ecece5daa22324b77}} 
+\index{routines@{routines}!deallocate\+\_\+arrays@{deallocate\+\_\+arrays}}
+\index{deallocate\+\_\+arrays@{deallocate\+\_\+arrays}!routines@{routines}}
+\subsubsection{\texorpdfstring{deallocate\+\_\+arrays()}{deallocate\_arrays()}}
+{\footnotesize\ttfamily subroutine routines\+::deallocate\+\_\+arrays (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to deallocate arrays for all densities and effective masses, and for their derivatives. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{namespaceroutines_ae7bc716d30ef4d9ecece5daa22324b77_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a27ad9ac802069004010c9759fecced92}\label{namespaceroutines_a27ad9ac802069004010c9759fecced92}} 
+\index{routines@{routines}!deallocate\+\_\+mesh@{deallocate\+\_\+mesh}}
+\index{deallocate\+\_\+mesh@{deallocate\+\_\+mesh}!routines@{routines}}
+\subsubsection{\texorpdfstring{deallocate\+\_\+mesh()}{deallocate\_mesh()}}
+{\footnotesize\ttfamily subroutine routines\+::deallocate\+\_\+mesh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to deallocate array for r. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{namespaceroutines_a27ad9ac802069004010c9759fecced92_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a74ed186c93b400a14428192e1cb7a0b2}\label{namespaceroutines_a74ed186c93b400a14428192e1cb7a0b2}} 
+\index{routines@{routines}!eval\+\_\+coulomb@{eval\+\_\+coulomb}}
+\index{eval\+\_\+coulomb@{eval\+\_\+coulomb}!routines@{routines}}
+\subsubsection{\texorpdfstring{eval\+\_\+coulomb()}{eval\_coulomb()}}
+{\footnotesize\ttfamily subroutine routines\+::eval\+\_\+coulomb (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{prot\+\_\+dens,  }\item[{logical, intent(in)}]{calc\+\_\+exchange }\end{DoxyParamCaption})}
+
+
+
+Subroutine to evaluate the Coulomb potentials and energy densities, using either the proton or charge density. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em prot\+\_\+dens} & Density to use (proton or charge) \\
+\hline
+\mbox{\tt in}  & {\em calc\+\_\+exchange} & Whether to calculate exchange potential \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{namespaceroutines_a74ed186c93b400a14428192e1cb7a0b2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a74ed186c93b400a14428192e1cb7a0b2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a0b55cc503c7168299be63556e2602bd0}\label{namespaceroutines_a0b55cc503c7168299be63556e2602bd0}} 
+\index{routines@{routines}!eval\+\_\+electrons@{eval\+\_\+electrons}}
+\index{eval\+\_\+electrons@{eval\+\_\+electrons}!routines@{routines}}
+\subsubsection{\texorpdfstring{eval\+\_\+electrons()}{eval\_electrons()}}
+{\footnotesize\ttfamily subroutine routines\+::eval\+\_\+electrons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to evaluate the proton-\/electron potential which contributes to $U_q$, all energy contributions, and the pressure, coming from a homogeneous electron gas. Also calculates the electron chemical potential. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{namespaceroutines_a0b55cc503c7168299be63556e2602bd0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a0b55cc503c7168299be63556e2602bd0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_aa995449a9eb9c404dbd756bdbea180a2}\label{namespaceroutines_aa995449a9eb9c404dbd756bdbea180a2}} 
+\index{routines@{routines}!eval\+\_\+fields@{eval\+\_\+fields}}
+\index{eval\+\_\+fields@{eval\+\_\+fields}!routines@{routines}}
+\subsubsection{\texorpdfstring{eval\+\_\+fields()}{eval\_fields()}}
+{\footnotesize\ttfamily subroutine routines\+::eval\+\_\+fields (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to evaluate matter density derivatives, and all fields\+: effective masses (and derivatives), spin-\/orbit fields, spin current densities (and derivatives) 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_aa995449a9eb9c404dbd756bdbea180a2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_aa995449a9eb9c404dbd756bdbea180a2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_ae210968d134fbcc79297971cc4fefb82}\label{namespaceroutines_ae210968d134fbcc79297971cc4fefb82}} 
+\index{routines@{routines}!eval\+\_\+skyrme\+\_\+energy\+\_\+density@{eval\+\_\+skyrme\+\_\+energy\+\_\+density}}
+\index{eval\+\_\+skyrme\+\_\+energy\+\_\+density@{eval\+\_\+skyrme\+\_\+energy\+\_\+density}!routines@{routines}}
+\subsubsection{\texorpdfstring{eval\+\_\+skyrme\+\_\+energy\+\_\+density()}{eval\_skyrme\_energy\_density()}}
+{\footnotesize\ttfamily subroutine routines\+::eval\+\_\+skyrme\+\_\+energy\+\_\+density (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to evaluate the Skyrme energy density, after first separately evaluating the field energy density. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{namespaceroutines_ae210968d134fbcc79297971cc4fefb82_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_ae210968d134fbcc79297971cc4fefb82_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a97bfcff7e603cf9df3dcd48ae21b4612}\label{namespaceroutines_a97bfcff7e603cf9df3dcd48ae21b4612}} 
+\index{routines@{routines}!eval\+\_\+tau\+\_\+etf@{eval\+\_\+tau\+\_\+etf}}
+\index{eval\+\_\+tau\+\_\+etf@{eval\+\_\+tau\+\_\+etf}!routines@{routines}}
+\subsubsection{\texorpdfstring{eval\+\_\+tau\+\_\+etf()}{eval\_tau\_etf()}}
+{\footnotesize\ttfamily subroutine routines\+::eval\+\_\+tau\+\_\+etf (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the kinetic energy density $\tau_{ETF}$ with the (extended) Thomas-\/\+Fermi approximation at order specified by \char`\"{}etf\+\_\+order\char`\"{}. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{namespaceroutines_a97bfcff7e603cf9df3dcd48ae21b4612_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a97bfcff7e603cf9df3dcd48ae21b4612_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a6ee5e5cd7ce81b013d18b19f5f9a4092}\label{namespaceroutines_a6ee5e5cd7ce81b013d18b19f5f9a4092}} 
+\index{routines@{routines}!eval\+\_\+u\+\_\+q@{eval\+\_\+u\+\_\+q}}
+\index{eval\+\_\+u\+\_\+q@{eval\+\_\+u\+\_\+q}!routines@{routines}}
+\subsubsection{\texorpdfstring{eval\+\_\+u\+\_\+q()}{eval\_u\_q()}}
+{\footnotesize\ttfamily subroutine routines\+::eval\+\_\+u\+\_\+q (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to evaluate the central fields $U_q$. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a6ee5e5cd7ce81b013d18b19f5f9a4092_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a6ee5e5cd7ce81b013d18b19f5f9a4092_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a93de76f3b26ead66893f46dc4892dbcb}\label{namespaceroutines_a93de76f3b26ead66893f46dc4892dbcb}} 
+\index{routines@{routines}!eval\+\_\+ws\+\_\+quantities@{eval\+\_\+ws\+\_\+quantities}}
+\index{eval\+\_\+ws\+\_\+quantities@{eval\+\_\+ws\+\_\+quantities}!routines@{routines}}
+\subsubsection{\texorpdfstring{eval\+\_\+ws\+\_\+quantities()}{eval\_ws\_quantities()}}
+{\footnotesize\ttfamily subroutine routines\+::eval\+\_\+ws\+\_\+quantities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to evaluate the various densities, fields, derivatives, energies, and particle numbers in the WS cell with densities $rho_q$. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a93de76f3b26ead66893f46dc4892dbcb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a93de76f3b26ead66893f46dc4892dbcb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_af143340288720f8019e944ec7110a84e}\label{namespaceroutines_af143340288720f8019e944ec7110a84e}} 
+\index{routines@{routines}!extrapolate\+\_\+back\+\_\+3@{extrapolate\+\_\+back\+\_\+3}}
+\index{extrapolate\+\_\+back\+\_\+3@{extrapolate\+\_\+back\+\_\+3}!routines@{routines}}
+\subsubsection{\texorpdfstring{extrapolate\+\_\+back\+\_\+3()}{extrapolate\_back\_3()}}
+{\footnotesize\ttfamily subroutine routines\+::extrapolate\+\_\+back\+\_\+3 (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(\+:), intent(inout)}]{grid }\end{DoxyParamCaption})}
+
+
+
+Subroutine to extrapolate back 3 points on the r mesh, to faciliate the calculation of first and second derivatives using a 5-\/point stencil. Values in grid start at 4, extrapolated values are put in elements 3,2,1. Coefficients come from solving 4th-\/order polynomial, assuming that f\textquotesingle{}(0) = 0, and f(-\/h) = f(h). 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in,out}  & {\em grid} & Array of quantity evaluated on r mesh, with 3 elements before r = dr \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_af143340288720f8019e944ec7110a84e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a5caa9b33bdf3c960b6bb3bfa96771181}\label{namespaceroutines_a5caa9b33bdf3c960b6bb3bfa96771181}} 
+\index{routines@{routines}!initialise\+\_\+uniform\+\_\+mesh@{initialise\+\_\+uniform\+\_\+mesh}}
+\index{initialise\+\_\+uniform\+\_\+mesh@{initialise\+\_\+uniform\+\_\+mesh}!routines@{routines}}
+\subsubsection{\texorpdfstring{initialise\+\_\+uniform\+\_\+mesh()}{initialise\_uniform\_mesh()}}
+{\footnotesize\ttfamily subroutine routines\+::initialise\+\_\+uniform\+\_\+mesh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate number of mesh points for a uniform grid, allocate array for r, and then populate r with the mesh points. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{namespaceroutines_a5caa9b33bdf3c960b6bb3bfa96771181_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a635a2461a6c20207dd3b268842381ce3}\label{namespaceroutines_a635a2461a6c20207dd3b268842381ce3}} 
+\index{routines@{routines}!lap\+\_\+sphe\+\_\+symm@{lap\+\_\+sphe\+\_\+symm}}
+\index{lap\+\_\+sphe\+\_\+symm@{lap\+\_\+sphe\+\_\+symm}!routines@{routines}}
+\subsubsection{\texorpdfstring{lap\+\_\+sphe\+\_\+symm()}{lap\_sphe\_symm()}}
+{\footnotesize\ttfamily subroutine routines\+::lap\+\_\+sphe\+\_\+symm (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(-\/2\+:n), intent(in)}]{f,  }\item[{real(kind=dp), dimension(1\+:n), intent(in)}]{df\+\_\+dr,  }\item[{real(kind=dp), dimension(1\+:n), intent(inout)}]{d2f\+\_\+dr2 }\end{DoxyParamCaption})}
+
+
+
+Subroutine to carry out Laplacian in spherical symmetry. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em f} & Input function (1\+:n) with extrapolated values in -\/2,-\/1,0 \\
+\hline
+\mbox{\tt in}  & {\em df\+\_\+dr} & First derivative array \\
+\hline
+\mbox{\tt in,out}  & {\em d2f\+\_\+dr2} & Array for Laplacian \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{namespaceroutines_a635a2461a6c20207dd3b268842381ce3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a635a2461a6c20207dd3b268842381ce3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a383e2bf5a1fa37fbf95dd5f6ddbcc6be}\label{namespaceroutines_a383e2bf5a1fa37fbf95dd5f6ddbcc6be}} 
+\index{routines@{routines}!pressure@{pressure}}
+\index{pressure@{pressure}!routines@{routines}}
+\subsubsection{\texorpdfstring{pressure()}{pressure()}}
+{\footnotesize\ttfamily subroutine routines\+::pressure (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to calculate the nuclear contribution to the pressure, and then the total pressure. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=295pt]{namespaceroutines_a383e2bf5a1fa37fbf95dd5f6ddbcc6be_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a383e2bf5a1fa37fbf95dd5f6ddbcc6be_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a8146fb4359e556bad19f882b8aabfc4b}\label{namespaceroutines_a8146fb4359e556bad19f882b8aabfc4b}} 
+\index{routines@{routines}!str2int@{str2int}}
+\index{str2int@{str2int}!routines@{routines}}
+\subsubsection{\texorpdfstring{str2int()}{str2int()}}
+{\footnotesize\ttfamily integer function routines\+::str2int (\begin{DoxyParamCaption}\item[{character(len=$\ast$), intent(in)}]{string }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a8146fb4359e556bad19f882b8aabfc4b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a81e61269fb96b5478fd7140a1f185ec1}\label{namespaceroutines_a81e61269fb96b5478fd7140a1f185ec1}} 
+\index{routines@{routines}!write\+\_\+densities@{write\+\_\+densities}}
+\index{write\+\_\+densities@{write\+\_\+densities}!routines@{routines}}
+\subsubsection{\texorpdfstring{write\+\_\+densities()}{write\_densities()}}
+{\footnotesize\ttfamily subroutine routines\+::write\+\_\+densities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to write neutron and proton densities to files. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a81e61269fb96b5478fd7140a1f185ec1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a4a59953c814b7fa48f2c4bf31d1763a2}\label{namespaceroutines_a4a59953c814b7fa48f2c4bf31d1763a2}} 
+\index{routines@{routines}!write\+\_\+fields@{write\+\_\+fields}}
+\index{write\+\_\+fields@{write\+\_\+fields}!routines@{routines}}
+\subsubsection{\texorpdfstring{write\+\_\+fields()}{write\_fields()}}
+{\footnotesize\ttfamily subroutine routines\+::write\+\_\+fields (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to write neutron and proton fields to files. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a4a59953c814b7fa48f2c4bf31d1763a2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_ad51ac6c5da6056a5346d7b15b3fbe7b4}\label{namespaceroutines_ad51ac6c5da6056a5346d7b15b3fbe7b4}} 
+\index{routines@{routines}!write\+\_\+sp\+\_\+states\+\_\+p@{write\+\_\+sp\+\_\+states\+\_\+p}}
+\index{write\+\_\+sp\+\_\+states\+\_\+p@{write\+\_\+sp\+\_\+states\+\_\+p}!routines@{routines}}
+\subsubsection{\texorpdfstring{write\+\_\+sp\+\_\+states\+\_\+p()}{write\_sp\_states\_p()}}
+{\footnotesize\ttfamily subroutine routines\+::write\+\_\+sp\+\_\+states\+\_\+p (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Subroutine to write proton single particle energies to file, and extra details if B\+CS has been performed. 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_ad51ac6c5da6056a5346d7b15b3fbe7b4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceroutines_a5737b4327dcaa959a9ee519e4fca42e8}\label{namespaceroutines_a5737b4327dcaa959a9ee519e4fca42e8}} 
+\index{routines@{routines}!ws\+\_\+integral@{ws\+\_\+integral}}
+\index{ws\+\_\+integral@{ws\+\_\+integral}!routines@{routines}}
+\subsubsection{\texorpdfstring{ws\+\_\+integral()}{ws\_integral()}}
+{\footnotesize\ttfamily real(kind=dp) function routines\+::ws\+\_\+integral (\begin{DoxyParamCaption}\item[{real(kind=dp), dimension(\+:), intent(in)}]{quantity,  }\item[{integer, intent(in)}]{n\+\_\+max }\end{DoxyParamCaption})}
+
+
+
+Function to integrate a density or field over the whole W-\/S cell, using Simpson\textquotesingle{}s rule (+ Simpson\textquotesingle{}s 3/8 rule if odd number of points) 
+
+\begin{DoxyAuthor}{Author}
+M. Shelley 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em quantity} & Array of quantity, evaluated on r mesh, to be integrated \\
+\hline
+\mbox{\tt in}  & {\em n\+\_\+max} & Maximum mesh point in array for integration \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceroutines_a5737b4327dcaa959a9ee519e4fca42e8_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{namespaceroutines_a4433ed4e6fbf0c81f38d8df1749be025}\label{namespaceroutines_a4433ed4e6fbf0c81f38d8df1749be025}} 
+\index{routines@{routines}!file\+\_\+unit\+\_\+0@{file\+\_\+unit\+\_\+0}}
+\index{file\+\_\+unit\+\_\+0@{file\+\_\+unit\+\_\+0}!routines@{routines}}
+\subsubsection{\texorpdfstring{file\+\_\+unit\+\_\+0}{file\_unit\_0}}
+{\footnotesize\ttfamily integer routines\+::file\+\_\+unit\+\_\+0}
+
+\mbox{\Hypertarget{namespaceroutines_a806b34a65a0678e540be124100a0f908}\label{namespaceroutines_a806b34a65a0678e540be124100a0f908}} 
+\index{routines@{routines}!file\+\_\+unit\+\_\+1@{file\+\_\+unit\+\_\+1}}
+\index{file\+\_\+unit\+\_\+1@{file\+\_\+unit\+\_\+1}!routines@{routines}}
+\subsubsection{\texorpdfstring{file\+\_\+unit\+\_\+1}{file\_unit\_1}}
+{\footnotesize\ttfamily integer routines\+::file\+\_\+unit\+\_\+1}
+
+
+
+Unit numbers for opening files. 
+

@@ -1,0 +1,4 @@
+<map id="routines::eval_skyrme_energy_density" name="routines::eval_skyrme_energy_density">
+<area shape="rect" id="node2" href="$namespaceroutines.html#a8146fb4359e556bad19f882b8aabfc4b" title="routines::str2int" alt="" coords="219,5,331,32"/>
+<area shape="rect" id="node3" href="$namespaceroutines.html#a5737b4327dcaa959a9ee519e4fca42e8" title="Function to integrate a density or field over the whole W&#45;S cell, using Simpson&#39;s rule (+ Simpson&#39;s 3..." alt="" coords="204,56,347,83"/>
+</map>

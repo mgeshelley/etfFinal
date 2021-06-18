@@ -1,0 +1,96 @@
+
+
+*******************************************************************************
+Sat May 30 19:10:06 2020
+
+
+FIT:    data read from 'fig_3_SLy4.dat'
+        format = z
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*log(b*x + 1) / log(c)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sat May 30 19:10:13 2020
+
+
+FIT:    data read from 'fig_3_SLy4.dat'
+        format = z
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*log(b*x + 1) / log(c)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sat May 30 19:11:19 2020
+
+
+FIT:    data read from 'fig_3_SLy4.dat'
+        format = z
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*log(b*x + 1) / log(c)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sat May 30 19:11:57 2020
+
+
+FIT:    data read from 'fig_3_SLy4.dat'
+        format = z
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*log(b*x + 1) / log(c)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sat May 30 19:13:11 2020
+
+
+FIT:    data read from 'fig_3_SLy4.dat'
+        format = z
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*log(b*x + 1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.2543885061e+08   0.00e+00  5.23e-02    1.000000e+00   1.000000e+00
+  63 1.6461617837e+06  -1.30e-02  5.23e-07    1.618596e+02   2.166810e+04
+
+After 63 iterations the fit converged.
+final sum of squares of residuals : 1.64616e+06
+rel. change during last iteration : -1.29708e-07
+
+degrees of freedom    (FIT_NDF)                        : 109
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 122.892
+variance of residuals (reduced chisquare) = WSSR/ndf   : 15102.4
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 161.86           +/- 9.215        (5.693%)
+b               = 21668.1          +/- 8111         (37.43%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.981  1.000 

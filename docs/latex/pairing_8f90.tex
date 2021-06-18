@@ -1,0 +1,24 @@
+\hypertarget{pairing_8f90}{}\section{srcs/pairing.f90 File Reference}
+\label{pairing_8f90}\index{srcs/pairing.\+f90@{srcs/pairing.\+f90}}
+\subsection*{Modules}
+\begin{DoxyCompactItemize}
+\item 
+module \mbox{\hyperlink{namespacepairing}{pairing}}
+\begin{DoxyCompactList}\small\item\em Module to hold routines for carrying out Strutinsky correction. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \mbox{\hyperlink{namespacepairing_ac34989a934af1e6a63131c619426c5aa}{pairing\+::calc\+\_\+e\+\_\+pair}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the pairing energy for the WS cell, using the method specified in \char`\"{}input.\+in\char`\"{}. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespacepairing_abad69eb8cb33077add1b9da84bff7c55}{pairing\+::calc\+\_\+gap}} (r, rhon, rhop, fq, mu)
+\begin{DoxyCompactList}\small\item\em Function to calculate the pairing gap in infinite neutron matter, for specified density and effective mass. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacepairing_a693cac2cfa7fcb7ad19984fefe20495c}{pairing\+::bcs\+\_\+protons}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to perform B\+CS for protons. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespacepairing_a37440fb2ff0d8a3495d051f3f14c9107}{pairing\+::calc\+\_\+bcs\+\_\+num\+\_\+p}} (mu\+\_\+p)
+\begin{DoxyCompactList}\small\item\em Function to solve gap equation at given chemical potential \char`\"{}mu\+\_\+p\char`\"{}, returning the (B\+CS) number of protons. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespacepairing_aebb21947c7228a3fb9a092edfa226662}{pairing\+::interazchamelanalyt}} (rhon, rhop, hbm, itz)
+\begin{DoxyCompactList}\small\item\em Function to calculate the interaction strength for the effective contact pairing force. Modified by M. Shelley. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespacepairing_ab022f3dcf7994e9f95315b3b2007a9ee}{pairing\+::llambda}} (x)
+\begin{DoxyCompactList}\small\item\em Function to calculate the pairing cutoff for the effective contact pairing force. \end{DoxyCompactList}\item 
+real(kind=dp) function \mbox{\hyperlink{namespacepairing_aaa0b619b1e454229caef01a56d0a61fd}{pairing\+::delta\+\_\+parametric}} (kf, YY, itz, xk0)
+\begin{DoxyCompactList}\small\item\em Function to calculate the pairing gap using the analytical B\+Sk expression. Modified by M. Shelley. \end{DoxyCompactList}\end{DoxyCompactItemize}

@@ -1,0 +1,6 @@
+<map id="pairing::calc_gap" name="pairing::calc_gap">
+<area shape="rect" id="node2" href="$namespaceroutines.html#a8146fb4359e556bad19f882b8aabfc4b" title="routines::str2int" alt="" coords="209,5,321,32"/>
+<area shape="rect" id="node3" href="$namespacepairing.html#aebb21947c7228a3fb9a092edfa226662" title="Function to calculate the interaction strength for the effective contact pairing force. Modified by M. Shelley. " alt="" coords="173,56,357,83"/>
+<area shape="rect" id="node5" href="$namespacepairing.html#ab022f3dcf7994e9f95315b3b2007a9ee" title="Function to calculate the pairing cutoff for the effective contact pairing force. ..." alt="" coords="431,107,544,133"/>
+<area shape="rect" id="node4" href="$namespacepairing.html#aaa0b619b1e454229caef01a56d0a61fd" title="Function to calculate the pairing gap using the analytical BSk expression. Modified by M..." alt="" coords="405,56,569,83"/>
+</map>

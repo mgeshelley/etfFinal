@@ -1,0 +1,49 @@
+\hypertarget{test_8f90}{}\section{srcs/test.f90 File Reference}
+\label{test_8f90}\index{srcs/test.\+f90@{srcs/test.\+f90}}
+\subsection*{Modules}
+\begin{DoxyCompactItemize}
+\item 
+module \mbox{\hyperlink{namespacetest}{test}}
+\begin{DoxyCompactList}\small\item\em Module to hold test routines. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \mbox{\hyperlink{namespacetest_a2d72f655d80bac0b01030b9cbda3518f}{test\+::read\+\_\+test\+\_\+params}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to read from \char`\"{}test\+\_\+input.\+in\char`\"{} parameters used for test routines. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_ac81b1d59a968470b8ef8a165101df52c}{test\+::test\+\_\+densities}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to calculate the density profiles using sample parameters. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_a50469f436f9c4caa447dafc48e311558}{test\+::test\+\_\+density\+\_\+derivs}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test some derivatives of the total and individual densities. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_ac49b81619b874cdd8276af19d24675cc}{test\+::test\+\_\+eff\+\_\+mass}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test effective masses $fm^{-3}$. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_a377babe07d6ab6f0791233afee079582}{test\+::test\+\_\+kinetic\+\_\+densities}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test kinetic energy densities. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_a3e49a3b6fd835efb13dd446bfb6e8b1f}{test\+::test\+\_\+spin\+\_\+current\+\_\+densities}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to write spin current densities and spin-\/orbit fields to file. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_a12069a39539c68f8d22f7eb4219d2e2b}{test\+::orders\+\_\+kinetic\+\_\+densities}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to write order-\/by-\/order comparison of kinetic densities to file. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_a5693dbb30b96995df35fa720f0ab1436}{test\+::test\+\_\+central\+\_\+potentials}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to write spin central potentials to file. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_ae6399ba2e0d2b484e6b467b2cee74a1b}{test\+::write\+\_\+ws\+\_\+cell\+\_\+array\+\_\+quantity}} (quantity)
+\begin{DoxyCompactList}\small\item\em Utility subroutine that can be called anywhere at any time, for writing a quantity (evaluated over WS cell) to file. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_af860540d68e055817e3f618b7a04298a}{test\+::test\+\_\+calc\+\_\+particle\+\_\+number}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test calculation of neutron and proton particle numbers. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_ae4857dad0359d5f90718d5593398f8b3}{test\+::test\+\_\+calc\+\_\+coulomb\+\_\+energy}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test calculation of Coulomb energy. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_aa2a14f70fb7372abc970b6271f19417f}{test\+::test\+\_\+calc\+\_\+skyrme\+\_\+energy}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test calculation of Skyrme energy. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_abeb5e336395994821e96838b809e4140}{test\+::test\+\_\+sp\+\_\+energies}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test calculation of single particle energies. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_afde013e321ba30ada173fc343ca1fa6d}{test\+::test\+\_\+si\+\_\+correction}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to test the Strutinsky integral correction. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacetest_a8eb520f312c2647e714f169e9d5b8421}{test\+::bartel\+\_\+bencheikh\+\_\+benchmark}} ()
+\begin{DoxyCompactList}\small\item\em Subroutine to check different contributions to $\tau_{ETF}$ at 2nd order, for comparison with results in Bartel and Bencheikh (2002) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+integer \mbox{\hyperlink{namespacetest_a91c93b5bfe044cfbaabf6b3acfe3be00}{test\+::file\+\_\+unit}}
+\item 
+integer \mbox{\hyperlink{namespacetest_aed47eec898fde16ebc3dae8f3c61abef}{test\+::file\+\_\+unit\+\_\+2}}
+\begin{DoxyCompactList}\small\item\em Unit numbers for opening files. \end{DoxyCompactList}\item 
+integer \mbox{\hyperlink{namespacetest_ab8cdf368336f888e9382efe275ce4d16}{test\+::sample\+\_\+profile}}
+\begin{DoxyCompactList}\small\item\em Test density profile to use. \end{DoxyCompactList}\end{DoxyCompactItemize}
